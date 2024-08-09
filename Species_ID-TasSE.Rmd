@@ -1,0 +1,159 @@
+---
+title: "Species ID - Edgar & Samson 2000/2001 cores"
+author: Amanda Pettersen & Dustin Marshall
+date: "`r format(Sys.Date(),'%e %B, %Y')`"
+output:
+  pdf_document:
+    toc: yes
+  word_document:
+    toc: yes
+  html_document:
+    toc_float: yes
+    toc: yes
+    html_document: null
+---
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = FALSE}
+pacman::p_load(tidyverse, dplyr, ggplot2)
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = FALSE}
+#Locate files
+data_files_paths <- file.path("data/", list.files("data/"))
+list.files("data/") 
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = FALSE}
+#Load csv files
+file_dentrecasteaux <- 'Data/Impacts data matrix ( MDS)-AP_Dentrecasteaux.csv'
+file_derwent <- 'Data/Impacts data matrix ( MDS)-AP_Derwent.csv'
+file_huon <- 'Data/Impacts data matrix ( MDS)-AP_Huon.csv'
+
+#Read csv files into dataframes
+df_dentrecasteaux <- read.csv(file_dentrecasteaux, stringsAsFactors = FALSE, check.names = FALSE)
+df_derwent <- read.csv(file_derwent, stringsAsFactors = FALSE, check.names = FALSE)
+df_huon <- read.csv(file_huon, stringsAsFactors = FALSE, check.names = FALSE)
+
+#Check column names to ensure 'Site Code' is read correctly
+print(colnames(df_dentrecasteaux))
+print(colnames(df_derwent))
+print(colnames(df_huon))
+
+#Ensure 'Site Code' is read as a character in all dataframes
+df_dentrecasteaux$`Site Code` <- as.character(df_dentrecasteaux$`Site Code`)
+df_derwent$`Site Code` <- as.character(df_derwent$`Site Code`)
+df_huon$`Site Code` <- as.character(df_huon$`Site Code`)
+
+#Check first few rows of each dataframe to ensure data is read correctly
+print(head(df_dentrecasteaux))
+print(head(df_derwent))
+print(head(df_huon))
+
+# #Merge dataframes by 'Site Code' - CAN'T MERGE BECAUSE FIRST 4 COLUMN NAMES ARE DIFFERENT
+# merged_df <- full_join(df_dentrecasteaux, df_derwent, by = "Site Code")
+# merged_df <- full_join(merged_df, df_huon, by = "Site Code")
+# 
+# #Replace NAs with 0
+# merged_df[is.na(merged_df)] <- 0
+# 
+# #Save merged dataframe as a new CSV file
+# write.csv(merged_df, 'Data/Allsites_sabund.csv', row.names = FALSE)
+```
+
+Species abundance for shallow depths (mid depth = 2.5cm)
+
+#D'Entrecasteaux (DCS)
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+#Filter dataframe for 'Faunal mid-depth' = 2.5
+dcs_filtered <- df_dentrecasteaux %>% filter(`Faunal mid-depth` == 2.5)
+
+#Remove non-species columns (species columns start from the 5th column)
+species_abundanceDCS <- dcs_filtered[, 5:ncol(dcs_filtered)]
+
+#Convert dataframe to long format for plotting
+species_abundanceDCS_long <- species_abundanceDCS %>%
+  pivot_longer(cols = everything(), names_to = "Species", values_to = "Abundance")
+View(species_abundanceDCS_long)
+
+#Remove species with zero abundance
+species_abundanceDCS_long <- species_abundanceDCS_long %>% filter(Abundance > 0)
+
+#Order species by abundance
+species_abundanceDCS_long <- species_abundanceDCS_long %>%
+  arrange(desc(Abundance))
+#View(species_abundanceDCS_long)
+#write.csv(species_abundanceDCS_long, "Data/species_abundanceDCS_long.csv")
+
+#Plot species abundance
+pDCS <- ggplot(species_abundanceDCS_long, aes(x = reorder(Species, -Abundance), y = Abundance)) +
+  geom_bar(stat = "identity") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  labs(title = "D'Entrecasteaux Species abundance (mid-depth 2.5cm)",
+       x = "Species",
+       y = "Abundance")
+pDCS
+```
+
+#Derwent (DER)
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+#Filter dataframe for 'Faunal mid-depth' = 2.5
+der_filtered <- df_derwent %>% filter(`Mid-depth` == 2.5)
+
+#Remove non-species columns (species columns start from the 5th column)
+species_abundanceDER <- der_filtered[, 5:ncol(der_filtered)]
+
+#Convert dataframe to long format for plotting
+species_abundanceDER_long <- species_abundanceDER %>%
+  pivot_longer(cols = everything(), names_to = "Species", values_to = "Abundance")
+
+#Remove species with zero abundance
+species_abundanceDER_long <- species_abundanceDER_long %>% filter(Abundance > 0)
+
+#Order species by abundance
+species_abundanceDER_long <- species_abundanceDER_long %>%
+  arrange(desc(Abundance))
+#write.csv(species_abundanceDER_long, "Data/species_abundanceDER_long.csv")
+
+#Plot species abundance
+pDER <- ggplot(species_abundanceDER_long, aes(x = reorder(Species, -Abundance), y = Abundance)) +
+  geom_bar(stat = "identity") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  labs(title = "Derwent Species abundance (mid-depth 2.5cm)",
+       x = "Species",
+       y = "Abundance")
+pDER
+```
+
+#Huon (HUO)
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+#Filter dataframe for 'Faunal mid-depth' = 2.5
+huo_filtered <- df_huon %>% filter(`Faunal mid-depth` == 2.5)
+
+#Remove non-species columns (species columns start from the 5th column)
+species_abundanceHUO <- huo_filtered[, 5:ncol(huo_filtered)]
+
+#Convert dataframe to long format for plotting
+species_abundanceHUO_long <- species_abundanceHUO %>%
+  pivot_longer(cols = everything(), names_to = "Species", values_to = "Abundance")
+
+#Remove species with zero abundance
+species_abundanceHUO_long <- species_abundanceHUO_long %>% filter(Abundance > 0)
+
+#Order species by abundance
+species_abundanceHUO_long <- species_abundanceHUO_long %>%
+  arrange(desc(Abundance))
+
+#Plot species abundance
+pHUO <- ggplot(species_abundanceHUO_long, aes(x = reorder(Species, -Abundance), y = Abundance)) +
+  geom_bar(stat = "identity") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  labs(title = "Huon Species abundance (mid-depth 2.5cm)",
+       x = "Species",
+       y = "Abundance")
+pHUO
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+
+
+```

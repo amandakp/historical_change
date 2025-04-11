@@ -1,6 +1,6 @@
 ---
 title: "Species ID - Edgar & Samson 2000/2001 cores"
-author: Amanda Pettersen & Dustin Marshall
+author: Amanda Pettersen
 date: "`r format(Sys.Date(),'%e %B, %Y')`"
 output:
   pdf_document:
@@ -14,7 +14,7 @@ output:
 ---
 
 ```{r echo = FALSE, eval = TRUE, cache = TRUE, results = FALSE}
-pacman::p_load(tidyverse, dplyr, ggplot2)
+pacman::p_load(tidyverse, dplyr, ggplot2, patchwork)
 ```
 
 ```{r echo = FALSE, eval = TRUE, cache = TRUE, results = FALSE}
@@ -94,6 +94,402 @@ pDCS <- ggplot(species_abundanceDCS_long, aes(x = reorder(Species, -Abundance), 
 pDCS
 ```
 
+#Separate by "Site Code" for DCS (IPHC-8, IPHC-10, IPHC-25, IPHC-28, IPHC-29, IPHC-30) and "Faunal mid-depth" (2.5, 12.5, and 22.5 only):
+
+#Site 1/6 (DCS): IPHC-8 SHELTER COVE, BRUNY ISLAND
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+# Define site code and depths of interest
+site_codes <- c("IPHC-8")
+depths <- c(2.5, 12.5, 22.5)
+
+# Filter data
+df_filtered <- df_dentrecasteaux %>%
+  filter(`Site Code` %in% site_codes,
+         `Faunal mid-depth` %in% depths)
+
+# Convert to long format
+species_abundance_long <- df_filtered %>%
+  pivot_longer(cols = 5:ncol(.), names_to = "Species", values_to = "Abundance") %>%
+  filter(Abundance > 0)
+
+# Put Species as factor so it doesn't auto-order globally
+species_abundance_long$Species <- factor(species_abundance_long$Species)
+
+# Plot with facetting
+p_all_iphc8 <- ggplot(species_abundance_long, aes(x = Species, y = Abundance)) +
+  geom_bar(stat = "identity") +
+  facet_grid(`Site Code` ~ `Faunal mid-depth`, scales = "free_y") +
+  #facet_wrap(~ `Site Code` + `Faunal mid-depth`, scales = "free_y", ncol = 3) +
+  theme_bw() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, size = 6),
+    strip.text = element_text(size = 10),
+    panel.spacing = unit(0.8, "lines"),
+    axis.title.x = element_text(margin = margin(t = 10))
+  ) +
+  labs(title = "Species abundance by site and Faunal mid-depth",
+       x = "Species",
+       y = "Abundance")
+
+p_all_iphc8
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+# Filter for only Site Code IPHC-8 and depths of interest
+df_iphc8 <- df_dentrecasteaux %>%
+  filter(`Site Code` == "IPHC-8",
+         `Faunal mid-depth` %in% c(2.5, 12.5, 22.5))
+
+# Convert species columns to long format
+iphc8_long <- df_iphc8 %>%
+  pivot_longer(cols = 5:ncol(.), names_to = "Species", values_to = "Abundance") %>%
+  filter(Abundance > 0)
+
+# Make sure Species is a factor
+iphc8_long$Species <- factor(iphc8_long$Species)
+
+# Plot with custom fill colors
+p_iphc8 <- ggplot(iphc8_long, aes(x = Species, y = Abundance, fill = factor(`Faunal mid-depth`))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_fill_manual(
+    values = c(
+      "2.5" = "#FFD580",  # light orange
+      "12.5" = "#FFA500", # orange
+      "22.5" = "#CC5500"  # dark orange
+    ),
+    name = "Faunal Mid-depth (cm)"
+  ) +
+  theme_bw() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, size = 7),
+    legend.position = "right"
+  ) +
+  labs(
+    title = "Species abundance at IPHC-8 (by Faunal mid-depth)",
+    x = "Species",
+    y = "Abundance"
+  )
+
+p_iphc8
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+# Filter for IPHC-8 and relevant depths
+df_iphc8 <- df_dentrecasteaux %>%
+  filter(`Site Code` == "IPHC-8",
+         `Faunal mid-depth` %in% c(2.5, 12.5, 22.5))
+
+# Convert species columns to long format
+iphc8_long <- df_iphc8 %>%
+  pivot_longer(cols = 5:ncol(.), names_to = "Species", values_to = "Abundance") %>%
+  filter(Abundance > 0)
+
+# Calculate relative abundance per depth
+iphc8_relative <- iphc8_long %>%
+  group_by(`Faunal mid-depth`) %>%
+  mutate(Total_Abundance = sum(Abundance),
+         Relative_Abundance = Abundance / Total_Abundance) %>%
+  ungroup()
+
+# Make Species a factor
+iphc8_relative$Species <- factor(iphc8_relative$Species)
+
+# Plot relative abundance
+p_iphc8_rel <- ggplot(iphc8_relative, aes(x = Species, y = Relative_Abundance, fill = factor(`Faunal mid-depth`))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_fill_manual(
+    values = c(
+      "2.5" = "#FFD580",  # light orange
+      "12.5" = "#FFA500", # orange
+      "22.5" = "#CC5500"  # dark orange
+    ),
+    name = "Faunal Mid-depth (cm)"
+  ) +
+  theme_bw() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, size = 7),
+    legend.position = "right"
+  ) +
+  labs(
+    title = "Relative species abundance at IPHC-8 (by Faunal mid-depth)",
+    x = "Species",
+    y = "Relative Abundance"
+  )
+
+p_iphc8_rel #relative order of species abundance doesn't change from 22.5cm (~120ya) to 2.5cm (~7 ya)
+```
+
+#Site 2/6 (DCS): IPHC-10 OYSTER COVE
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+# Filter for IPHC-10 and relevant depths
+df_iphc10 <- df_dentrecasteaux %>%
+  filter(`Site Code` == "IPHC-10",
+         `Faunal mid-depth` %in% c(2.5, 12.5, 22.5))
+
+# Convert species columns to long format
+iphc10_long <- df_iphc10 %>%
+  pivot_longer(cols = 5:ncol(.), names_to = "Species", values_to = "Abundance") %>%
+  filter(Abundance > 0)
+
+# Calculate relative abundance per depth
+iphc10_relative <- iphc10_long %>%
+  group_by(`Faunal mid-depth`) %>%
+  mutate(Total_Abundance = sum(Abundance),
+         Relative_Abundance = Abundance / Total_Abundance) %>%
+  ungroup()
+
+# Make Species a factor
+iphc10_relative$Species <- factor(iphc10_relative$Species)
+
+# Plot relative abundance
+p_iphc10_rel <- ggplot(iphc10_relative, aes(x = Species, y = Relative_Abundance, fill = factor(`Faunal mid-depth`))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_fill_manual(
+    values = c(
+      "2.5" = "#FFD580",  # light orange
+      "12.5" = "#FFA500", # orange
+      "22.5" = "#CC5500"  # dark orange
+    ),
+    name = "Faunal Mid-depth (cm)"
+  ) +
+  theme_bw() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, size = 7),
+    legend.position = "right"
+  ) +
+  labs(
+    title = "Relative species abundance at IPHC-10 (by Faunal mid-depth)",
+    x = "Species",
+    y = "Relative Abundance"
+  )
+
+p_iphc10_rel #relative order of species abundance changes from Chioneryx at 22.5cm (~50ya) to Corbula at 2.5cm (~4.5 ya). 
+```
+
+#Site 3/6 (DCS): IPHC-25 BIRCHS BAY
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+# Filter for IPHC-25 and relevant depths
+df_iphc25 <- df_dentrecasteaux %>%
+  filter(`Site Code` == "IPHC-25",
+         `Faunal mid-depth` %in% c(2.5, 12.5, 22.5))
+
+# Convert species columns to long format
+iphc25_long <- df_iphc25 %>%
+  pivot_longer(cols = 5:ncol(.), names_to = "Species", values_to = "Abundance") %>%
+  filter(Abundance > 0)
+
+# Calculate relative abundance per depth
+iphc25_relative <- iphc25_long %>%
+  group_by(`Faunal mid-depth`) %>%
+  mutate(Total_Abundance = sum(Abundance),
+         Relative_Abundance = Abundance / Total_Abundance) %>%
+  ungroup()
+
+# Make Species a factor
+iphc25_relative$Species <- factor(iphc25_relative$Species)
+
+# Plot relative abundance
+p_iphc25_rel <- ggplot(iphc25_relative, aes(x = Species, y = Relative_Abundance, fill = factor(`Faunal mid-depth`))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_fill_manual(
+    values = c(
+      "2.5" = "#FFD580",  # light orange
+      "12.5" = "#FFA500", # orange
+      "22.5" = "#CC5500"  # dark orange
+    ),
+    name = "Faunal Mid-depth (cm)"
+  ) +
+  theme_bw() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, size = 7),
+    legend.position = "right"
+  ) +
+  labs(
+    title = "Relative species abundance at IPHC-25 (by Faunal mid-depth)",
+    x = "Species",
+    y = "Relative Abundance"
+  )
+
+p_iphc25_rel #relative order of species abundance changes from Nemocardium and Chioneryx at 22.5cm (~70ya) to Corbula at 2.5cm (~7 ya). 
+```
+
+#Site 4/6 (DCS): IPHC-28 APOLLO BAY
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+# Filter for IPHC-28 and relevant depths
+df_iphc28 <- df_dentrecasteaux %>%
+  filter(`Site Code` == "IPHC-28",
+         `Faunal mid-depth` %in% c(2.5, 12.5, 22.5))
+
+# Convert species columns to long format
+iphc28_long <- df_iphc28 %>%
+  pivot_longer(cols = 5:ncol(.), names_to = "Species", values_to = "Abundance") %>%
+  filter(Abundance > 0)
+
+# Calculate relative abundance per depth
+iphc28_relative <- iphc28_long %>%
+  group_by(`Faunal mid-depth`) %>%
+  mutate(Total_Abundance = sum(Abundance),
+         Relative_Abundance = Abundance / Total_Abundance) %>%
+  ungroup()
+
+# Make Species a factor
+iphc28_relative$Species <- factor(iphc28_relative$Species)
+
+# Plot relative abundance
+p_iphc28_rel <- ggplot(iphc28_relative, aes(x = Species, y = Relative_Abundance, fill = factor(`Faunal mid-depth`))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_fill_manual(
+    values = c(
+      "2.5" = "#FFD580",  # light orange
+      "12.5" = "#FFA500", # orange
+      "22.5" = "#CC5500"  # dark orange
+    ),
+    name = "Faunal Mid-depth (cm)"
+  ) +
+  theme_bw() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, size = 7),
+    legend.position = "right"
+  ) +
+  labs(
+    title = "Relative species abundance at IPHC-28 (by Faunal mid-depth)",
+    x = "Species",
+    y = "Relative Abundance"
+  )
+
+p_iphc28_rel #relative order of species abundance changes from Chioneryx at 22.5cm (~55ya) to Corbula at 2.5cm (~6 ya). 
+```
+
+#Site 5/6 (DCS): IPHC-29 TRIAL BAY
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+# Filter for IPHC-29 and relevant depths
+df_iphc29 <- df_dentrecasteaux %>%
+  filter(`Site Code` == "IPHC-29",
+         `Faunal mid-depth` %in% c(2.5, 12.5, 22.5))
+
+# Convert species columns to long format
+iphc29_long <- df_iphc29 %>%
+  pivot_longer(cols = 5:ncol(.), names_to = "Species", values_to = "Abundance") %>%
+  filter(Abundance > 0)
+
+# Calculate relative abundance per depth
+iphc29_relative <- iphc29_long %>%
+  group_by(`Faunal mid-depth`) %>%
+  mutate(Total_Abundance = sum(Abundance),
+         Relative_Abundance = Abundance / Total_Abundance) %>%
+  ungroup()
+
+# Make Species a factor
+iphc29_relative$Species <- factor(iphc29_relative$Species)
+
+# Plot relative abundance
+p_iphc29_rel <- ggplot(iphc29_relative, aes(x = Species, y = Relative_Abundance, fill = factor(`Faunal mid-depth`))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_fill_manual(
+    values = c(
+      "2.5" = "#FFD580",  # light orange
+      "12.5" = "#FFA500", # orange
+      "22.5" = "#CC5500"  # dark orange
+    ),
+    name = "Faunal Mid-depth (cm)"
+  ) +
+  theme_bw() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, size = 7),
+    legend.position = "right"
+  ) +
+  labs(
+    title = "Relative species abundance at IPHC-29 (by Faunal mid-depth)",
+    x = "Species",
+    y = "Relative Abundance"
+  )
+
+p_iphc29_rel #relative order of species abundance changes from Chioneryx at 22.5cm (~50ya) to Corbula at 2.5cm (~6 ya). 
+```
+
+#Site 6/6 (DCS): IPHC-30 APOLLO BAY (LITTLE OYSTER COVE, KETTERING)
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+# Filter for IPHC-30 and relevant depths
+df_iphc30 <- df_dentrecasteaux %>%
+  filter(`Site Code` == "IPHC-30",
+         `Faunal mid-depth` %in% c(2.5, 12.5, 22.5))
+
+# Convert species columns to long format
+iphc30_long <- df_iphc30 %>%
+  pivot_longer(cols = 5:ncol(.), names_to = "Species", values_to = "Abundance") %>%
+  filter(Abundance > 0)
+
+# Calculate relative abundance per depth
+iphc30_relative <- iphc30_long %>%
+  group_by(`Faunal mid-depth`) %>%
+  mutate(Total_Abundance = sum(Abundance),
+         Relative_Abundance = Abundance / Total_Abundance) %>%
+  ungroup()
+
+# Make Species a factor
+iphc30_relative$Species <- factor(iphc30_relative$Species)
+
+# Plot relative abundance
+p_iphc30_rel <- ggplot(iphc30_relative, aes(x = Species, y = Relative_Abundance, fill = factor(`Faunal mid-depth`))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_fill_manual(
+    values = c(
+      "2.5" = "#FFD580",  # light orange
+      "12.5" = "#FFA500", # orange
+      "22.5" = "#CC5500"  # dark orange
+    ),
+    name = "Faunal Mid-depth (cm)"
+  ) +
+  theme_bw() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, size = 7),
+    legend.position = "right"
+  ) +
+  labs(
+    title = "Relative species abundance at IPHC-30 (by Faunal mid-depth)",
+    x = "Species",
+    y = "Relative Abundance"
+  )
+
+p_iphc30_rel #relative order of species abundance changes from Chioneryx at 22.5cm (~40ya) to Corbula at 2.5cm (~1.5 ya). 
+```
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+#Combine DCS plots for IPHC-8, IPHC-10, IPHC-25, IPHC-28, IPHC-29, IPHC-30) and "Faunal mid-depth" (2.5, 12.5, and 22.5 only) into one panel
+
+# Standardize the look of all plots
+plots_list <- list(
+  p_iphc8_rel + labs(title = "IPHC-8") + theme(legend.position = "none"),
+  p_iphc10_rel + labs(title = "IPHC-10") + theme(legend.position = "none"),
+  p_iphc25_rel + labs(title = "IPHC-25") + theme(legend.position = "none"),
+  p_iphc28_rel + labs(title = "IPHC-28") + theme(legend.position = "none"),
+  p_iphc29_rel + labs(title = "IPHC-29") + theme(legend.position = "none"),
+  p_iphc30_rel + labs(title = "IPHC-30") + theme(legend.position = "none")
+)
+
+# Combine in a 2-column, 3-row layout with consistent axis formatting
+combined_plot <- wrap_plots(plots_list, ncol = 2, guides = "collect") +
+  plot_annotation(
+    title = "Relative Species Abundance at Selected Sites",
+    tag_levels = "A",
+    tag_prefix = "",
+    tag_suffix = ")"
+  ) & 
+  labs(y = "Relative\nabundance") &  # Two-line y-axis label here
+  theme(
+    plot.tag = element_text(face = "bold", size = 12),
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1),
+    axis.title.x = element_text(size = 10),
+    axis.title.y = element_text(size = 10),
+    legend.position = "bottom"
+  )
+
+# Show it
+combined_plot
+
+ggsave("combined_plot.png", combined_plot, width = 12, height = 10, dpi = 300)
+```
+
+
 #Derwent (DER)
 ```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
 #Filter dataframe for 'Faunal mid-depth' = 2.5
@@ -105,6 +501,7 @@ species_abundanceDER <- der_filtered[, 5:ncol(der_filtered)]
 #Convert dataframe to long format for plotting
 species_abundanceDER_long <- species_abundanceDER %>%
   pivot_longer(cols = everything(), names_to = "Species", values_to = "Abundance")
+View(species_abundanceDER_long)
 
 #Remove species with zero abundance
 species_abundanceDER_long <- species_abundanceDER_long %>% filter(Abundance > 0)
@@ -112,6 +509,7 @@ species_abundanceDER_long <- species_abundanceDER_long %>% filter(Abundance > 0)
 #Order species by abundance
 species_abundanceDER_long <- species_abundanceDER_long %>%
   arrange(desc(Abundance))
+#View(species_abundanceDER_long)
 #write.csv(species_abundanceDER_long, "Data/species_abundanceDER_long.csv")
 
 #Plot species abundance
@@ -124,6 +522,307 @@ pDER <- ggplot(species_abundanceDER_long, aes(x = reorder(Species, -Abundance), 
 pDER
 ```
 
+#Separate by "Site Code" for DCS (IPHC-8, IPHC-10, IPHC-25, IPHC-28, IPHC-29, IPHC-30) and "Faunal mid-depth" (2.5, 12.5, and 22.5 only):
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+# Define site code and depths of interest
+site_codes <- c("IPHC-12")
+depths <- c(2.5, 12.5, 22.5)
+
+# Filter data
+der_filtered <- df_derwent %>%
+  filter(`Site Code` %in% site_codes,
+         `Mid-depth` %in% depths)
+
+# Convert to long format
+species_abundance_long <- der_filtered %>%
+  pivot_longer(cols = 5:ncol(.), names_to = "Species", values_to = "Abundance") %>%
+  filter(Abundance > 0)
+
+# Put Species as factor so it doesn't auto-order globally
+species_abundance_long$Species <- factor(species_abundance_long$Species)
+
+# Plot with facetting
+p_all_iphc12 <- ggplot(species_abundance_long, aes(x = Species, y = Abundance)) +
+  geom_bar(stat = "identity") +
+  facet_grid(`Site Code` ~ `Mid-depth`, scales = "free_y") +
+  #facet_wrap(~ `Site Code` + `Faunal mid-depth`, scales = "free_y", ncol = 3) +
+  theme_bw() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, size = 6),
+    strip.text = element_text(size = 10),
+    panel.spacing = unit(0.12, "lines"),
+    axis.title.x = element_text(margin = margin(t = 10))
+  ) +
+  labs(title = "Species abundance by site and Faunal mid-depth",
+       x = "Species",
+       y = "Abundance")
+
+p_all_iphc12
+```
+
+#Site 1/4 (DER): IPHC-12 RALPHS BAY ENTRANCE
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+# Filter for only Site Code IPHC-12 and depths of interest
+df_iphc12 <- df_derwent %>%
+  filter(`Site Code` == "IPHC-12",
+         `Mid-depth` %in% c(2.5, 12.5, 22.5))
+
+# Convert species columns to long format
+iphc12_long <- df_iphc12 %>%
+  pivot_longer(cols = 5:ncol(.), names_to = "Species", values_to = "Abundance") %>%
+  filter(Abundance > 0)
+
+# Make sure Species is a factor
+iphc12_long$Species <- factor(iphc12_long$Species)
+
+# Plot with custom fill colors
+p_iphc12 <- ggplot(iphc12_long, aes(x = Species, y = Abundance, fill = factor(`Mid-depth`))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_fill_manual(
+    values = c(
+      "2.5" = "#ADD8E6",  # light blue
+      "12.5" = "#1E90FF", # dodger blue
+      "22.5" = "#003366"  # dark navy blue
+    ),
+    name = "Faunal Mid-depth (cm)"
+  ) +
+  theme_bw() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, size = 7),
+    legend.position = "right"
+  ) +
+  labs(
+    title = "Species abundance at IPHC-12 (by Faunal mid-depth)",
+    x = "Species",
+    y = "Abundance"
+  )
+
+p_iphc12
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+# Filter for IPHC-12 and relevant depths
+df_iphc12 <- df_derwent %>%
+  filter(`Site Code` == "IPHC-12",
+         `Mid-depth` %in% c(2.5, 12.5, 22.5))
+
+# Convert species columns to long format
+iphc12_long <- df_iphc12 %>%
+  pivot_longer(cols = 5:ncol(.), names_to = "Species", values_to = "Abundance") %>%
+  filter(Abundance > 0)
+
+# Calculate relative abundance per depth
+iphc12_relative <- iphc12_long %>%
+  group_by(`Mid-depth`) %>%
+  mutate(Total_Abundance = sum(Abundance),
+         Relative_Abundance = Abundance / Total_Abundance) %>%
+  ungroup()
+
+# Make Species a factor
+iphc12_relative$Species <- factor(iphc12_relative$Species)
+
+# Plot relative abundance
+p_iphc12_rel <- ggplot(iphc12_relative, aes(x = Species, y = Relative_Abundance, fill = factor(`Mid-depth`))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_fill_manual(
+    values = c(
+      "2.5" = "#ADD8E6",  # light blue
+      "12.5" = "#1E90FF", # dodger blue
+      "22.5" = "#003366"  # dark navy blue
+    ),
+    name = "Faunal Mid-depth (cm)"
+  ) +
+  theme_bw() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, size = 7),
+    legend.position = "right"
+  ) +
+  labs(
+    title = "Relative species abundance at IPHC-12 (by Faunal mid-depth)",
+    x = "Species",
+    y = "Relative Abundance"
+  )
+
+p_iphc12_rel #dominant species remains Theora lubrica from 22.5cm (~50ya) to 2.5cm (~8 ya). Introduction of Hiatella australis and disappearance of Chioneryx, Corbula, and Nelio australis in past 30 years.
+```
+
+#Site 2/4 (DER): IPHC-13 NORTH END RALPHS BAY
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+# Filter for IPHC-13 and relevant depths
+df_iphc13 <- df_derwent %>%
+  filter(`Site Code` == "IPHC-13",
+         `Mid-depth` %in% c(2.5, 12.5, 22.5))
+
+# Convert species columns to long format
+iphc13_long <- df_iphc13 %>%
+  pivot_longer(cols = 5:ncol(.), names_to = "Species", values_to = "Abundance") %>%
+  filter(Abundance > 0)
+
+# Calculate relative abundance per depth
+iphc13_relative <- iphc13_long %>%
+  group_by(`Mid-depth`) %>%
+  mutate(Total_Abundance = sum(Abundance),
+         Relative_Abundance = Abundance / Total_Abundance) %>%
+  ungroup()
+
+# Make Species a factor
+iphc13_relative$Species <- factor(iphc13_relative$Species)
+
+# Plot relative abundance
+p_iphc13_rel <- ggplot(iphc13_relative, aes(x = Species, y = Relative_Abundance, fill = factor(`Mid-depth`))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_fill_manual(
+    values = c(
+      "2.5" = "#ADD8E6",  # light blue
+      "12.5" = "#1E90FF", # dodger blue
+      "22.5" = "#003366"  # dark navy blue
+    ),
+    name = "Faunal Mid-depth (cm)"
+  ) +
+  theme_bw() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, size = 7),
+    legend.position = "right"
+  ) +
+  labs(
+    title = "Relative species abundance at IPHC-13 (by Faunal mid-depth)",
+    x = "Species",
+    y = "Relative Abundance"
+  )
+
+p_iphc13_rel #Reduction in Chioneryx from ~40% at 22.5cm (~105 ya) to ~15% at 2.5cm (~24ya). Corbula dominates in recent years (35%). Also sudden increase of Agatha simplex and appearance of Ostrea angasi.
+```
+
+#Site 3/4 (DER): IPHC-15 KANGAROO BAY
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+# Filter for IPHC-15 and relevant depths
+df_iphc15 <- df_derwent %>%
+  filter(`Site Code` == "IPHC-15",
+         `Mid-depth` %in% c(2.5, 12.5, 22.5))
+
+# Convert species columns to long format
+iphc15_long <- df_iphc15 %>%
+  pivot_longer(cols = 5:ncol(.), names_to = "Species", values_to = "Abundance") %>%
+  filter(Abundance > 0)
+
+# Calculate relative abundance per depth
+iphc15_relative <- iphc15_long %>%
+  group_by(`Mid-depth`) %>%
+  mutate(Total_Abundance = sum(Abundance),
+         Relative_Abundance = Abundance / Total_Abundance) %>%
+  ungroup()
+
+# Make Species a factor
+iphc15_relative$Species <- factor(iphc15_relative$Species)
+
+# Plot relative abundance
+p_iphc15_rel <- ggplot(iphc15_relative, aes(x = Species, y = Relative_Abundance, fill = factor(`Mid-depth`))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_fill_manual(
+    values = c(
+      "2.5" = "#ADD8E6",  # light blue
+      "12.5" = "#1E90FF", # dodger blue
+      "22.5" = "#003366"  # dark navy blue
+    ),
+    name = "Faunal Mid-depth (cm)"
+  ) +
+  theme_bw() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, size = 7),
+    legend.position = "right"
+  ) +
+  labs(
+    title = "Relative species abundance at IPHC-15 (by Faunal mid-depth)",
+    x = "Species",
+    y = "Relative Abundance"
+  )
+
+p_iphc15_rel #Reduction in Chioneryx from ~25% at 22.5cm (~83 ya) to ~10% at 2.5cm (~12 ya). Increase in Theora lubrica from ~5% to ~40% and appearance of Biv DB(?) in recent sample. No corbula?
+```
+
+#Site 4/4 (DER): IPHC-22 TRANMERE
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+# Filter for IPHC-22 and relevant depths
+df_iphc22 <- df_derwent %>%
+  filter(`Site Code` == "IPHC-22",
+         `Mid-depth` %in% c(2.5, 12.5, 22.5))
+
+# Convert species columns to long format
+iphc22_long <- df_iphc22 %>%
+  pivot_longer(cols = 5:ncol(.), names_to = "Species", values_to = "Abundance") %>%
+  filter(Abundance > 0)
+
+# Calculate relative abundance per depth
+iphc22_relative <- iphc22_long %>%
+  group_by(`Mid-depth`) %>%
+  mutate(Total_Abundance = sum(Abundance),
+         Relative_Abundance = Abundance / Total_Abundance) %>%
+  ungroup()
+
+# Make Species a factor
+iphc22_relative$Species <- factor(iphc22_relative$Species)
+
+# Plot relative abundance
+p_iphc22_rel <- ggplot(iphc22_relative, aes(x = Species, y = Relative_Abundance, fill = factor(`Mid-depth`))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_fill_manual(
+    values = c(
+      "2.5" = "#ADD8E6",  # light blue
+      "12.5" = "#1E90FF", # dodger blue
+      "22.5" = "#003366"  # dark navy blue
+    ),
+    name = "Faunal Mid-depth (cm)"
+  ) +
+  theme_bw() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, size = 7),
+    legend.position = "right"
+  ) +
+  labs(
+    title = "Relative species abundance at IPHC-22 (by Faunal mid-depth)",
+    x = "Species",
+    y = "Relative Abundance"
+  )
+
+p_iphc22_rel #Reduction in Chioneryx from ~38% at 22.5cm (~85 ya) to ~10% at 2.5cm (~10 ya). Increase in Placamen placidum from ~2% to ~35%, Nemocardium (15% to 25%), and Nucula (1% to 10%), and appearance of Corbula (~6%) in recent sample.
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+#Combine DER plots for IPHC-12, IPHC-13, IPHC-15, IPHC-22) and "Mid-depth" (2.5, 12.5, and 22.5 only) into one panel
+
+# Standardize the look of all plots
+plots_list <- list(
+  p_iphc12_rel + labs(title = "IPHC-12") + theme(legend.position = "none"),
+  p_iphc13_rel + labs(title = "IPHC-13") + theme(legend.position = "none"),
+  p_iphc15_rel + labs(title = "IPHC-15") + theme(legend.position = "none"),
+  p_iphc22_rel + labs(title = "IPHC-22") + theme(legend.position = "none")
+)
+
+# Combine in a 2-column, 2-row layout with consistent axis formatting
+combined_plot <- wrap_plots(plots_list, ncol = 2, guides = "collect") +
+  plot_annotation(
+    title = "Relative Species Abundance at Selected Sites",
+    tag_levels = "A",
+    tag_prefix = "",
+    tag_suffix = ")"
+  ) & 
+  labs(y = "Relative\nabundance") &  # Two-line y-axis label here
+  theme(
+    plot.tag = element_text(face = "bold", size = 12),
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1),
+    axis.title.x = element_text(size = 10),
+    axis.title.y = element_text(size = 10),
+    legend.position = "bottom"
+  )
+
+# Show it
+combined_plot
+
+ggsave("combined_plot_DER.png", combined_plot, width = 12, height = 10, dpi = 300)
+```
+
+
 #Huon (HUO)
 ```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
 #Filter dataframe for 'Faunal mid-depth' = 2.5
@@ -135,6 +834,7 @@ species_abundanceHUO <- huo_filtered[, 5:ncol(huo_filtered)]
 #Convert dataframe to long format for plotting
 species_abundanceHUO_long <- species_abundanceHUO %>%
   pivot_longer(cols = everything(), names_to = "Species", values_to = "Abundance")
+View(species_abundanceHUO_long)
 
 #Remove species with zero abundance
 species_abundanceHUO_long <- species_abundanceHUO_long %>% filter(Abundance > 0)
@@ -153,7 +853,207 @@ pHUO <- ggplot(species_abundanceHUO_long, aes(x = reorder(Species, -Abundance), 
 pHUO
 ```
 
+#Separate by "Site Code" for HUO (IPHC-31, IPHC-33) and "Faunal mid-depth" (2.5, 12.5, and 22.5 only):
+
 ```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+# Define site code and depths of interest
+site_codes <- c("IPHC-31")
+depths <- c(2.5, 12.5, 22.5)
 
+# Filter data
+der_filtered <- df_huon %>%
+  filter(`Site Code` %in% site_codes,
+         `Faunal mid-depth` %in% depths)
 
+# Convert to long format
+species_abundance_long <- huo_filtered %>%
+  pivot_longer(cols = 5:ncol(.), names_to = "Species", values_to = "Abundance") %>%
+  filter(Abundance > 0)
+
+# Put Species as factor so it doesn't auto-order globally
+species_abundance_long$Species <- factor(species_abundance_long$Species)
+
+# Plot with facetting
+p_all_iphc31 <- ggplot(species_abundance_long, aes(x = Species, y = Abundance)) +
+  geom_bar(stat = "identity") +
+  facet_grid(`Site Code` ~ `Faunal mid-depth`, scales = "free_y") +
+  #facet_wrap(~ `Site Code` + `Faunal mid-depth`, scales = "free_y", ncol = 3) +
+  theme_bw() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, size = 6),
+    strip.text = element_text(size = 10),
+    panel.spacing = unit(0.31, "lines"),
+    axis.title.x = element_text(margin = margin(t = 10))
+  ) +
+  labs(title = "Species abundance by site and Faunal mid-depth",
+       x = "Species",
+       y = "Abundance")
+
+p_all_iphc31
+```
+
+#Site 1/4 (HUO): IPHC-31 PETCHYS BAY
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+# Filter for only Site Code IPHC-31 and depths of interest
+df_iphc31 <- df_huon %>%
+  filter(`Site Code` == "IPHC-31",
+         `Faunal mid-depth` %in% c(2.5, 12.5, 22.5))
+
+# Convert species columns to long format
+iphc31_long <- df_iphc31 %>%
+  pivot_longer(cols = 5:ncol(.), names_to = "Species", values_to = "Abundance") %>%
+  filter(Abundance > 0)
+
+# Make sure Species is a factor
+iphc31_long$Species <- factor(iphc31_long$Species)
+
+# Plot with custom fill colors
+p_iphc31 <- ggplot(iphc31_long, aes(x = Species, y = Abundance, fill = factor(`Faunal mid-depth`))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_fill_manual(
+    values = c(
+      "2.5" = "#E6CCFF",  # light lavender
+      "12.5" = "#A259FF", # medium vibrant purple
+      "22.5" = "#4B0082"  # deep indigo
+    ),
+    name = "Faunal Mid-depth (cm)"
+  ) +
+  theme_bw() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, size = 7),
+    legend.position = "right"
+  ) +
+  labs(
+    title = "Species abundance at IPHC-31 (by Faunal mid-depth)",
+    x = "Species",
+    y = "Abundance"
+  )
+
+p_iphc31
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+# Filter for IPHC-31 and relevant depths
+df_iphc31 <- df_huon %>%
+  filter(`Site Code` == "IPHC-31",
+         `Faunal mid-depth` %in% c(2.5, 12.5, 22.5))
+
+# Convert species columns to long format
+iphc31_long <- df_iphc31 %>%
+  pivot_longer(cols = 5:ncol(.), names_to = "Species", values_to = "Abundance") %>%
+  filter(Abundance > 0)
+
+# Calculate relative abundance per depth
+iphc31_relative <- iphc31_long %>%
+  group_by(`Faunal mid-depth`) %>%
+  mutate(Total_Abundance = sum(Abundance),
+         Relative_Abundance = Abundance / Total_Abundance) %>%
+  ungroup()
+
+# Make Species a factor
+iphc31_relative$Species <- factor(iphc31_relative$Species)
+
+# Plot relative abundance
+p_iphc31_rel <- ggplot(iphc31_relative, aes(x = Species, y = Relative_Abundance, fill = factor(`Faunal mid-depth`))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_fill_manual(
+    values = c(
+      "2.5" = "#E6CCFF",  # light lavender
+      "12.5" = "#A259FF", # medium vibrant purple
+      "22.5" = "#4B0082"  # deep indigo
+    ),
+    name = "Faunal Mid-depth (cm)"
+  ) +
+  theme_bw() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, size = 7),
+    legend.position = "right"
+  ) +
+  labs(
+    title = "Relative species abundance at IPHC-31 (by Faunal mid-depth)",
+    x = "Species",
+    y = "Relative Abundance"
+  )
+
+p_iphc31_rel #Loss of Nemocardium from 22.5cm (~545 ya) and Hiatella and Pecten fumatus from 12.5cm (~45 ya) to 2.5cm (~15 ya). Increase in Corbula and appearance of Theora in past ~45 years.
+```
+
+#Site 1/4 (HUO): IPHC-33 PORT CYGNET
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+# Filter for IPHC-33 and relevant depths
+df_iphc33 <- df_huon %>%
+  filter(`Site Code` == "IPHC-33",
+         `Faunal mid-depth` %in% c(2.5, 12.5, 22.5))
+
+# Convert species columns to long format
+iphc33_long <- df_iphc33 %>%
+  pivot_longer(cols = 5:ncol(.), names_to = "Species", values_to = "Abundance") %>%
+  filter(Abundance > 0)
+
+# Calculate relative abundance per depth
+iphc33_relative <- iphc33_long %>%
+  group_by(`Faunal mid-depth`) %>%
+  mutate(Total_Abundance = sum(Abundance),
+         Relative_Abundance = Abundance / Total_Abundance) %>%
+  ungroup()
+
+# Make Species a factor
+iphc33_relative$Species <- factor(iphc33_relative$Species)
+
+# Plot relative abundance
+p_iphc33_rel <- ggplot(iphc33_relative, aes(x = Species, y = Relative_Abundance, fill = factor(`Faunal mid-depth`))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_fill_manual(
+    values = c(
+      "2.5" = "#E6CCFF",  # light lavender
+      "12.5" = "#A259FF", # medium vibrant purple
+      "22.5" = "#4B0082"  # deep indigo
+    ),
+    name = "Faunal Mid-depth (cm)"
+  ) +
+  theme_bw() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, size = 7),
+    legend.position = "right"
+  ) +
+  labs(
+    title = "Relative species abundance at IPHC-33 (by Faunal mid-depth)",
+    x = "Species",
+    y = "Relative Abundance"
+  )
+
+p_iphc33_rel #Loss of Nemocardium from 22.5cm (~545 ya) and Hiatella and Pecten fumatus from 12.5cm (~45 ya) to 2.5cm (~15 ya). Increase in Corbula and appearance of Theora in past ~45 years.
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+#Combine DCS plots for IPHC-31, IPHC-33 and "Faunal mid-depth" (2.5, 12.5, and 22.5 only) into one panel
+
+# Standardize the look of all plots
+plots_list <- list(
+  p_iphc31_rel + labs(title = "IPHC-31") + theme(legend.position = "none"),
+  p_iphc33_rel + labs(title = "IPHC-33") + theme(legend.position = "none")
+)
+
+# Combine in a 2-column, 3-row layout with consistent axis formatting
+combined_plot <- wrap_plots(plots_list, ncol = 2, guides = "collect") +
+  plot_annotation(
+    title = "Relative Species Abundance at Selected Sites",
+    tag_levels = "A",
+    tag_prefix = "",
+    tag_suffix = ")"
+  ) & 
+  labs(y = "Relative\nabundance") &  # Two-line y-axis label here
+  theme(
+    plot.tag = element_text(face = "bold", size = 12),
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1),
+    axis.title.x = element_text(size = 10),
+    axis.title.y = element_text(size = 10),
+    legend.position = "bottom"
+  )
+
+# Show it
+combined_plot
+
+ggsave("combined_plot_HUO.png", combined_plot, width = 12, height = 10, dpi = 300)
 ```

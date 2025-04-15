@@ -1,0 +1,3151 @@
+﻿Site_name,Site_location,Site_code,Replicate,Sieve_size_mm,Condition,Species_code,Species_name,Abundance
+Oyster_Cove,DEntrecasteaux,IPHC10,1,4,Dead,MPX8,Pratulum thetidis,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,4,Dead,MPX55,Corbula gibba,44
+Oyster_Cove,DEntrecasteaux,IPHC10,1,4,Dead,MGN1,Nassarius nigellus,9
+Oyster_Cove,DEntrecasteaux,IPHC10,1,4,Dead,MPX17,Purpurocardia bimaculata,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,4,Dead,MPX26,Theora lubrica,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,4,Dead,MGX57,Maoricolpus roseus,2
+Oyster_Cove,DEntrecasteaux,IPHC10,1,4,Dead,MPX14,Channelaxinus adelaideanus,1
+Oyster_Cove,DEntrecasteaux,IPHC10,1,4,Dead,MPN1,Ennucula obliqua,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,4,Dead,MPV1,Placamen placidum,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,4,Dead,MGW14,Philine angasi,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,4,Dead,MPX27,Plectodon brazieri,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,4,Dead,MPX20,Ungulinid sp.20,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,4,Dead,MXX3,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,4,Dead,MGX30,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,4,Live,MPX8,Pratulum thetidis,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,4,Live,MPX55,Corbula gibba,1
+Oyster_Cove,DEntrecasteaux,IPHC10,1,4,Live,MGN1,Nassarius nigellus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,4,Live,MPX17,Purpurocardia bimaculata,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,4,Live,MPX26,Theora lubrica,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,4,Live,MGX57,Maoricolpus roseus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,4,Live,MPX14,Channelaxinus adelaideanus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,4,Live,MPN1,Ennucula obliqua,2
+Oyster_Cove,DEntrecasteaux,IPHC10,1,4,Live,MPV1,Placamen placidum,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,4,Live,MGW14,Philine angasi,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,4,Live,MPX27,Plectodon brazieri,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,4,Live,MPX20,Ungulinid sp.20,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,4,Live,MXX3,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,4,Live,MGX30,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2.8,Dead,MPX8,Pratulum thetidis,1
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2.8,Dead,MPX55,Corbula gibba,14
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2.8,Dead,MGN1,Nassarius nigellus,3
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2.8,Dead,MPX17,Purpurocardia bimaculata,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2.8,Dead,MPX26,Theora lubrica,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2.8,Dead,MGX57,Maoricolpus roseus,1
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2.8,Dead,MPX14,Channelaxinus adelaideanus,4
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2.8,Dead,MPN1,Ennucula obliqua,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2.8,Dead,MPV1,Placamen placidum,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2.8,Dead,MGW14,Philine angasi,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2.8,Dead,MPX27,Plectodon brazieri,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2.8,Dead,MPX20,Ungulinid sp.20,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2.8,Dead,MXX3,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2.8,Dead,MGX30,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2.8,Live,MPX8,Pratulum thetidis,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2.8,Live,MPX55,Corbula gibba,4
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2.8,Live,MGN1,Nassarius nigellus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2.8,Live,MPX17,Purpurocardia bimaculata,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2.8,Live,MPX26,Theora lubrica,1
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2.8,Live,MGX57,Maoricolpus roseus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2.8,Live,MPX14,Channelaxinus adelaideanus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2.8,Live,MPN1,Ennucula obliqua,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2.8,Live,MPV1,Placamen placidum,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2.8,Live,MGW14,Philine angasi,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2.8,Live,MPX27,Plectodon brazieri,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2.8,Live,MPX20,Ungulinid sp.20,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2.8,Live,MXX3,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2.8,Live,MGX30,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2,Dead,MPX8,Pratulum thetidis,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2,Dead,MPX55,Corbula gibba,12
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2,Dead,MGN1,Nassarius nigellus,1
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2,Dead,MPX17,Purpurocardia bimaculata,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2,Dead,MPX26,Theora lubrica,1
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2,Dead,MGX57,Maoricolpus roseus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2,Dead,MPX14,Channelaxinus adelaideanus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2,Dead,MPN1,Ennucula obliqua,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2,Dead,MPV1,Placamen placidum,1
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2,Dead,MGW14,Philine angasi,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2,Dead,MPX27,Plectodon brazieri,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2,Dead,MPX20,Ungulinid sp.20,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2,Dead,MXX3,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2,Dead,MGX30,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2,Live,MPX8,Pratulum thetidis,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2,Live,MPX55,Corbula gibba,1
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2,Live,MGN1,Nassarius nigellus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2,Live,MPX17,Purpurocardia bimaculata,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2,Live,MPX26,Theora lubrica,5
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2,Live,MGX57,Maoricolpus roseus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2,Live,MPX14,Channelaxinus adelaideanus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2,Live,MPN1,Ennucula obliqua,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2,Live,MPV1,Placamen placidum,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2,Live,MGW14,Philine angasi,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2,Live,MPX27,Plectodon brazieri,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2,Live,MPX20,Ungulinid sp.20,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2,Live,MXX3,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,2,Live,MGX30,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1.4,Dead,MPX8,Pratulum thetidis,2
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1.4,Dead,MPX55,Corbula gibba,18
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1.4,Dead,MGN1,Nassarius nigellus,1
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1.4,Dead,MPX17,Purpurocardia bimaculata,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1.4,Dead,MPX26,Theora lubrica,3
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1.4,Dead,MGX57,Maoricolpus roseus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1.4,Dead,MPX14,Channelaxinus adelaideanus,1
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1.4,Dead,MPN1,Ennucula obliqua,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1.4,Dead,MPV1,Placamen placidum,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1.4,Dead,MGW14,Philine angasi,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1.4,Dead,MPX27,Plectodon brazieri,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1.4,Dead,MPX20,Ungulinid sp.20,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1.4,Dead,MXX3,#N/A,1
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1.4,Dead,MGX30,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1.4,Live,MPX8,Pratulum thetidis,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1.4,Live,MPX55,Corbula gibba,5
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1.4,Live,MGN1,Nassarius nigellus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1.4,Live,MPX17,Purpurocardia bimaculata,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1.4,Live,MPX26,Theora lubrica,2
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1.4,Live,MGX57,Maoricolpus roseus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1.4,Live,MPX14,Channelaxinus adelaideanus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1.4,Live,MPN1,Ennucula obliqua,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1.4,Live,MPV1,Placamen placidum,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1.4,Live,MGW14,Philine angasi,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1.4,Live,MPX27,Plectodon brazieri,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1.4,Live,MPX20,Ungulinid sp.20,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1.4,Live,MXX3,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1.4,Live,MGX30,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1,Dead,MPX8,Pratulum thetidis,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1,Dead,MPX55,Corbula gibba,19
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1,Dead,MGN1,Nassarius nigellus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1,Dead,MPX17,Purpurocardia bimaculata,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1,Dead,MPX26,Theora lubrica,2
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1,Dead,MGX57,Maoricolpus roseus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1,Dead,MPX14,Channelaxinus adelaideanus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1,Dead,MPN1,Ennucula obliqua,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1,Dead,MPV1,Placamen placidum,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1,Dead,MGW14,Philine angasi,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1,Dead,MPX27,Plectodon brazieri,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1,Dead,MPX20,Ungulinid sp.20,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1,Dead,MXX3,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1,Dead,MGX30,#N/A,1
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1,Live,MPX8,Pratulum thetidis,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1,Live,MPX55,Corbula gibba,5
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1,Live,MGN1,Nassarius nigellus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1,Live,MPX17,Purpurocardia bimaculata,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1,Live,MPX26,Theora lubrica,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1,Live,MGX57,Maoricolpus roseus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1,Live,MPX14,Channelaxinus adelaideanus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1,Live,MPN1,Ennucula obliqua,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1,Live,MPV1,Placamen placidum,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1,Live,MGW14,Philine angasi,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1,Live,MPX27,Plectodon brazieri,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1,Live,MPX20,Ungulinid sp.20,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1,Live,MXX3,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,1,1,Live,MGX30,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,4,Dead,MPX8,Pratulum thetidis,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,4,Dead,MPX55,Corbula gibba,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,4,Dead,MGN1,Nassarius nigellus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,4,Dead,MPX17,Purpurocardia bimaculata,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,4,Dead,MPX26,Theora lubrica,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,4,Dead,MGX57,Maoricolpus roseus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,4,Dead,MPX14,Channelaxinus adelaideanus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,4,Dead,MPN1,Ennucula obliqua,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,4,Dead,MPV1,Placamen placidum,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,4,Dead,MGW14,Philine angasi,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,4,Dead,MPX27,Plectodon brazieri,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,4,Dead,MPX20,Ungulinid sp.20,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,4,Dead,MXX3,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,4,Dead,MGX30,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,4,Live,MPX8,Pratulum thetidis,1
+Oyster_Cove,DEntrecasteaux,IPHC10,2,4,Live,MPX55,Corbula gibba,21
+Oyster_Cove,DEntrecasteaux,IPHC10,2,4,Live,MGN1,Nassarius nigellus,3
+Oyster_Cove,DEntrecasteaux,IPHC10,2,4,Live,MPX17,Purpurocardia bimaculata,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,4,Live,MPX26,Theora lubrica,1
+Oyster_Cove,DEntrecasteaux,IPHC10,2,4,Live,MGX57,Maoricolpus roseus,1
+Oyster_Cove,DEntrecasteaux,IPHC10,2,4,Live,MPX14,Channelaxinus adelaideanus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,4,Live,MPN1,Ennucula obliqua,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,4,Live,MPV1,Placamen placidum,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,4,Live,MGW14,Philine angasi,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,4,Live,MPX27,Plectodon brazieri,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,4,Live,MPX20,Ungulinid sp.20,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,4,Live,MXX3,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,4,Live,MGX30,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2.8,Dead,MPX8,Pratulum thetidis,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2.8,Dead,MPX55,Corbula gibba,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2.8,Dead,MGN1,Nassarius nigellus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2.8,Dead,MPX17,Purpurocardia bimaculata,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2.8,Dead,MPX26,Theora lubrica,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2.8,Dead,MGX57,Maoricolpus roseus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2.8,Dead,MPX14,Channelaxinus adelaideanus,2
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2.8,Dead,MPN1,Ennucula obliqua,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2.8,Dead,MPV1,Placamen placidum,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2.8,Dead,MGW14,Philine angasi,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2.8,Dead,MPX27,Plectodon brazieri,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2.8,Dead,MPX20,Ungulinid sp.20,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2.8,Dead,MXX3,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2.8,Dead,MGX30,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2.8,Live,MPX8,Pratulum thetidis,1
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2.8,Live,MPX55,Corbula gibba,32
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2.8,Live,MGN1,Nassarius nigellus,1
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2.8,Live,MPX17,Purpurocardia bimaculata,1
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2.8,Live,MPX26,Theora lubrica,1
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2.8,Live,MGX57,Maoricolpus roseus,1
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2.8,Live,MPX14,Channelaxinus adelaideanus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2.8,Live,MPN1,Ennucula obliqua,1
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2.8,Live,MPV1,Placamen placidum,2
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2.8,Live,MGW14,Philine angasi,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2.8,Live,MPX27,Plectodon brazieri,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2.8,Live,MPX20,Ungulinid sp.20,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2.8,Live,MXX3,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2.8,Live,MGX30,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2,Dead,MPX8,Pratulum thetidis,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2,Dead,MPX55,Corbula gibba,7
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2,Dead,MGN1,Nassarius nigellus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2,Dead,MPX17,Purpurocardia bimaculata,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2,Dead,MPX26,Theora lubrica,7
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2,Dead,MGX57,Maoricolpus roseus,7
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2,Dead,MPX14,Channelaxinus adelaideanus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2,Dead,MPN1,Ennucula obliqua,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2,Dead,MPV1,Placamen placidum,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2,Dead,MGW14,Philine angasi,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2,Dead,MPX27,Plectodon brazieri,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2,Dead,MPX20,Ungulinid sp.20,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2,Dead,MXX3,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2,Dead,MGX30,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2,Live,MPX8,Pratulum thetidis,1
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2,Live,MPX55,Corbula gibba,26
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2,Live,MGN1,Nassarius nigellus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2,Live,MPX17,Purpurocardia bimaculata,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2,Live,MPX26,Theora lubrica,3
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2,Live,MGX57,Maoricolpus roseus,3
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2,Live,MPX14,Channelaxinus adelaideanus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2,Live,MPN1,Ennucula obliqua,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2,Live,MPV1,Placamen placidum,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2,Live,MGW14,Philine angasi,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2,Live,MPX27,Plectodon brazieri,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2,Live,MPX20,Ungulinid sp.20,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2,Live,MXX3,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,2,Live,MGX30,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1.4,Dead,MPX8,Pratulum thetidis,1
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1.4,Dead,MPX55,Corbula gibba,26
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1.4,Dead,MGN1,Nassarius nigellus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1.4,Dead,MPX17,Purpurocardia bimaculata,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1.4,Dead,MPX26,Theora lubrica,3
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1.4,Dead,MGX57,Maoricolpus roseus,3
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1.4,Dead,MPX14,Channelaxinus adelaideanus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1.4,Dead,MPN1,Ennucula obliqua,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1.4,Dead,MPV1,Placamen placidum,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1.4,Dead,MGW14,Philine angasi,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1.4,Dead,MPX27,Plectodon brazieri,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1.4,Dead,MPX20,Ungulinid sp.20,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1.4,Dead,MXX3,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1.4,Dead,MGX30,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1.4,Live,MPX8,Pratulum thetidis,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1.4,Live,MPX55,Corbula gibba,12
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1.4,Live,MGN1,Nassarius nigellus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1.4,Live,MPX17,Purpurocardia bimaculata,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1.4,Live,MPX26,Theora lubrica,9
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1.4,Live,MGX57,Maoricolpus roseus,9
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1.4,Live,MPX14,Channelaxinus adelaideanus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1.4,Live,MPN1,Ennucula obliqua,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1.4,Live,MPV1,Placamen placidum,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1.4,Live,MGW14,Philine angasi,1
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1.4,Live,MPX27,Plectodon brazieri,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1.4,Live,MPX20,Ungulinid sp.20,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1.4,Live,MXX3,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1.4,Live,MGX30,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1,Dead,MPX8,Pratulum thetidis,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1,Dead,MPX55,Corbula gibba,8
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1,Dead,MGN1,Nassarius nigellus,2
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1,Dead,MPX17,Purpurocardia bimaculata,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1,Dead,MPX26,Theora lubrica,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1,Dead,MGX57,Maoricolpus roseus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1,Dead,MPX14,Channelaxinus adelaideanus,2
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1,Dead,MPN1,Ennucula obliqua,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1,Dead,MPV1,Placamen placidum,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1,Dead,MGW14,Philine angasi,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1,Dead,MPX27,Plectodon brazieri,1
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1,Dead,MPX20,Ungulinid sp.20,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1,Dead,MXX3,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1,Dead,MGX30,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1,Live,MPX8,Pratulum thetidis,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1,Live,MPX55,Corbula gibba,8
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1,Live,MGN1,Nassarius nigellus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1,Live,MPX17,Purpurocardia bimaculata,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1,Live,MPX26,Theora lubrica,4
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1,Live,MGX57,Maoricolpus roseus,4
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1,Live,MPX14,Channelaxinus adelaideanus,1
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1,Live,MPN1,Ennucula obliqua,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1,Live,MPV1,Placamen placidum,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1,Live,MGW14,Philine angasi,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1,Live,MPX27,Plectodon brazieri,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1,Live,MPX20,Ungulinid sp.20,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1,Live,MXX3,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,2,1,Live,MGX30,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,4,Dead,MPX8,Pratulum thetidis,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,4,Dead,MPX55,Corbula gibba,47
+Oyster_Cove,DEntrecasteaux,IPHC10,3,4,Dead,MGN1,Nassarius nigellus,1
+Oyster_Cove,DEntrecasteaux,IPHC10,3,4,Dead,MPX17,Purpurocardia bimaculata,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,4,Dead,MPX26,Theora lubrica,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,4,Dead,MGX57,Maoricolpus roseus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,4,Dead,MPX14,Channelaxinus adelaideanus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,4,Dead,MPN1,Ennucula obliqua,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,4,Dead,MPV1,Placamen placidum,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,4,Dead,MGW14,Philine angasi,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,4,Dead,MPX27,Plectodon brazieri,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,4,Dead,MPX20,Ungulinid sp.20,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,4,Dead,MXX3,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,4,Dead,MGX30,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,4,Live,MPX8,Pratulum thetidis,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,4,Live,MPX55,Corbula gibba,3
+Oyster_Cove,DEntrecasteaux,IPHC10,3,4,Live,MGN1,Nassarius nigellus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,4,Live,MPX17,Purpurocardia bimaculata,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,4,Live,MPX26,Theora lubrica,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,4,Live,MGX57,Maoricolpus roseus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,4,Live,MPX14,Channelaxinus adelaideanus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,4,Live,MPN1,Ennucula obliqua,1
+Oyster_Cove,DEntrecasteaux,IPHC10,3,4,Live,MPV1,Placamen placidum,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,4,Live,MGW14,Philine angasi,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,4,Live,MPX27,Plectodon brazieri,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,4,Live,MPX20,Ungulinid sp.20,1
+Oyster_Cove,DEntrecasteaux,IPHC10,3,4,Live,MXX3,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,4,Live,MGX30,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2.8,Dead,MPX8,Pratulum thetidis,2
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2.8,Dead,MPX55,Corbula gibba,14
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2.8,Dead,MGN1,Nassarius nigellus,5
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2.8,Dead,MPX17,Purpurocardia bimaculata,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2.8,Dead,MPX26,Theora lubrica,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2.8,Dead,MGX57,Maoricolpus roseus,1
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2.8,Dead,MPX14,Channelaxinus adelaideanus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2.8,Dead,MPN1,Ennucula obliqua,2
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2.8,Dead,MPV1,Placamen placidum,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2.8,Dead,MGW14,Philine angasi,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2.8,Dead,MPX27,Plectodon brazieri,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2.8,Dead,MPX20,Ungulinid sp.20,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2.8,Dead,MXX3,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2.8,Dead,MGX30,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2.8,Live,MPX8,Pratulum thetidis,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2.8,Live,MPX55,Corbula gibba,1
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2.8,Live,MGN1,Nassarius nigellus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2.8,Live,MPX17,Purpurocardia bimaculata,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2.8,Live,MPX26,Theora lubrica,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2.8,Live,MGX57,Maoricolpus roseus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2.8,Live,MPX14,Channelaxinus adelaideanus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2.8,Live,MPN1,Ennucula obliqua,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2.8,Live,MPV1,Placamen placidum,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2.8,Live,MGW14,Philine angasi,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2.8,Live,MPX27,Plectodon brazieri,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2.8,Live,MPX20,Ungulinid sp.20,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2.8,Live,MXX3,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2.8,Live,MGX30,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2,Dead,MPX8,Pratulum thetidis,1
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2,Dead,MPX55,Corbula gibba,16
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2,Dead,MGN1,Nassarius nigellus,3
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2,Dead,MPX17,Purpurocardia bimaculata,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2,Dead,MPX26,Theora lubrica,2
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2,Dead,MGX57,Maoricolpus roseus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2,Dead,MPX14,Channelaxinus adelaideanus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2,Dead,MPN1,Ennucula obliqua,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2,Dead,MPV1,Placamen placidum,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2,Dead,MGW14,Philine angasi,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2,Dead,MPX27,Plectodon brazieri,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2,Dead,MPX20,Ungulinid sp.20,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2,Dead,MXX3,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2,Dead,MGX30,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2,Live,MPX8,Pratulum thetidis,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2,Live,MPX55,Corbula gibba,7
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2,Live,MGN1,Nassarius nigellus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2,Live,MPX17,Purpurocardia bimaculata,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2,Live,MPX26,Theora lubrica,3
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2,Live,MGX57,Maoricolpus roseus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2,Live,MPX14,Channelaxinus adelaideanus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2,Live,MPN1,Ennucula obliqua,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2,Live,MPV1,Placamen placidum,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2,Live,MGW14,Philine angasi,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2,Live,MPX27,Plectodon brazieri,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2,Live,MPX20,Ungulinid sp.20,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2,Live,MXX3,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,2,Live,MGX30,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1.4,Dead,MPX8,Pratulum thetidis,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1.4,Dead,MPX55,Corbula gibba,28
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1.4,Dead,MGN1,Nassarius nigellus,1
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1.4,Dead,MPX17,Purpurocardia bimaculata,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1.4,Dead,MPX26,Theora lubrica,3
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1.4,Dead,MGX57,Maoricolpus roseus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1.4,Dead,MPX14,Channelaxinus adelaideanus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1.4,Dead,MPN1,Ennucula obliqua,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1.4,Dead,MPV1,Placamen placidum,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1.4,Dead,MGW14,Philine angasi,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1.4,Dead,MPX27,Plectodon brazieri,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1.4,Dead,MPX20,Ungulinid sp.20,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1.4,Dead,MXX3,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1.4,Dead,MGX30,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1.4,Live,MPX8,Pratulum thetidis,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1.4,Live,MPX55,Corbula gibba,3
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1.4,Live,MGN1,Nassarius nigellus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1.4,Live,MPX17,Purpurocardia bimaculata,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1.4,Live,MPX26,Theora lubrica,2
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1.4,Live,MGX57,Maoricolpus roseus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1.4,Live,MPX14,Channelaxinus adelaideanus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1.4,Live,MPN1,Ennucula obliqua,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1.4,Live,MPV1,Placamen placidum,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1.4,Live,MGW14,Philine angasi,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1.4,Live,MPX27,Plectodon brazieri,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1.4,Live,MPX20,Ungulinid sp.20,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1.4,Live,MXX3,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1.4,Live,MGX30,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1,Dead,MPX8,Pratulum thetidis,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1,Dead,MPX55,Corbula gibba,16
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1,Dead,MGN1,Nassarius nigellus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1,Dead,MPX17,Purpurocardia bimaculata,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1,Dead,MPX26,Theora lubrica,1
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1,Dead,MGX57,Maoricolpus roseus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1,Dead,MPX14,Channelaxinus adelaideanus,1
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1,Dead,MPN1,Ennucula obliqua,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1,Dead,MPV1,Placamen placidum,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1,Dead,MGW14,Philine angasi,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1,Dead,MPX27,Plectodon brazieri,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1,Dead,MPX20,Ungulinid sp.20,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1,Dead,MXX3,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1,Dead,MGX30,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1,Live,MPX8,Pratulum thetidis,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1,Live,MPX55,Corbula gibba,1
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1,Live,MGN1,Nassarius nigellus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1,Live,MPX17,Purpurocardia bimaculata,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1,Live,MPX26,Theora lubrica,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1,Live,MGX57,Maoricolpus roseus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1,Live,MPX14,Channelaxinus adelaideanus,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1,Live,MPN1,Ennucula obliqua,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1,Live,MPV1,Placamen placidum,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1,Live,MGW14,Philine angasi,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1,Live,MPX27,Plectodon brazieri,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1,Live,MPX20,Ungulinid sp.20,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1,Live,MXX3,#N/A,0
+Oyster_Cove,DEntrecasteaux,IPHC10,3,1,Live,MGX30,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Dead,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Dead,MPO7,#N/A,2
+Kangaroo_Bay,Derwent,IPHC15,1,4,Dead,MGN1,Nassarius nigellus,4
+Kangaroo_Bay,Derwent,IPHC15,1,4,Dead,MPX32,Limaria imitans,1
+Kangaroo_Bay,Derwent,IPHC15,1,4,Dead,MPX62,Raeta pulchella,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Dead,MPX55,Corbula gibba,1
+Kangaroo_Bay,Derwent,IPHC15,1,4,Dead,MPX8,Pratulum thetidis,10
+Kangaroo_Bay,Derwent,IPHC15,1,4,Dead,MPN1,Ennucula obliqua,1
+Kangaroo_Bay,Derwent,IPHC15,1,4,Dead,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Dead,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Dead,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Dead,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Dead,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Dead,MPV5,Irus cf. carditoides,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Dead,MGA3,Notoacmea flammea,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Dead,MGT16,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Dead,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Dead,MPX1,Mysella donaciformis,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Dead,MGD1,Diala suturalis,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Dead,MGT15,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Dead,MPM1,Musculus impactus,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Live,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Live,MPO7,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Live,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Live,MPX32,Limaria imitans,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Live,MPX62,Raeta pulchella,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Live,MPX55,Corbula gibba,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Live,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Live,MPN1,Ennucula obliqua,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Live,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Live,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Live,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Live,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Live,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Live,MPV5,Irus cf. carditoides,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Live,MGA3,Notoacmea flammea,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Live,MGT16,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Live,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Live,MPX1,Mysella donaciformis,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Live,MGD1,Diala suturalis,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Live,MGT15,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,1,4,Live,MPM1,Musculus impactus,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Dead,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Dead,MPO7,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Dead,MGN1,Nassarius nigellus,21
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Dead,MPX32,Limaria imitans,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Dead,MPX62,Raeta pulchella,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Dead,MPX55,Corbula gibba,8
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Dead,MPX8,Pratulum thetidis,12
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Dead,MPN1,Ennucula obliqua,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Dead,MPV4,Timoclea sp.4,2
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Dead,MPX15,Hiatella australis,1
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Dead,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Dead,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Dead,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Dead,MPV5,Irus cf. carditoides,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Dead,MGA3,Notoacmea flammea,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Dead,MGT16,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Dead,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Dead,MPX1,Mysella donaciformis,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Dead,MGD1,Diala suturalis,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Dead,MGT15,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Dead,MPM1,Musculus impactus,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Live,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Live,MPO7,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Live,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Live,MPX32,Limaria imitans,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Live,MPX62,Raeta pulchella,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Live,MPX55,Corbula gibba,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Live,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Live,MPN1,Ennucula obliqua,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Live,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Live,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Live,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Live,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Live,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Live,MPV5,Irus cf. carditoides,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Live,MGA3,Notoacmea flammea,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Live,MGT16,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Live,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Live,MPX1,Mysella donaciformis,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Live,MGD1,Diala suturalis,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Live,MGT15,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,1,2.8,Live,MPM1,Musculus impactus,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Dead,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Dead,MPO7,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Dead,MGN1,Nassarius nigellus,9
+Kangaroo_Bay,Derwent,IPHC15,1,2,Dead,MPX32,Limaria imitans,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Dead,MPX62,Raeta pulchella,1
+Kangaroo_Bay,Derwent,IPHC15,1,2,Dead,MPX55,Corbula gibba,9
+Kangaroo_Bay,Derwent,IPHC15,1,2,Dead,MPX8,Pratulum thetidis,8
+Kangaroo_Bay,Derwent,IPHC15,1,2,Dead,MPN1,Ennucula obliqua,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Dead,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Dead,MPX15,Hiatella australis,1
+Kangaroo_Bay,Derwent,IPHC15,1,2,Dead,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Dead,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Dead,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Dead,MPV5,Irus cf. carditoides,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Dead,MGA3,Notoacmea flammea,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Dead,MGT16,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Dead,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Dead,MPX1,Mysella donaciformis,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Dead,MGD1,Diala suturalis,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Dead,MGT15,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Dead,MPM1,Musculus impactus,1
+Kangaroo_Bay,Derwent,IPHC15,1,2,Live,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Live,MPO7,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Live,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Live,MPX32,Limaria imitans,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Live,MPX62,Raeta pulchella,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Live,MPX55,Corbula gibba,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Live,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Live,MPN1,Ennucula obliqua,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Live,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Live,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Live,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Live,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Live,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Live,MPV5,Irus cf. carditoides,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Live,MGA3,Notoacmea flammea,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Live,MGT16,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Live,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Live,MPX1,Mysella donaciformis,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Live,MGD1,Diala suturalis,0
+Kangaroo_Bay,Derwent,IPHC15,1,2,Live,MGT15,#N/A,1
+Kangaroo_Bay,Derwent,IPHC15,1,2,Live,MPM1,Musculus impactus,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Dead,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Dead,MPO7,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Dead,MGN1,Nassarius nigellus,1
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Dead,MPX32,Limaria imitans,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Dead,MPX62,Raeta pulchella,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Dead,MPX55,Corbula gibba,21
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Dead,MPX8,Pratulum thetidis,3
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Dead,MPN1,Ennucula obliqua,5
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Dead,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Dead,MPX15,Hiatella australis,2
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Dead,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Dead,MPX27,Plectodon brazieri,2
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Dead,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Dead,MPV5,Irus cf. carditoides,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Dead,MGA3,Notoacmea flammea,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Dead,MGT16,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Dead,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Dead,MPX1,Mysella donaciformis,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Dead,MGD1,Diala suturalis,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Dead,MGT15,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Dead,MPM1,Musculus impactus,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Live,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Live,MPO7,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Live,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Live,MPX32,Limaria imitans,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Live,MPX62,Raeta pulchella,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Live,MPX55,Corbula gibba,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Live,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Live,MPN1,Ennucula obliqua,16
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Live,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Live,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Live,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Live,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Live,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Live,MPV5,Irus cf. carditoides,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Live,MGA3,Notoacmea flammea,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Live,MGT16,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Live,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Live,MPX1,Mysella donaciformis,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Live,MGD1,Diala suturalis,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Live,MGT15,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,1,1.4,Live,MPM1,Musculus impactus,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Dead,MPV1,Placamen placidum,1
+Kangaroo_Bay,Derwent,IPHC15,1,1,Dead,MPO7,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Dead,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Dead,MPX32,Limaria imitans,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Dead,MPX62,Raeta pulchella,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Dead,MPX55,Corbula gibba,10
+Kangaroo_Bay,Derwent,IPHC15,1,1,Dead,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Dead,MPN1,Ennucula obliqua,6
+Kangaroo_Bay,Derwent,IPHC15,1,1,Dead,MPV4,Timoclea sp.4,2
+Kangaroo_Bay,Derwent,IPHC15,1,1,Dead,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Dead,MPX17,Purpurocardia bimaculata,2
+Kangaroo_Bay,Derwent,IPHC15,1,1,Dead,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Dead,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Dead,MPV5,Irus cf. carditoides,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Dead,MGA3,Notoacmea flammea,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Dead,MGT16,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Dead,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Dead,MPX1,Mysella donaciformis,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Dead,MGD1,Diala suturalis,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Dead,MGT15,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Dead,MPM1,Musculus impactus,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Live,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Live,MPO7,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Live,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Live,MPX32,Limaria imitans,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Live,MPX62,Raeta pulchella,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Live,MPX55,Corbula gibba,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Live,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Live,MPN1,Ennucula obliqua,4
+Kangaroo_Bay,Derwent,IPHC15,1,1,Live,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Live,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Live,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Live,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Live,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Live,MPV5,Irus cf. carditoides,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Live,MGA3,Notoacmea flammea,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Live,MGT16,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Live,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Live,MPX1,Mysella donaciformis,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Live,MGD1,Diala suturalis,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Live,MGT15,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,1,1,Live,MPM1,Musculus impactus,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Dead,MPV1,Placamen placidum,1
+Kangaroo_Bay,Derwent,IPHC15,2,4,Dead,MPO7,#N/A,1
+Kangaroo_Bay,Derwent,IPHC15,2,4,Dead,MGN1,Nassarius nigellus,8
+Kangaroo_Bay,Derwent,IPHC15,2,4,Dead,MPX32,Limaria imitans,2
+Kangaroo_Bay,Derwent,IPHC15,2,4,Dead,MPX62,Raeta pulchella,2
+Kangaroo_Bay,Derwent,IPHC15,2,4,Dead,MPX55,Corbula gibba,1
+Kangaroo_Bay,Derwent,IPHC15,2,4,Dead,MPX8,Pratulum thetidis,12
+Kangaroo_Bay,Derwent,IPHC15,2,4,Dead,MPN1,Ennucula obliqua,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Dead,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Dead,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Dead,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Dead,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Dead,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Dead,MPV5,Irus cf. carditoides,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Dead,MGA3,Notoacmea flammea,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Dead,MGT16,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Dead,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Dead,MPX1,Mysella donaciformis,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Dead,MGD1,Diala suturalis,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Dead,MGT15,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Dead,MPM1,Musculus impactus,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Live,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Live,MPO7,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Live,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Live,MPX32,Limaria imitans,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Live,MPX62,Raeta pulchella,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Live,MPX55,Corbula gibba,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Live,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Live,MPN1,Ennucula obliqua,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Live,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Live,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Live,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Live,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Live,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Live,MPV5,Irus cf. carditoides,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Live,MGA3,Notoacmea flammea,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Live,MGT16,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Live,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Live,MPX1,Mysella donaciformis,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Live,MGD1,Diala suturalis,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Live,MGT15,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,2,4,Live,MPM1,Musculus impactus,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Dead,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Dead,MPO7,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Dead,MGN1,Nassarius nigellus,16
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Dead,MPX32,Limaria imitans,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Dead,MPX62,Raeta pulchella,1
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Dead,MPX55,Corbula gibba,6
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Dead,MPX8,Pratulum thetidis,5
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Dead,MPN1,Ennucula obliqua,1
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Dead,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Dead,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Dead,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Dead,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Dead,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Dead,MPV5,Irus cf. carditoides,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Dead,MGA3,Notoacmea flammea,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Dead,MGT16,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Dead,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Dead,MPX1,Mysella donaciformis,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Dead,MGD1,Diala suturalis,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Dead,MGT15,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Dead,MPM1,Musculus impactus,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Live,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Live,MPO7,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Live,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Live,MPX32,Limaria imitans,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Live,MPX62,Raeta pulchella,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Live,MPX55,Corbula gibba,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Live,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Live,MPN1,Ennucula obliqua,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Live,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Live,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Live,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Live,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Live,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Live,MPV5,Irus cf. carditoides,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Live,MGA3,Notoacmea flammea,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Live,MGT16,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Live,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Live,MPX1,Mysella donaciformis,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Live,MGD1,Diala suturalis,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Live,MGT15,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,2,2.8,Live,MPM1,Musculus impactus,0
+Kangaroo_Bay,Derwent,IPHC15,2,2,Dead,MPV1,Placamen placidum,1
+Kangaroo_Bay,Derwent,IPHC15,2,2,Dead,MPO7,#N/A,1
+Kangaroo_Bay,Derwent,IPHC15,2,2,Dead,MGN1,Nassarius nigellus,5
+Kangaroo_Bay,Derwent,IPHC15,2,2,Dead,MPX32,Limaria imitans,0
+Kangaroo_Bay,Derwent,IPHC15,2,2,Dead,MPX62,Raeta pulchella,0
+Kangaroo_Bay,Derwent,IPHC15,2,2,Dead,MPX55,Corbula gibba,30
+Kangaroo_Bay,Derwent,IPHC15,2,2,Dead,MPX8,Pratulum thetidis,3
+Kangaroo_Bay,Derwent,IPHC15,2,2,Dead,MPN1,Ennucula obliqua,5
+Kangaroo_Bay,Derwent,IPHC15,2,2,Dead,MPV4,Timoclea sp.4,1
+Kangaroo_Bay,Derwent,IPHC15,2,2,Dead,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC15,2,2,Dead,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC15,2,2,Dead,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC15,2,2,Dead,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC15,2,2,Dead,MPV5,Irus cf. carditoides,0
+Kangaroo_Bay,Derwent,IPHC15,2,2,Dead,MGA3,Notoacmea flammea,0
+Kangaroo_Bay,Derwent,IPHC15,2,2,Dead,MGT16,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,2,2,Dead,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC15,2,2,Dead,MPX1,Mysella donaciformis,0
+Kangaroo_Bay,Derwent,IPHC15,2,2,Dead,MGD1,Diala suturalis,0
+Kangaroo_Bay,Derwent,IPHC15,2,2,Dead,MGT15,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,2,2,Dead,MPM1,Musculus impactus,0
+Kangaroo_Bay,Derwent,IPHC15,2,2,Live,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC15,2,2,Live,MPO7,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,2,2,Live,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC15,2,2,Live,MPX32,Limaria imitans,0
+Kangaroo_Bay,Derwent,IPHC15,2,2,Live,MPX62,Raeta pulchella,0
+Kangaroo_Bay,Derwent,IPHC15,2,2,Live,MPX55,Corbula gibba,0
+Kangaroo_Bay,Derwent,IPHC15,2,2,Live,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC15,2,2,Live,MPN1,Ennucula obliqua,3
+Kangaroo_Bay,Derwent,IPHC15,2,2,Live,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC15,2,2,Live,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC15,2,2,Live,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC15,2,2,Live,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC15,2,2,Live,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC15,2,2,Live,MPV5,Irus cf. carditoides,0
+Kangaroo_Bay,Derwent,IPHC15,2,2,Live,MGA3,Notoacmea flammea,0
+Kangaroo_Bay,Derwent,IPHC15,2,2,Live,MGT16,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,2,2,Live,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC15,2,2,Live,MPX1,Mysella donaciformis,0
+Kangaroo_Bay,Derwent,IPHC15,2,2,Live,MGD1,Diala suturalis,0
+Kangaroo_Bay,Derwent,IPHC15,2,2,Live,MGT15,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,2,2,Live,MPM1,Musculus impactus,0
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Dead,MPV1,Placamen placidum,1
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Dead,MPO7,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Dead,MGN1,Nassarius nigellus,1
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Dead,MPX32,Limaria imitans,0
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Dead,MPX62,Raeta pulchella,0
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Dead,MPX55,Corbula gibba,82
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Dead,MPX8,Pratulum thetidis,2
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Dead,MPN1,Ennucula obliqua,22
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Dead,MPV4,Timoclea sp.4,1
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Dead,MPX15,Hiatella australis,1
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Dead,MPX17,Purpurocardia bimaculata,1
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Dead,MPX27,Plectodon brazieri,1
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Dead,MPX26,Theora lubrica,1
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Dead,MPV5,Irus cf. carditoides,1
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Dead,MGA3,Notoacmea flammea,0
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Dead,MGT16,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Dead,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Dead,MPX1,Mysella donaciformis,0
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Dead,MGD1,Diala suturalis,0
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Dead,MGT15,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Dead,MPM1,Musculus impactus,0
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Live,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Live,MPO7,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Live,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Live,MPX32,Limaria imitans,0
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Live,MPX62,Raeta pulchella,0
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Live,MPX55,Corbula gibba,0
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Live,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Live,MPN1,Ennucula obliqua,6
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Live,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Live,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Live,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Live,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Live,MPX26,Theora lubrica,1
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Live,MPV5,Irus cf. carditoides,0
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Live,MGA3,Notoacmea flammea,0
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Live,MGT16,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Live,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Live,MPX1,Mysella donaciformis,0
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Live,MGD1,Diala suturalis,0
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Live,MGT15,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,2,1.4,Live,MPM1,Musculus impactus,0
+Kangaroo_Bay,Derwent,IPHC15,2,1,Dead,MPV1,Placamen placidum,1
+Kangaroo_Bay,Derwent,IPHC15,2,1,Dead,MPO7,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,2,1,Dead,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC15,2,1,Dead,MPX32,Limaria imitans,0
+Kangaroo_Bay,Derwent,IPHC15,2,1,Dead,MPX62,Raeta pulchella,0
+Kangaroo_Bay,Derwent,IPHC15,2,1,Dead,MPX55,Corbula gibba,17
+Kangaroo_Bay,Derwent,IPHC15,2,1,Dead,MPX8,Pratulum thetidis,2
+Kangaroo_Bay,Derwent,IPHC15,2,1,Dead,MPN1,Ennucula obliqua,12
+Kangaroo_Bay,Derwent,IPHC15,2,1,Dead,MPV4,Timoclea sp.4,6
+Kangaroo_Bay,Derwent,IPHC15,2,1,Dead,MPX15,Hiatella australis,2
+Kangaroo_Bay,Derwent,IPHC15,2,1,Dead,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC15,2,1,Dead,MPX27,Plectodon brazieri,1
+Kangaroo_Bay,Derwent,IPHC15,2,1,Dead,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC15,2,1,Dead,MPV5,Irus cf. carditoides,0
+Kangaroo_Bay,Derwent,IPHC15,2,1,Dead,MGA3,Notoacmea flammea,0
+Kangaroo_Bay,Derwent,IPHC15,2,1,Dead,MGT16,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,2,1,Dead,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC15,2,1,Dead,MPX1,Mysella donaciformis,0
+Kangaroo_Bay,Derwent,IPHC15,2,1,Dead,MGD1,Diala suturalis,0
+Kangaroo_Bay,Derwent,IPHC15,2,1,Dead,MGT15,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,2,1,Dead,MPM1,Musculus impactus,0
+Kangaroo_Bay,Derwent,IPHC15,2,1,Live,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC15,2,1,Live,MPO7,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,2,1,Live,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC15,2,1,Live,MPX32,Limaria imitans,0
+Kangaroo_Bay,Derwent,IPHC15,2,1,Live,MPX62,Raeta pulchella,0
+Kangaroo_Bay,Derwent,IPHC15,2,1,Live,MPX55,Corbula gibba,2
+Kangaroo_Bay,Derwent,IPHC15,2,1,Live,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC15,2,1,Live,MPN1,Ennucula obliqua,16
+Kangaroo_Bay,Derwent,IPHC15,2,1,Live,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC15,2,1,Live,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC15,2,1,Live,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC15,2,1,Live,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC15,2,1,Live,MPX26,Theora lubrica,1
+Kangaroo_Bay,Derwent,IPHC15,2,1,Live,MPV5,Irus cf. carditoides,0
+Kangaroo_Bay,Derwent,IPHC15,2,1,Live,MGA3,Notoacmea flammea,0
+Kangaroo_Bay,Derwent,IPHC15,2,1,Live,MGT16,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,2,1,Live,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC15,2,1,Live,MPX1,Mysella donaciformis,0
+Kangaroo_Bay,Derwent,IPHC15,2,1,Live,MGD1,Diala suturalis,0
+Kangaroo_Bay,Derwent,IPHC15,2,1,Live,MGT15,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,2,1,Live,MPM1,Musculus impactus,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Dead,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Dead,MPO7,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Dead,MGN1,Nassarius nigellus,6
+Kangaroo_Bay,Derwent,IPHC15,3,4,Dead,MPX32,Limaria imitans,1
+Kangaroo_Bay,Derwent,IPHC15,3,4,Dead,MPX62,Raeta pulchella,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Dead,MPX55,Corbula gibba,26
+Kangaroo_Bay,Derwent,IPHC15,3,4,Dead,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Dead,MPN1,Ennucula obliqua,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Dead,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Dead,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Dead,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Dead,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Dead,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Dead,MPV5,Irus cf. carditoides,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Dead,MGA3,Notoacmea flammea,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Dead,MGT16,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Dead,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Dead,MPX1,Mysella donaciformis,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Dead,MGD1,Diala suturalis,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Dead,MGT15,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Dead,MPM1,Musculus impactus,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Live,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Live,MPO7,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Live,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Live,MPX32,Limaria imitans,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Live,MPX62,Raeta pulchella,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Live,MPX55,Corbula gibba,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Live,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Live,MPN1,Ennucula obliqua,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Live,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Live,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Live,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Live,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Live,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Live,MPV5,Irus cf. carditoides,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Live,MGA3,Notoacmea flammea,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Live,MGT16,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Live,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Live,MPX1,Mysella donaciformis,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Live,MGD1,Diala suturalis,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Live,MGT15,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,3,4,Live,MPM1,Musculus impactus,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Dead,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Dead,MPO7,#N/A,1
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Dead,MGN1,Nassarius nigellus,23
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Dead,MPX32,Limaria imitans,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Dead,MPX62,Raeta pulchella,2
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Dead,MPX55,Corbula gibba,7
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Dead,MPX8,Pratulum thetidis,17
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Dead,MPN1,Ennucula obliqua,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Dead,MPV4,Timoclea sp.4,3
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Dead,MPX15,Hiatella australis,3
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Dead,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Dead,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Dead,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Dead,MPV5,Irus cf. carditoides,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Dead,MGA3,Notoacmea flammea,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Dead,MGT16,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Dead,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Dead,MPX1,Mysella donaciformis,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Dead,MGD1,Diala suturalis,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Dead,MGT15,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Dead,MPM1,Musculus impactus,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Live,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Live,MPO7,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Live,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Live,MPX32,Limaria imitans,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Live,MPX62,Raeta pulchella,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Live,MPX55,Corbula gibba,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Live,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Live,MPN1,Ennucula obliqua,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Live,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Live,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Live,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Live,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Live,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Live,MPV5,Irus cf. carditoides,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Live,MGA3,Notoacmea flammea,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Live,MGT16,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Live,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Live,MPX1,Mysella donaciformis,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Live,MGD1,Diala suturalis,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Live,MGT15,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,3,2.8,Live,MPM1,Musculus impactus,0
+Kangaroo_Bay,Derwent,IPHC15,3,2,Dead,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC15,3,2,Dead,MPO7,#N/A,1
+Kangaroo_Bay,Derwent,IPHC15,3,2,Dead,MGN1,Nassarius nigellus,3
+Kangaroo_Bay,Derwent,IPHC15,3,2,Dead,MPX32,Limaria imitans,0
+Kangaroo_Bay,Derwent,IPHC15,3,2,Dead,MPX62,Raeta pulchella,1
+Kangaroo_Bay,Derwent,IPHC15,3,2,Dead,MPX55,Corbula gibba,6
+Kangaroo_Bay,Derwent,IPHC15,3,2,Dead,MPX8,Pratulum thetidis,8
+Kangaroo_Bay,Derwent,IPHC15,3,2,Dead,MPN1,Ennucula obliqua,5
+Kangaroo_Bay,Derwent,IPHC15,3,2,Dead,MPV4,Timoclea sp.4,2
+Kangaroo_Bay,Derwent,IPHC15,3,2,Dead,MPX15,Hiatella australis,1
+Kangaroo_Bay,Derwent,IPHC15,3,2,Dead,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC15,3,2,Dead,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC15,3,2,Dead,MPX26,Theora lubrica,1
+Kangaroo_Bay,Derwent,IPHC15,3,2,Dead,MPV5,Irus cf. carditoides,0
+Kangaroo_Bay,Derwent,IPHC15,3,2,Dead,MGA3,Notoacmea flammea,0
+Kangaroo_Bay,Derwent,IPHC15,3,2,Dead,MGT16,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,3,2,Dead,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC15,3,2,Dead,MPX1,Mysella donaciformis,0
+Kangaroo_Bay,Derwent,IPHC15,3,2,Dead,MGD1,Diala suturalis,0
+Kangaroo_Bay,Derwent,IPHC15,3,2,Dead,MGT15,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,3,2,Dead,MPM1,Musculus impactus,0
+Kangaroo_Bay,Derwent,IPHC15,3,2,Live,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC15,3,2,Live,MPO7,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,3,2,Live,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC15,3,2,Live,MPX32,Limaria imitans,0
+Kangaroo_Bay,Derwent,IPHC15,3,2,Live,MPX62,Raeta pulchella,0
+Kangaroo_Bay,Derwent,IPHC15,3,2,Live,MPX55,Corbula gibba,0
+Kangaroo_Bay,Derwent,IPHC15,3,2,Live,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC15,3,2,Live,MPN1,Ennucula obliqua,8
+Kangaroo_Bay,Derwent,IPHC15,3,2,Live,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC15,3,2,Live,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC15,3,2,Live,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC15,3,2,Live,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC15,3,2,Live,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC15,3,2,Live,MPV5,Irus cf. carditoides,0
+Kangaroo_Bay,Derwent,IPHC15,3,2,Live,MGA3,Notoacmea flammea,0
+Kangaroo_Bay,Derwent,IPHC15,3,2,Live,MGT16,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,3,2,Live,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC15,3,2,Live,MPX1,Mysella donaciformis,0
+Kangaroo_Bay,Derwent,IPHC15,3,2,Live,MGD1,Diala suturalis,0
+Kangaroo_Bay,Derwent,IPHC15,3,2,Live,MGT15,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,3,2,Live,MPM1,Musculus impactus,0
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Dead,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Dead,MPO7,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Dead,MGN1,Nassarius nigellus,3
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Dead,MPX32,Limaria imitans,0
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Dead,MPX62,Raeta pulchella,0
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Dead,MPX55,Corbula gibba,15
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Dead,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Dead,MPN1,Ennucula obliqua,0
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Dead,MPV4,Timoclea sp.4,2
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Dead,MPX15,Hiatella australis,3
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Dead,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Dead,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Dead,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Dead,MPV5,Irus cf. carditoides,0
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Dead,MGA3,Notoacmea flammea,1
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Dead,MGT16,#N/A,1
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Dead,MPO5,Ostrea (Eostrea) angasi,1
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Dead,MPX1,Mysella donaciformis,0
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Dead,MGD1,Diala suturalis,0
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Dead,MGT15,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Dead,MPM1,Musculus impactus,0
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Live,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Live,MPO7,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Live,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Live,MPX32,Limaria imitans,0
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Live,MPX62,Raeta pulchella,0
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Live,MPX55,Corbula gibba,0
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Live,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Live,MPN1,Ennucula obliqua,13
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Live,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Live,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Live,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Live,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Live,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Live,MPV5,Irus cf. carditoides,0
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Live,MGA3,Notoacmea flammea,0
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Live,MGT16,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Live,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Live,MPX1,Mysella donaciformis,0
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Live,MGD1,Diala suturalis,0
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Live,MGT15,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,3,1.4,Live,MPM1,Musculus impactus,0
+Kangaroo_Bay,Derwent,IPHC15,3,1,Dead,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC15,3,1,Dead,MPO7,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,3,1,Dead,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC15,3,1,Dead,MPX32,Limaria imitans,0
+Kangaroo_Bay,Derwent,IPHC15,3,1,Dead,MPX62,Raeta pulchella,0
+Kangaroo_Bay,Derwent,IPHC15,3,1,Dead,MPX55,Corbula gibba,9
+Kangaroo_Bay,Derwent,IPHC15,3,1,Dead,MPX8,Pratulum thetidis,4
+Kangaroo_Bay,Derwent,IPHC15,3,1,Dead,MPN1,Ennucula obliqua,4
+Kangaroo_Bay,Derwent,IPHC15,3,1,Dead,MPV4,Timoclea sp.4,6
+Kangaroo_Bay,Derwent,IPHC15,3,1,Dead,MPX15,Hiatella australis,3
+Kangaroo_Bay,Derwent,IPHC15,3,1,Dead,MPX17,Purpurocardia bimaculata,2
+Kangaroo_Bay,Derwent,IPHC15,3,1,Dead,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC15,3,1,Dead,MPX26,Theora lubrica,2
+Kangaroo_Bay,Derwent,IPHC15,3,1,Dead,MPV5,Irus cf. carditoides,0
+Kangaroo_Bay,Derwent,IPHC15,3,1,Dead,MGA3,Notoacmea flammea,0
+Kangaroo_Bay,Derwent,IPHC15,3,1,Dead,MGT16,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,3,1,Dead,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC15,3,1,Dead,MPX1,Mysella donaciformis,2
+Kangaroo_Bay,Derwent,IPHC15,3,1,Dead,MGD1,Diala suturalis,1
+Kangaroo_Bay,Derwent,IPHC15,3,1,Dead,MGT15,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,3,1,Dead,MPM1,Musculus impactus,0
+Kangaroo_Bay,Derwent,IPHC15,3,1,Live,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC15,3,1,Live,MPO7,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,3,1,Live,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC15,3,1,Live,MPX32,Limaria imitans,0
+Kangaroo_Bay,Derwent,IPHC15,3,1,Live,MPX62,Raeta pulchella,0
+Kangaroo_Bay,Derwent,IPHC15,3,1,Live,MPX55,Corbula gibba,1
+Kangaroo_Bay,Derwent,IPHC15,3,1,Live,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC15,3,1,Live,MPN1,Ennucula obliqua,8
+Kangaroo_Bay,Derwent,IPHC15,3,1,Live,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC15,3,1,Live,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC15,3,1,Live,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC15,3,1,Live,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC15,3,1,Live,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC15,3,1,Live,MPV5,Irus cf. carditoides,0
+Kangaroo_Bay,Derwent,IPHC15,3,1,Live,MGA3,Notoacmea flammea,0
+Kangaroo_Bay,Derwent,IPHC15,3,1,Live,MGT16,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,3,1,Live,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC15,3,1,Live,MPX1,Mysella donaciformis,0
+Kangaroo_Bay,Derwent,IPHC15,3,1,Live,MGD1,Diala suturalis,0
+Kangaroo_Bay,Derwent,IPHC15,3,1,Live,MGT15,#N/A,0
+Kangaroo_Bay,Derwent,IPHC15,3,1,Live,MPM1,Musculus impactus,0
+Kangaroo_Bay,Derwent,IPHC25,1,4,Dead,MPX55,Corbula gibba,4
+Kangaroo_Bay,Derwent,IPHC25,1,4,Dead,MGN1,Nassarius nigellus,1
+Kangaroo_Bay,Derwent,IPHC25,1,4,Dead,MPX8,Pratulum thetidis,2
+Kangaroo_Bay,Derwent,IPHC25,1,4,Dead,MPO5,Ostrea (Eostrea) angasi,2
+Kangaroo_Bay,Derwent,IPHC25,1,4,Dead,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC25,1,4,Dead,MPX14,Channelaxinus adelaideanus,0
+Kangaroo_Bay,Derwent,IPHC25,1,4,Dead,MPV3,Tawera gallinula,0
+Kangaroo_Bay,Derwent,IPHC25,1,4,Dead,Gazameda gunnii,#N/A,0
+Kangaroo_Bay,Derwent,IPHC25,1,4,Dead,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC25,1,4,Dead,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC25,1,4,Dead,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC25,1,4,Dead,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC25,1,4,Dead,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC25,1,4,Live,MPX55,Corbula gibba,0
+Kangaroo_Bay,Derwent,IPHC25,1,4,Live,MGN1,Nassarius nigellus,2
+Kangaroo_Bay,Derwent,IPHC25,1,4,Live,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC25,1,4,Live,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC25,1,4,Live,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC25,1,4,Live,MPX14,Channelaxinus adelaideanus,0
+Kangaroo_Bay,Derwent,IPHC25,1,4,Live,MPV3,Tawera gallinula,0
+Kangaroo_Bay,Derwent,IPHC25,1,4,Live,Gazameda gunnii,#N/A,0
+Kangaroo_Bay,Derwent,IPHC25,1,4,Live,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC25,1,4,Live,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC25,1,4,Live,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC25,1,4,Live,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC25,1,4,Live,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC25,1,2.8,Dead,MPX55,Corbula gibba,7
+Kangaroo_Bay,Derwent,IPHC25,1,2.8,Dead,MGN1,Nassarius nigellus,1
+Kangaroo_Bay,Derwent,IPHC25,1,2.8,Dead,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC25,1,2.8,Dead,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC25,1,2.8,Dead,MPX26,Theora lubrica,1
+Kangaroo_Bay,Derwent,IPHC25,1,2.8,Dead,MPX14,Channelaxinus adelaideanus,0
+Kangaroo_Bay,Derwent,IPHC25,1,2.8,Dead,MPV3,Tawera gallinula,0
+Kangaroo_Bay,Derwent,IPHC25,1,2.8,Dead,Gazameda gunnii,#N/A,0
+Kangaroo_Bay,Derwent,IPHC25,1,2.8,Dead,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC25,1,2.8,Dead,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC25,1,2.8,Dead,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC25,1,2.8,Dead,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC25,1,2.8,Dead,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC25,1,2.8,Live,MPX55,Corbula gibba,0
+Kangaroo_Bay,Derwent,IPHC25,1,2.8,Live,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC25,1,2.8,Live,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC25,1,2.8,Live,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC25,1,2.8,Live,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC25,1,2.8,Live,MPX14,Channelaxinus adelaideanus,0
+Kangaroo_Bay,Derwent,IPHC25,1,2.8,Live,MPV3,Tawera gallinula,0
+Kangaroo_Bay,Derwent,IPHC25,1,2.8,Live,Gazameda gunnii,#N/A,0
+Kangaroo_Bay,Derwent,IPHC25,1,2.8,Live,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC25,1,2.8,Live,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC25,1,2.8,Live,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC25,1,2.8,Live,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC25,1,2.8,Live,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC25,1,2,Dead,MPX55,Corbula gibba,3
+Kangaroo_Bay,Derwent,IPHC25,1,2,Dead,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC25,1,2,Dead,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC25,1,2,Dead,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC25,1,2,Dead,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC25,1,2,Dead,MPX14,Channelaxinus adelaideanus,0
+Kangaroo_Bay,Derwent,IPHC25,1,2,Dead,MPV3,Tawera gallinula,1
+Kangaroo_Bay,Derwent,IPHC25,1,2,Dead,Gazameda gunnii,#N/A,1
+Kangaroo_Bay,Derwent,IPHC25,1,2,Dead,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC25,1,2,Dead,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC25,1,2,Dead,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC25,1,2,Dead,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC25,1,2,Dead,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC25,1,2,Live,MPX55,Corbula gibba,0
+Kangaroo_Bay,Derwent,IPHC25,1,2,Live,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC25,1,2,Live,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC25,1,2,Live,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC25,1,2,Live,MPX26,Theora lubrica,1
+Kangaroo_Bay,Derwent,IPHC25,1,2,Live,MPX14,Channelaxinus adelaideanus,2
+Kangaroo_Bay,Derwent,IPHC25,1,2,Live,MPV3,Tawera gallinula,0
+Kangaroo_Bay,Derwent,IPHC25,1,2,Live,Gazameda gunnii,#N/A,0
+Kangaroo_Bay,Derwent,IPHC25,1,2,Live,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC25,1,2,Live,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC25,1,2,Live,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC25,1,2,Live,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC25,1,2,Live,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC25,1,1.4,Dead,MPX55,Corbula gibba,5
+Kangaroo_Bay,Derwent,IPHC25,1,1.4,Dead,MGN1,Nassarius nigellus,1
+Kangaroo_Bay,Derwent,IPHC25,1,1.4,Dead,MPX8,Pratulum thetidis,2
+Kangaroo_Bay,Derwent,IPHC25,1,1.4,Dead,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC25,1,1.4,Dead,MPX26,Theora lubrica,3
+Kangaroo_Bay,Derwent,IPHC25,1,1.4,Dead,MPX14,Channelaxinus adelaideanus,0
+Kangaroo_Bay,Derwent,IPHC25,1,1.4,Dead,MPV3,Tawera gallinula,1
+Kangaroo_Bay,Derwent,IPHC25,1,1.4,Dead,Gazameda gunnii,#N/A,1
+Kangaroo_Bay,Derwent,IPHC25,1,1.4,Dead,MPX27,Plectodon brazieri,1
+Kangaroo_Bay,Derwent,IPHC25,1,1.4,Dead,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC25,1,1.4,Dead,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC25,1,1.4,Dead,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC25,1,1.4,Dead,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC25,1,1.4,Live,MPX55,Corbula gibba,0
+Kangaroo_Bay,Derwent,IPHC25,1,1.4,Live,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC25,1,1.4,Live,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC25,1,1.4,Live,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC25,1,1.4,Live,MPX26,Theora lubrica,8
+Kangaroo_Bay,Derwent,IPHC25,1,1.4,Live,MPX14,Channelaxinus adelaideanus,0
+Kangaroo_Bay,Derwent,IPHC25,1,1.4,Live,MPV3,Tawera gallinula,0
+Kangaroo_Bay,Derwent,IPHC25,1,1.4,Live,Gazameda gunnii,#N/A,0
+Kangaroo_Bay,Derwent,IPHC25,1,1.4,Live,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC25,1,1.4,Live,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC25,1,1.4,Live,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC25,1,1.4,Live,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC25,1,1.4,Live,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC25,1,1,Dead,MPX55,Corbula gibba,8
+Kangaroo_Bay,Derwent,IPHC25,1,1,Dead,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC25,1,1,Dead,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC25,1,1,Dead,MPO5,Ostrea (Eostrea) angasi,2
+Kangaroo_Bay,Derwent,IPHC25,1,1,Dead,MPX26,Theora lubrica,1
+Kangaroo_Bay,Derwent,IPHC25,1,1,Dead,MPX14,Channelaxinus adelaideanus,1
+Kangaroo_Bay,Derwent,IPHC25,1,1,Dead,MPV3,Tawera gallinula,2
+Kangaroo_Bay,Derwent,IPHC25,1,1,Dead,Gazameda gunnii,#N/A,1
+Kangaroo_Bay,Derwent,IPHC25,1,1,Dead,MPX27,Plectodon brazieri,3
+Kangaroo_Bay,Derwent,IPHC25,1,1,Dead,MPX15,Hiatella australis,1
+Kangaroo_Bay,Derwent,IPHC25,1,1,Dead,MPV4,Timoclea sp.4,1
+Kangaroo_Bay,Derwent,IPHC25,1,1,Dead,MPX17,Purpurocardia bimaculata,1
+Kangaroo_Bay,Derwent,IPHC25,1,1,Dead,MPV1,Placamen placidum,1
+Kangaroo_Bay,Derwent,IPHC25,1,1,Live,MPX55,Corbula gibba,2
+Kangaroo_Bay,Derwent,IPHC25,1,1,Live,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC25,1,1,Live,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC25,1,1,Live,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC25,1,1,Live,MPX26,Theora lubrica,4
+Kangaroo_Bay,Derwent,IPHC25,1,1,Live,MPX14,Channelaxinus adelaideanus,0
+Kangaroo_Bay,Derwent,IPHC25,1,1,Live,MPV3,Tawera gallinula,0
+Kangaroo_Bay,Derwent,IPHC25,1,1,Live,Gazameda gunnii,#N/A,0
+Kangaroo_Bay,Derwent,IPHC25,1,1,Live,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC25,1,1,Live,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC25,1,1,Live,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC25,1,1,Live,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC25,1,1,Live,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC25,2,4,Dead,MPX55,Corbula gibba,0
+Kangaroo_Bay,Derwent,IPHC25,2,4,Dead,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC25,2,4,Dead,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC25,2,4,Dead,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC25,2,4,Dead,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC25,2,4,Dead,MPX14,Channelaxinus adelaideanus,0
+Kangaroo_Bay,Derwent,IPHC25,2,4,Dead,MPV3,Tawera gallinula,0
+Kangaroo_Bay,Derwent,IPHC25,2,4,Dead,Gazameda gunnii,#N/A,0
+Kangaroo_Bay,Derwent,IPHC25,2,4,Dead,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC25,2,4,Dead,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC25,2,4,Dead,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC25,2,4,Dead,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC25,2,4,Dead,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC25,2,4,Live,MPX55,Corbula gibba,0
+Kangaroo_Bay,Derwent,IPHC25,2,4,Live,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC25,2,4,Live,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC25,2,4,Live,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC25,2,4,Live,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC25,2,4,Live,MPX14,Channelaxinus adelaideanus,0
+Kangaroo_Bay,Derwent,IPHC25,2,4,Live,MPV3,Tawera gallinula,0
+Kangaroo_Bay,Derwent,IPHC25,2,4,Live,Gazameda gunnii,#N/A,0
+Kangaroo_Bay,Derwent,IPHC25,2,4,Live,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC25,2,4,Live,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC25,2,4,Live,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC25,2,4,Live,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC25,2,4,Live,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC25,2,2.8,Dead,MPX55,Corbula gibba,3
+Kangaroo_Bay,Derwent,IPHC25,2,2.8,Dead,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC25,2,2.8,Dead,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC25,2,2.8,Dead,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC25,2,2.8,Dead,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC25,2,2.8,Dead,MPX14,Channelaxinus adelaideanus,0
+Kangaroo_Bay,Derwent,IPHC25,2,2.8,Dead,MPV3,Tawera gallinula,0
+Kangaroo_Bay,Derwent,IPHC25,2,2.8,Dead,Gazameda gunnii,#N/A,0
+Kangaroo_Bay,Derwent,IPHC25,2,2.8,Dead,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC25,2,2.8,Dead,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC25,2,2.8,Dead,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC25,2,2.8,Dead,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC25,2,2.8,Dead,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC25,2,2.8,Live,MPX55,Corbula gibba,0
+Kangaroo_Bay,Derwent,IPHC25,2,2.8,Live,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC25,2,2.8,Live,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC25,2,2.8,Live,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC25,2,2.8,Live,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC25,2,2.8,Live,MPX14,Channelaxinus adelaideanus,0
+Kangaroo_Bay,Derwent,IPHC25,2,2.8,Live,MPV3,Tawera gallinula,0
+Kangaroo_Bay,Derwent,IPHC25,2,2.8,Live,Gazameda gunnii,#N/A,0
+Kangaroo_Bay,Derwent,IPHC25,2,2.8,Live,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC25,2,2.8,Live,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC25,2,2.8,Live,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC25,2,2.8,Live,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC25,2,2.8,Live,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC25,2,2,Dead,MPX55,Corbula gibba,1
+Kangaroo_Bay,Derwent,IPHC25,2,2,Dead,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC25,2,2,Dead,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC25,2,2,Dead,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC25,2,2,Dead,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC25,2,2,Dead,MPX14,Channelaxinus adelaideanus,0
+Kangaroo_Bay,Derwent,IPHC25,2,2,Dead,MPV3,Tawera gallinula,0
+Kangaroo_Bay,Derwent,IPHC25,2,2,Dead,Gazameda gunnii,#N/A,0
+Kangaroo_Bay,Derwent,IPHC25,2,2,Dead,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC25,2,2,Dead,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC25,2,2,Dead,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC25,2,2,Dead,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC25,2,2,Dead,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC25,2,2,Live,MPX55,Corbula gibba,0
+Kangaroo_Bay,Derwent,IPHC25,2,2,Live,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC25,2,2,Live,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC25,2,2,Live,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC25,2,2,Live,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC25,2,2,Live,MPX14,Channelaxinus adelaideanus,0
+Kangaroo_Bay,Derwent,IPHC25,2,2,Live,MPV3,Tawera gallinula,0
+Kangaroo_Bay,Derwent,IPHC25,2,2,Live,Gazameda gunnii,#N/A,0
+Kangaroo_Bay,Derwent,IPHC25,2,2,Live,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC25,2,2,Live,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC25,2,2,Live,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC25,2,2,Live,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC25,2,2,Live,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC25,2,1.4,Dead,MPX55,Corbula gibba,2
+Kangaroo_Bay,Derwent,IPHC25,2,1.4,Dead,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC25,2,1.4,Dead,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC25,2,1.4,Dead,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC25,2,1.4,Dead,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC25,2,1.4,Dead,MPX14,Channelaxinus adelaideanus,0
+Kangaroo_Bay,Derwent,IPHC25,2,1.4,Dead,MPV3,Tawera gallinula,0
+Kangaroo_Bay,Derwent,IPHC25,2,1.4,Dead,Gazameda gunnii,#N/A,0
+Kangaroo_Bay,Derwent,IPHC25,2,1.4,Dead,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC25,2,1.4,Dead,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC25,2,1.4,Dead,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC25,2,1.4,Dead,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC25,2,1.4,Dead,MPV1,Placamen placidum,1
+Kangaroo_Bay,Derwent,IPHC25,2,1.4,Live,MPX55,Corbula gibba,0
+Kangaroo_Bay,Derwent,IPHC25,2,1.4,Live,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC25,2,1.4,Live,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC25,2,1.4,Live,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC25,2,1.4,Live,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC25,2,1.4,Live,MPX14,Channelaxinus adelaideanus,0
+Kangaroo_Bay,Derwent,IPHC25,2,1.4,Live,MPV3,Tawera gallinula,0
+Kangaroo_Bay,Derwent,IPHC25,2,1.4,Live,Gazameda gunnii,#N/A,0
+Kangaroo_Bay,Derwent,IPHC25,2,1.4,Live,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC25,2,1.4,Live,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC25,2,1.4,Live,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC25,2,1.4,Live,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC25,2,1.4,Live,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC25,2,1,Dead,MPX55,Corbula gibba,0
+Kangaroo_Bay,Derwent,IPHC25,2,1,Dead,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC25,2,1,Dead,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC25,2,1,Dead,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC25,2,1,Dead,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC25,2,1,Dead,MPX14,Channelaxinus adelaideanus,0
+Kangaroo_Bay,Derwent,IPHC25,2,1,Dead,MPV3,Tawera gallinula,0
+Kangaroo_Bay,Derwent,IPHC25,2,1,Dead,Gazameda gunnii,#N/A,0
+Kangaroo_Bay,Derwent,IPHC25,2,1,Dead,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC25,2,1,Dead,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC25,2,1,Dead,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC25,2,1,Dead,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC25,2,1,Dead,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC25,2,1,Live,MPX55,Corbula gibba,0
+Kangaroo_Bay,Derwent,IPHC25,2,1,Live,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC25,2,1,Live,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC25,2,1,Live,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC25,2,1,Live,MPX26,Theora lubrica,1
+Kangaroo_Bay,Derwent,IPHC25,2,1,Live,MPX14,Channelaxinus adelaideanus,0
+Kangaroo_Bay,Derwent,IPHC25,2,1,Live,MPV3,Tawera gallinula,0
+Kangaroo_Bay,Derwent,IPHC25,2,1,Live,Gazameda gunnii,#N/A,0
+Kangaroo_Bay,Derwent,IPHC25,2,1,Live,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC25,2,1,Live,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC25,2,1,Live,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC25,2,1,Live,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC25,2,1,Live,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC25,3,4,Dead,MPX55,Corbula gibba,0
+Kangaroo_Bay,Derwent,IPHC25,3,4,Dead,MGN1,Nassarius nigellus,1
+Kangaroo_Bay,Derwent,IPHC25,3,4,Dead,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC25,3,4,Dead,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC25,3,4,Dead,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC25,3,4,Dead,MPX14,Channelaxinus adelaideanus,0
+Kangaroo_Bay,Derwent,IPHC25,3,4,Dead,MPV3,Tawera gallinula,0
+Kangaroo_Bay,Derwent,IPHC25,3,4,Dead,Gazameda gunnii,#N/A,0
+Kangaroo_Bay,Derwent,IPHC25,3,4,Dead,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC25,3,4,Dead,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC25,3,4,Dead,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC25,3,4,Dead,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC25,3,4,Dead,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC25,3,4,Live,MPX55,Corbula gibba,0
+Kangaroo_Bay,Derwent,IPHC25,3,4,Live,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC25,3,4,Live,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC25,3,4,Live,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC25,3,4,Live,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC25,3,4,Live,MPX14,Channelaxinus adelaideanus,0
+Kangaroo_Bay,Derwent,IPHC25,3,4,Live,MPV3,Tawera gallinula,0
+Kangaroo_Bay,Derwent,IPHC25,3,4,Live,Gazameda gunnii,#N/A,0
+Kangaroo_Bay,Derwent,IPHC25,3,4,Live,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC25,3,4,Live,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC25,3,4,Live,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC25,3,4,Live,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC25,3,4,Live,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC25,3,2.8,Dead,MPX55,Corbula gibba,0
+Kangaroo_Bay,Derwent,IPHC25,3,2.8,Dead,MGN1,Nassarius nigellus,1
+Kangaroo_Bay,Derwent,IPHC25,3,2.8,Dead,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC25,3,2.8,Dead,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC25,3,2.8,Dead,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC25,3,2.8,Dead,MPX14,Channelaxinus adelaideanus,0
+Kangaroo_Bay,Derwent,IPHC25,3,2.8,Dead,MPV3,Tawera gallinula,0
+Kangaroo_Bay,Derwent,IPHC25,3,2.8,Dead,Gazameda gunnii,#N/A,0
+Kangaroo_Bay,Derwent,IPHC25,3,2.8,Dead,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC25,3,2.8,Dead,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC25,3,2.8,Dead,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC25,3,2.8,Dead,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC25,3,2.8,Dead,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC25,3,2.8,Live,MPX55,Corbula gibba,0
+Kangaroo_Bay,Derwent,IPHC25,3,2.8,Live,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC25,3,2.8,Live,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC25,3,2.8,Live,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC25,3,2.8,Live,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC25,3,2.8,Live,MPX14,Channelaxinus adelaideanus,0
+Kangaroo_Bay,Derwent,IPHC25,3,2.8,Live,MPV3,Tawera gallinula,0
+Kangaroo_Bay,Derwent,IPHC25,3,2.8,Live,Gazameda gunnii,#N/A,0
+Kangaroo_Bay,Derwent,IPHC25,3,2.8,Live,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC25,3,2.8,Live,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC25,3,2.8,Live,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC25,3,2.8,Live,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC25,3,2.8,Live,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC25,3,2,Dead,MPX55,Corbula gibba,0
+Kangaroo_Bay,Derwent,IPHC25,3,2,Dead,MGN1,Nassarius nigellus,1
+Kangaroo_Bay,Derwent,IPHC25,3,2,Dead,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC25,3,2,Dead,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC25,3,2,Dead,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC25,3,2,Dead,MPX14,Channelaxinus adelaideanus,0
+Kangaroo_Bay,Derwent,IPHC25,3,2,Dead,MPV3,Tawera gallinula,0
+Kangaroo_Bay,Derwent,IPHC25,3,2,Dead,Gazameda gunnii,#N/A,1
+Kangaroo_Bay,Derwent,IPHC25,3,2,Dead,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC25,3,2,Dead,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC25,3,2,Dead,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC25,3,2,Dead,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC25,3,2,Dead,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC25,3,2,Live,MPX55,Corbula gibba,1
+Kangaroo_Bay,Derwent,IPHC25,3,2,Live,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC25,3,2,Live,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC25,3,2,Live,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC25,3,2,Live,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC25,3,2,Live,MPX14,Channelaxinus adelaideanus,0
+Kangaroo_Bay,Derwent,IPHC25,3,2,Live,MPV3,Tawera gallinula,0
+Kangaroo_Bay,Derwent,IPHC25,3,2,Live,Gazameda gunnii,#N/A,0
+Kangaroo_Bay,Derwent,IPHC25,3,2,Live,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC25,3,2,Live,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC25,3,2,Live,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC25,3,2,Live,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC25,3,2,Live,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC25,3,1.4,Dead,MPX55,Corbula gibba,0
+Kangaroo_Bay,Derwent,IPHC25,3,1.4,Dead,MGN1,Nassarius nigellus,1
+Kangaroo_Bay,Derwent,IPHC25,3,1.4,Dead,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC25,3,1.4,Dead,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC25,3,1.4,Dead,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC25,3,1.4,Dead,MPX14,Channelaxinus adelaideanus,0
+Kangaroo_Bay,Derwent,IPHC25,3,1.4,Dead,MPV3,Tawera gallinula,0
+Kangaroo_Bay,Derwent,IPHC25,3,1.4,Dead,Gazameda gunnii,#N/A,0
+Kangaroo_Bay,Derwent,IPHC25,3,1.4,Dead,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC25,3,1.4,Dead,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC25,3,1.4,Dead,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC25,3,1.4,Dead,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC25,3,1.4,Dead,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC25,3,1.4,Live,MPX55,Corbula gibba,0
+Kangaroo_Bay,Derwent,IPHC25,3,1.4,Live,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC25,3,1.4,Live,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC25,3,1.4,Live,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC25,3,1.4,Live,MPX26,Theora lubrica,5
+Kangaroo_Bay,Derwent,IPHC25,3,1.4,Live,MPX14,Channelaxinus adelaideanus,0
+Kangaroo_Bay,Derwent,IPHC25,3,1.4,Live,MPV3,Tawera gallinula,0
+Kangaroo_Bay,Derwent,IPHC25,3,1.4,Live,Gazameda gunnii,#N/A,0
+Kangaroo_Bay,Derwent,IPHC25,3,1.4,Live,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC25,3,1.4,Live,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC25,3,1.4,Live,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC25,3,1.4,Live,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC25,3,1.4,Live,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC25,3,1,Dead,MPX55,Corbula gibba,0
+Kangaroo_Bay,Derwent,IPHC25,3,1,Dead,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC25,3,1,Dead,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC25,3,1,Dead,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC25,3,1,Dead,MPX26,Theora lubrica,0
+Kangaroo_Bay,Derwent,IPHC25,3,1,Dead,MPX14,Channelaxinus adelaideanus,0
+Kangaroo_Bay,Derwent,IPHC25,3,1,Dead,MPV3,Tawera gallinula,0
+Kangaroo_Bay,Derwent,IPHC25,3,1,Dead,Gazameda gunnii,#N/A,0
+Kangaroo_Bay,Derwent,IPHC25,3,1,Dead,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC25,3,1,Dead,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC25,3,1,Dead,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC25,3,1,Dead,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC25,3,1,Dead,MPV1,Placamen placidum,0
+Kangaroo_Bay,Derwent,IPHC25,3,1,Live,MPX55,Corbula gibba,1
+Kangaroo_Bay,Derwent,IPHC25,3,1,Live,MGN1,Nassarius nigellus,0
+Kangaroo_Bay,Derwent,IPHC25,3,1,Live,MPX8,Pratulum thetidis,0
+Kangaroo_Bay,Derwent,IPHC25,3,1,Live,MPO5,Ostrea (Eostrea) angasi,0
+Kangaroo_Bay,Derwent,IPHC25,3,1,Live,MPX26,Theora lubrica,1
+Kangaroo_Bay,Derwent,IPHC25,3,1,Live,MPX14,Channelaxinus adelaideanus,0
+Kangaroo_Bay,Derwent,IPHC25,3,1,Live,MPV3,Tawera gallinula,0
+Kangaroo_Bay,Derwent,IPHC25,3,1,Live,Gazameda gunnii,#N/A,0
+Kangaroo_Bay,Derwent,IPHC25,3,1,Live,MPX27,Plectodon brazieri,0
+Kangaroo_Bay,Derwent,IPHC25,3,1,Live,MPX15,Hiatella australis,0
+Kangaroo_Bay,Derwent,IPHC25,3,1,Live,MPV4,Timoclea sp.4,0
+Kangaroo_Bay,Derwent,IPHC25,3,1,Live,MPX17,Purpurocardia bimaculata,0
+Kangaroo_Bay,Derwent,IPHC25,3,1,Live,MPV1,Placamen placidum,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,4,Dead,MPX55,Corbula gibba,35
+Apollo_Bay,DEntrecasteaux,IPHC28,1,4,Dead,MPV4,Timoclea sp.4,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,4,Dead,MPX15,Hiatella australis,1
+Apollo_Bay,DEntrecasteaux,IPHC28,1,4,Dead,MPV1,Placamen placidum,1
+Apollo_Bay,DEntrecasteaux,IPHC28,1,4,Dead,MGN1,Nassarius nigellus,2
+Apollo_Bay,DEntrecasteaux,IPHC28,1,4,Dead,MPX14,Channelaxinus adelaideanus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,4,Dead,MPX8,Pratulum thetidis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,4,Dead,MPV3,Tawera gallinula,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,4,Dead,MPX26,Theora lubrica,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,4,Dead,MPX23,Fulvia tenuicostata,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,4,Dead,MPX27,Plectodon brazieri,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,4,Dead,MPX28,Neotrigonia margaritacea,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,4,Dead,MPX9,Myadora albida,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,4,Dead,MGR1,Retusa atkinsoni,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,4,Dead,Gazameda gunnii,#N/A,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,4,Live,MPX55,Corbula gibba,22
+Apollo_Bay,DEntrecasteaux,IPHC28,1,4,Live,MPV4,Timoclea sp.4,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,4,Live,MPX15,Hiatella australis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,4,Live,MPV1,Placamen placidum,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,4,Live,MGN1,Nassarius nigellus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,4,Live,MPX14,Channelaxinus adelaideanus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,4,Live,MPX8,Pratulum thetidis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,4,Live,MPV3,Tawera gallinula,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,4,Live,MPX26,Theora lubrica,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,4,Live,MPX23,Fulvia tenuicostata,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,4,Live,MPX27,Plectodon brazieri,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,4,Live,MPX28,Neotrigonia margaritacea,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,4,Live,MPX9,Myadora albida,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,4,Live,MGR1,Retusa atkinsoni,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,4,Live,Gazameda gunnii,#N/A,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2.8,Dead,MPX55,Corbula gibba,11
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2.8,Dead,MPV4,Timoclea sp.4,1
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2.8,Dead,MPX15,Hiatella australis,1
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2.8,Dead,MPV1,Placamen placidum,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2.8,Dead,MGN1,Nassarius nigellus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2.8,Dead,MPX14,Channelaxinus adelaideanus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2.8,Dead,MPX8,Pratulum thetidis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2.8,Dead,MPV3,Tawera gallinula,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2.8,Dead,MPX26,Theora lubrica,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2.8,Dead,MPX23,Fulvia tenuicostata,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2.8,Dead,MPX27,Plectodon brazieri,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2.8,Dead,MPX28,Neotrigonia margaritacea,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2.8,Dead,MPX9,Myadora albida,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2.8,Dead,MGR1,Retusa atkinsoni,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2.8,Dead,Gazameda gunnii,#N/A,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2.8,Live,MPX55,Corbula gibba,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2.8,Live,MPV4,Timoclea sp.4,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2.8,Live,MPX15,Hiatella australis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2.8,Live,MPV1,Placamen placidum,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2.8,Live,MGN1,Nassarius nigellus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2.8,Live,MPX14,Channelaxinus adelaideanus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2.8,Live,MPX8,Pratulum thetidis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2.8,Live,MPV3,Tawera gallinula,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2.8,Live,MPX26,Theora lubrica,2
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2.8,Live,MPX23,Fulvia tenuicostata,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2.8,Live,MPX27,Plectodon brazieri,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2.8,Live,MPX28,Neotrigonia margaritacea,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2.8,Live,MPX9,Myadora albida,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2.8,Live,MGR1,Retusa atkinsoni,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2.8,Live,Gazameda gunnii,#N/A,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2,Dead,MPX55,Corbula gibba,16
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2,Dead,MPV4,Timoclea sp.4,5
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2,Dead,MPX15,Hiatella australis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2,Dead,MPV1,Placamen placidum,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2,Dead,MGN1,Nassarius nigellus,1
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2,Dead,MPX14,Channelaxinus adelaideanus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2,Dead,MPX8,Pratulum thetidis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2,Dead,MPV3,Tawera gallinula,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2,Dead,MPX26,Theora lubrica,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2,Dead,MPX23,Fulvia tenuicostata,1
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2,Dead,MPX27,Plectodon brazieri,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2,Dead,MPX28,Neotrigonia margaritacea,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2,Dead,MPX9,Myadora albida,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2,Dead,MGR1,Retusa atkinsoni,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2,Dead,Gazameda gunnii,#N/A,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2,Live,MPX55,Corbula gibba,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2,Live,MPV4,Timoclea sp.4,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2,Live,MPX15,Hiatella australis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2,Live,MPV1,Placamen placidum,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2,Live,MGN1,Nassarius nigellus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2,Live,MPX14,Channelaxinus adelaideanus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2,Live,MPX8,Pratulum thetidis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2,Live,MPV3,Tawera gallinula,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2,Live,MPX26,Theora lubrica,4
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2,Live,MPX23,Fulvia tenuicostata,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2,Live,MPX27,Plectodon brazieri,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2,Live,MPX28,Neotrigonia margaritacea,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2,Live,MPX9,Myadora albida,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2,Live,MGR1,Retusa atkinsoni,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,2,Live,Gazameda gunnii,#N/A,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1.4,Dead,MPX55,Corbula gibba,16
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1.4,Dead,MPV4,Timoclea sp.4,9
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1.4,Dead,MPX15,Hiatella australis,1
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1.4,Dead,MPV1,Placamen placidum,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1.4,Dead,MGN1,Nassarius nigellus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1.4,Dead,MPX14,Channelaxinus adelaideanus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1.4,Dead,MPX8,Pratulum thetidis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1.4,Dead,MPV3,Tawera gallinula,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1.4,Dead,MPX26,Theora lubrica,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1.4,Dead,MPX23,Fulvia tenuicostata,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1.4,Dead,MPX27,Plectodon brazieri,1
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1.4,Dead,MPX28,Neotrigonia margaritacea,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1.4,Dead,MPX9,Myadora albida,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1.4,Dead,MGR1,Retusa atkinsoni,1
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1.4,Dead,Gazameda gunnii,#N/A,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1.4,Live,MPX55,Corbula gibba,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1.4,Live,MPV4,Timoclea sp.4,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1.4,Live,MPX15,Hiatella australis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1.4,Live,MPV1,Placamen placidum,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1.4,Live,MGN1,Nassarius nigellus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1.4,Live,MPX14,Channelaxinus adelaideanus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1.4,Live,MPX8,Pratulum thetidis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1.4,Live,MPV3,Tawera gallinula,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1.4,Live,MPX26,Theora lubrica,6
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1.4,Live,MPX23,Fulvia tenuicostata,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1.4,Live,MPX27,Plectodon brazieri,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1.4,Live,MPX28,Neotrigonia margaritacea,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1.4,Live,MPX9,Myadora albida,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1.4,Live,MGR1,Retusa atkinsoni,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1.4,Live,Gazameda gunnii,#N/A,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1,Dead,MPX55,Corbula gibba,8
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1,Dead,MPV4,Timoclea sp.4,13
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1,Dead,MPX15,Hiatella australis,3
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1,Dead,MPV1,Placamen placidum,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1,Dead,MGN1,Nassarius nigellus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1,Dead,MPX14,Channelaxinus adelaideanus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1,Dead,MPX8,Pratulum thetidis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1,Dead,MPV3,Tawera gallinula,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1,Dead,MPX26,Theora lubrica,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1,Dead,MPX23,Fulvia tenuicostata,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1,Dead,MPX27,Plectodon brazieri,2
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1,Dead,MPX28,Neotrigonia margaritacea,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1,Dead,MPX9,Myadora albida,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1,Dead,MGR1,Retusa atkinsoni,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1,Dead,Gazameda gunnii,#N/A,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1,Live,MPX55,Corbula gibba,2
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1,Live,MPV4,Timoclea sp.4,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1,Live,MPX15,Hiatella australis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1,Live,MPV1,Placamen placidum,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1,Live,MGN1,Nassarius nigellus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1,Live,MPX14,Channelaxinus adelaideanus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1,Live,MPX8,Pratulum thetidis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1,Live,MPV3,Tawera gallinula,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1,Live,MPX26,Theora lubrica,7
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1,Live,MPX23,Fulvia tenuicostata,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1,Live,MPX27,Plectodon brazieri,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1,Live,MPX28,Neotrigonia margaritacea,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1,Live,MPX9,Myadora albida,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1,Live,MGR1,Retusa atkinsoni,0
+Apollo_Bay,DEntrecasteaux,IPHC28,1,1,Live,Gazameda gunnii,#N/A,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,4,Dead,MPX55,Corbula gibba,43
+Apollo_Bay,DEntrecasteaux,IPHC28,2,4,Dead,MPV4,Timoclea sp.4,4
+Apollo_Bay,DEntrecasteaux,IPHC28,2,4,Dead,MPX15,Hiatella australis,2
+Apollo_Bay,DEntrecasteaux,IPHC28,2,4,Dead,MPV1,Placamen placidum,1
+Apollo_Bay,DEntrecasteaux,IPHC28,2,4,Dead,MGN1,Nassarius nigellus,2
+Apollo_Bay,DEntrecasteaux,IPHC28,2,4,Dead,MPX14,Channelaxinus adelaideanus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,4,Dead,MPX8,Pratulum thetidis,1
+Apollo_Bay,DEntrecasteaux,IPHC28,2,4,Dead,MPV3,Tawera gallinula,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,4,Dead,MPX26,Theora lubrica,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,4,Dead,MPX23,Fulvia tenuicostata,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,4,Dead,MPX27,Plectodon brazieri,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,4,Dead,MPX28,Neotrigonia margaritacea,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,4,Dead,MPX9,Myadora albida,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,4,Dead,MGR1,Retusa atkinsoni,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,4,Dead,Gazameda gunnii,#N/A,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,4,Live,MPX55,Corbula gibba,21
+Apollo_Bay,DEntrecasteaux,IPHC28,2,4,Live,MPV4,Timoclea sp.4,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,4,Live,MPX15,Hiatella australis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,4,Live,MPV1,Placamen placidum,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,4,Live,MGN1,Nassarius nigellus,1
+Apollo_Bay,DEntrecasteaux,IPHC28,2,4,Live,MPX14,Channelaxinus adelaideanus,1
+Apollo_Bay,DEntrecasteaux,IPHC28,2,4,Live,MPX8,Pratulum thetidis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,4,Live,MPV3,Tawera gallinula,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,4,Live,MPX26,Theora lubrica,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,4,Live,MPX23,Fulvia tenuicostata,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,4,Live,MPX27,Plectodon brazieri,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,4,Live,MPX28,Neotrigonia margaritacea,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,4,Live,MPX9,Myadora albida,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,4,Live,MGR1,Retusa atkinsoni,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,4,Live,Gazameda gunnii,#N/A,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2.8,Dead,MPX55,Corbula gibba,31
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2.8,Dead,MPV4,Timoclea sp.4,4
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2.8,Dead,MPX15,Hiatella australis,1
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2.8,Dead,MPV1,Placamen placidum,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2.8,Dead,MGN1,Nassarius nigellus,2
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2.8,Dead,MPX14,Channelaxinus adelaideanus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2.8,Dead,MPX8,Pratulum thetidis,2
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2.8,Dead,MPV3,Tawera gallinula,1
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2.8,Dead,MPX26,Theora lubrica,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2.8,Dead,MPX23,Fulvia tenuicostata,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2.8,Dead,MPX27,Plectodon brazieri,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2.8,Dead,MPX28,Neotrigonia margaritacea,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2.8,Dead,MPX9,Myadora albida,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2.8,Dead,MGR1,Retusa atkinsoni,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2.8,Dead,Gazameda gunnii,#N/A,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2.8,Live,MPX55,Corbula gibba,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2.8,Live,MPV4,Timoclea sp.4,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2.8,Live,MPX15,Hiatella australis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2.8,Live,MPV1,Placamen placidum,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2.8,Live,MGN1,Nassarius nigellus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2.8,Live,MPX14,Channelaxinus adelaideanus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2.8,Live,MPX8,Pratulum thetidis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2.8,Live,MPV3,Tawera gallinula,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2.8,Live,MPX26,Theora lubrica,3
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2.8,Live,MPX23,Fulvia tenuicostata,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2.8,Live,MPX27,Plectodon brazieri,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2.8,Live,MPX28,Neotrigonia margaritacea,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2.8,Live,MPX9,Myadora albida,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2.8,Live,MGR1,Retusa atkinsoni,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2.8,Live,Gazameda gunnii,#N/A,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2,Dead,MPX55,Corbula gibba,35
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2,Dead,MPV4,Timoclea sp.4,5
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2,Dead,MPX15,Hiatella australis,5
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2,Dead,MPV1,Placamen placidum,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2,Dead,MGN1,Nassarius nigellus,2
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2,Dead,MPX14,Channelaxinus adelaideanus,1
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2,Dead,MPX8,Pratulum thetidis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2,Dead,MPV3,Tawera gallinula,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2,Dead,MPX26,Theora lubrica,3
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2,Dead,MPX23,Fulvia tenuicostata,2
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2,Dead,MPX27,Plectodon brazieri,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2,Dead,MPX28,Neotrigonia margaritacea,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2,Dead,MPX9,Myadora albida,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2,Dead,MGR1,Retusa atkinsoni,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2,Dead,Gazameda gunnii,#N/A,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2,Live,MPX55,Corbula gibba,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2,Live,MPV4,Timoclea sp.4,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2,Live,MPX15,Hiatella australis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2,Live,MPV1,Placamen placidum,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2,Live,MGN1,Nassarius nigellus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2,Live,MPX14,Channelaxinus adelaideanus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2,Live,MPX8,Pratulum thetidis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2,Live,MPV3,Tawera gallinula,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2,Live,MPX26,Theora lubrica,2
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2,Live,MPX23,Fulvia tenuicostata,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2,Live,MPX27,Plectodon brazieri,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2,Live,MPX28,Neotrigonia margaritacea,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2,Live,MPX9,Myadora albida,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2,Live,MGR1,Retusa atkinsoni,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,2,Live,Gazameda gunnii,#N/A,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1.4,Dead,MPX55,Corbula gibba,49
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1.4,Dead,MPV4,Timoclea sp.4,15
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1.4,Dead,MPX15,Hiatella australis,7
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1.4,Dead,MPV1,Placamen placidum,1
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1.4,Dead,MGN1,Nassarius nigellus,1
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1.4,Dead,MPX14,Channelaxinus adelaideanus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1.4,Dead,MPX8,Pratulum thetidis,5
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1.4,Dead,MPV3,Tawera gallinula,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1.4,Dead,MPX26,Theora lubrica,2
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1.4,Dead,MPX23,Fulvia tenuicostata,2
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1.4,Dead,MPX27,Plectodon brazieri,6
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1.4,Dead,MPX28,Neotrigonia margaritacea,2
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1.4,Dead,MPX9,Myadora albida,2
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1.4,Dead,MGR1,Retusa atkinsoni,1
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1.4,Dead,Gazameda gunnii,#N/A,1
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1.4,Live,MPX55,Corbula gibba,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1.4,Live,MPV4,Timoclea sp.4,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1.4,Live,MPX15,Hiatella australis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1.4,Live,MPV1,Placamen placidum,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1.4,Live,MGN1,Nassarius nigellus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1.4,Live,MPX14,Channelaxinus adelaideanus,1
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1.4,Live,MPX8,Pratulum thetidis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1.4,Live,MPV3,Tawera gallinula,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1.4,Live,MPX26,Theora lubrica,11
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1.4,Live,MPX23,Fulvia tenuicostata,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1.4,Live,MPX27,Plectodon brazieri,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1.4,Live,MPX28,Neotrigonia margaritacea,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1.4,Live,MPX9,Myadora albida,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1.4,Live,MGR1,Retusa atkinsoni,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1.4,Live,Gazameda gunnii,#N/A,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1,Dead,MPX55,Corbula gibba,41
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1,Dead,MPV4,Timoclea sp.4,28
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1,Dead,MPX15,Hiatella australis,14
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1,Dead,MPV1,Placamen placidum,2
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1,Dead,MGN1,Nassarius nigellus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1,Dead,MPX14,Channelaxinus adelaideanus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1,Dead,MPX8,Pratulum thetidis,3
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1,Dead,MPV3,Tawera gallinula,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1,Dead,MPX26,Theora lubrica,1
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1,Dead,MPX23,Fulvia tenuicostata,1
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1,Dead,MPX27,Plectodon brazieri,4
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1,Dead,MPX28,Neotrigonia margaritacea,1
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1,Dead,MPX9,Myadora albida,2
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1,Dead,MGR1,Retusa atkinsoni,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1,Dead,Gazameda gunnii,#N/A,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1,Live,MPX55,Corbula gibba,4
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1,Live,MPV4,Timoclea sp.4,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1,Live,MPX15,Hiatella australis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1,Live,MPV1,Placamen placidum,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1,Live,MGN1,Nassarius nigellus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1,Live,MPX14,Channelaxinus adelaideanus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1,Live,MPX8,Pratulum thetidis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1,Live,MPV3,Tawera gallinula,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1,Live,MPX26,Theora lubrica,6
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1,Live,MPX23,Fulvia tenuicostata,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1,Live,MPX27,Plectodon brazieri,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1,Live,MPX28,Neotrigonia margaritacea,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1,Live,MPX9,Myadora albida,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1,Live,MGR1,Retusa atkinsoni,0
+Apollo_Bay,DEntrecasteaux,IPHC28,2,1,Live,Gazameda gunnii,#N/A,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,4,Dead,MPX55,Corbula gibba,10
+Apollo_Bay,DEntrecasteaux,IPHC28,3,4,Dead,MPV4,Timoclea sp.4,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,4,Dead,MPX15,Hiatella australis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,4,Dead,MPV1,Placamen placidum,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,4,Dead,MGN1,Nassarius nigellus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,4,Dead,MPX14,Channelaxinus adelaideanus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,4,Dead,MPX8,Pratulum thetidis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,4,Dead,MPV3,Tawera gallinula,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,4,Dead,MPX26,Theora lubrica,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,4,Dead,MPX23,Fulvia tenuicostata,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,4,Dead,MPX27,Plectodon brazieri,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,4,Dead,MPX28,Neotrigonia margaritacea,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,4,Dead,MPX9,Myadora albida,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,4,Dead,MGR1,Retusa atkinsoni,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,4,Dead,Gazameda gunnii,#N/A,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,4,Live,MPX55,Corbula gibba,2
+Apollo_Bay,DEntrecasteaux,IPHC28,3,4,Live,MPV4,Timoclea sp.4,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,4,Live,MPX15,Hiatella australis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,4,Live,MPV1,Placamen placidum,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,4,Live,MGN1,Nassarius nigellus,1
+Apollo_Bay,DEntrecasteaux,IPHC28,3,4,Live,MPX14,Channelaxinus adelaideanus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,4,Live,MPX8,Pratulum thetidis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,4,Live,MPV3,Tawera gallinula,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,4,Live,MPX26,Theora lubrica,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,4,Live,MPX23,Fulvia tenuicostata,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,4,Live,MPX27,Plectodon brazieri,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,4,Live,MPX28,Neotrigonia margaritacea,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,4,Live,MPX9,Myadora albida,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,4,Live,MGR1,Retusa atkinsoni,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,4,Live,Gazameda gunnii,#N/A,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2.8,Dead,MPX55,Corbula gibba,1
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2.8,Dead,MPV4,Timoclea sp.4,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2.8,Dead,MPX15,Hiatella australis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2.8,Dead,MPV1,Placamen placidum,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2.8,Dead,MGN1,Nassarius nigellus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2.8,Dead,MPX14,Channelaxinus adelaideanus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2.8,Dead,MPX8,Pratulum thetidis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2.8,Dead,MPV3,Tawera gallinula,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2.8,Dead,MPX26,Theora lubrica,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2.8,Dead,MPX23,Fulvia tenuicostata,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2.8,Dead,MPX27,Plectodon brazieri,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2.8,Dead,MPX28,Neotrigonia margaritacea,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2.8,Dead,MPX9,Myadora albida,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2.8,Dead,MGR1,Retusa atkinsoni,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2.8,Dead,Gazameda gunnii,#N/A,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2.8,Live,MPX55,Corbula gibba,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2.8,Live,MPV4,Timoclea sp.4,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2.8,Live,MPX15,Hiatella australis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2.8,Live,MPV1,Placamen placidum,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2.8,Live,MGN1,Nassarius nigellus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2.8,Live,MPX14,Channelaxinus adelaideanus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2.8,Live,MPX8,Pratulum thetidis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2.8,Live,MPV3,Tawera gallinula,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2.8,Live,MPX26,Theora lubrica,1
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2.8,Live,MPX23,Fulvia tenuicostata,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2.8,Live,MPX27,Plectodon brazieri,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2.8,Live,MPX28,Neotrigonia margaritacea,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2.8,Live,MPX9,Myadora albida,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2.8,Live,MGR1,Retusa atkinsoni,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2.8,Live,Gazameda gunnii,#N/A,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2,Dead,MPX55,Corbula gibba,6
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2,Dead,MPV4,Timoclea sp.4,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2,Dead,MPX15,Hiatella australis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2,Dead,MPV1,Placamen placidum,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2,Dead,MGN1,Nassarius nigellus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2,Dead,MPX14,Channelaxinus adelaideanus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2,Dead,MPX8,Pratulum thetidis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2,Dead,MPV3,Tawera gallinula,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2,Dead,MPX26,Theora lubrica,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2,Dead,MPX23,Fulvia tenuicostata,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2,Dead,MPX27,Plectodon brazieri,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2,Dead,MPX28,Neotrigonia margaritacea,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2,Dead,MPX9,Myadora albida,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2,Dead,MGR1,Retusa atkinsoni,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2,Dead,Gazameda gunnii,#N/A,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2,Live,MPX55,Corbula gibba,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2,Live,MPV4,Timoclea sp.4,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2,Live,MPX15,Hiatella australis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2,Live,MPV1,Placamen placidum,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2,Live,MGN1,Nassarius nigellus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2,Live,MPX14,Channelaxinus adelaideanus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2,Live,MPX8,Pratulum thetidis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2,Live,MPV3,Tawera gallinula,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2,Live,MPX26,Theora lubrica,7
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2,Live,MPX23,Fulvia tenuicostata,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2,Live,MPX27,Plectodon brazieri,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2,Live,MPX28,Neotrigonia margaritacea,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2,Live,MPX9,Myadora albida,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2,Live,MGR1,Retusa atkinsoni,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,2,Live,Gazameda gunnii,#N/A,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1.4,Dead,MPX55,Corbula gibba,4
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1.4,Dead,MPV4,Timoclea sp.4,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1.4,Dead,MPX15,Hiatella australis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1.4,Dead,MPV1,Placamen placidum,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1.4,Dead,MGN1,Nassarius nigellus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1.4,Dead,MPX14,Channelaxinus adelaideanus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1.4,Dead,MPX8,Pratulum thetidis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1.4,Dead,MPV3,Tawera gallinula,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1.4,Dead,MPX26,Theora lubrica,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1.4,Dead,MPX23,Fulvia tenuicostata,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1.4,Dead,MPX27,Plectodon brazieri,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1.4,Dead,MPX28,Neotrigonia margaritacea,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1.4,Dead,MPX9,Myadora albida,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1.4,Dead,MGR1,Retusa atkinsoni,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1.4,Dead,Gazameda gunnii,#N/A,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1.4,Live,MPX55,Corbula gibba,1
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1.4,Live,MPV4,Timoclea sp.4,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1.4,Live,MPX15,Hiatella australis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1.4,Live,MPV1,Placamen placidum,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1.4,Live,MGN1,Nassarius nigellus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1.4,Live,MPX14,Channelaxinus adelaideanus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1.4,Live,MPX8,Pratulum thetidis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1.4,Live,MPV3,Tawera gallinula,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1.4,Live,MPX26,Theora lubrica,6
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1.4,Live,MPX23,Fulvia tenuicostata,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1.4,Live,MPX27,Plectodon brazieri,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1.4,Live,MPX28,Neotrigonia margaritacea,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1.4,Live,MPX9,Myadora albida,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1.4,Live,MGR1,Retusa atkinsoni,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1.4,Live,Gazameda gunnii,#N/A,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1,Dead,MPX55,Corbula gibba,4
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1,Dead,MPV4,Timoclea sp.4,2
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1,Dead,MPX15,Hiatella australis,3
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1,Dead,MPV1,Placamen placidum,1
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1,Dead,MGN1,Nassarius nigellus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1,Dead,MPX14,Channelaxinus adelaideanus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1,Dead,MPX8,Pratulum thetidis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1,Dead,MPV3,Tawera gallinula,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1,Dead,MPX26,Theora lubrica,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1,Dead,MPX23,Fulvia tenuicostata,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1,Dead,MPX27,Plectodon brazieri,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1,Dead,MPX28,Neotrigonia margaritacea,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1,Dead,MPX9,Myadora albida,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1,Dead,MGR1,Retusa atkinsoni,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1,Dead,Gazameda gunnii,#N/A,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1,Live,MPX55,Corbula gibba,7
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1,Live,MPV4,Timoclea sp.4,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1,Live,MPX15,Hiatella australis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1,Live,MPV1,Placamen placidum,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1,Live,MGN1,Nassarius nigellus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1,Live,MPX14,Channelaxinus adelaideanus,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1,Live,MPX8,Pratulum thetidis,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1,Live,MPV3,Tawera gallinula,2
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1,Live,MPX26,Theora lubrica,12
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1,Live,MPX23,Fulvia tenuicostata,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1,Live,MPX27,Plectodon brazieri,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1,Live,MPX28,Neotrigonia margaritacea,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1,Live,MPX9,Myadora albida,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1,Live,MGR1,Retusa atkinsoni,0
+Apollo_Bay,DEntrecasteaux,IPHC28,3,1,Live,Gazameda gunnii,#N/A,0
+Petchys_Bay,Huon,IPHC31,1,4,Dead,MPX55,Corbula gibba,112
+Petchys_Bay,Huon,IPHC31,1,4,Dead,MPN1,Ennucula obliqua,0
+Petchys_Bay,Huon,IPHC31,1,4,Dead,MGN1,Nassarius nigellus,1
+Petchys_Bay,Huon,IPHC31,1,4,Dead,MPX26,Theora lubrica,0
+Petchys_Bay,Huon,IPHC31,1,4,Dead,MPX8,Pratulum thetidis,0
+Petchys_Bay,Huon,IPHC31,1,4,Dead,MPX23,Fulvia tenuicostata,0
+Petchys_Bay,Huon,IPHC31,1,4,Dead,MPX15,Hiatella australis,0
+Petchys_Bay,Huon,IPHC31,1,4,Dead,MPX27,Plectodon brazieri,0
+Petchys_Bay,Huon,IPHC31,1,4,Dead,MPV3,Tawera gallinula,0
+Petchys_Bay,Huon,IPHC31,1,4,Dead,MPX9,Myadora albida,0
+Petchys_Bay,Huon,IPHC31,1,4,Dead,MPV4,Timoclea sp.4,0
+Petchys_Bay,Huon,IPHC31,1,4,Dead,MGD1,Diala suturalis,0
+Petchys_Bay,Huon,IPHC31,1,4,Dead,MGP11,Pyramidellid sp.11,0
+Petchys_Bay,Huon,IPHC31,1,4,Live,MPX55,Corbula gibba,0
+Petchys_Bay,Huon,IPHC31,1,4,Live,MPN1,Ennucula obliqua,0
+Petchys_Bay,Huon,IPHC31,1,4,Live,MGN1,Nassarius nigellus,0
+Petchys_Bay,Huon,IPHC31,1,4,Live,MPX26,Theora lubrica,0
+Petchys_Bay,Huon,IPHC31,1,4,Live,MPX8,Pratulum thetidis,0
+Petchys_Bay,Huon,IPHC31,1,4,Live,MPX23,Fulvia tenuicostata,0
+Petchys_Bay,Huon,IPHC31,1,4,Live,MPX15,Hiatella australis,0
+Petchys_Bay,Huon,IPHC31,1,4,Live,MPX27,Plectodon brazieri,0
+Petchys_Bay,Huon,IPHC31,1,4,Live,MPV3,Tawera gallinula,0
+Petchys_Bay,Huon,IPHC31,1,4,Live,MPX9,Myadora albida,0
+Petchys_Bay,Huon,IPHC31,1,4,Live,MPV4,Timoclea sp.4,0
+Petchys_Bay,Huon,IPHC31,1,4,Live,MGD1,Diala suturalis,0
+Petchys_Bay,Huon,IPHC31,1,4,Live,MGP11,Pyramidellid sp.11,0
+Petchys_Bay,Huon,IPHC31,1,2.8,Dead,MPX55,Corbula gibba,13
+Petchys_Bay,Huon,IPHC31,1,2.8,Dead,MPN1,Ennucula obliqua,0
+Petchys_Bay,Huon,IPHC31,1,2.8,Dead,MGN1,Nassarius nigellus,0
+Petchys_Bay,Huon,IPHC31,1,2.8,Dead,MPX26,Theora lubrica,0
+Petchys_Bay,Huon,IPHC31,1,2.8,Dead,MPX8,Pratulum thetidis,0
+Petchys_Bay,Huon,IPHC31,1,2.8,Dead,MPX23,Fulvia tenuicostata,0
+Petchys_Bay,Huon,IPHC31,1,2.8,Dead,MPX15,Hiatella australis,0
+Petchys_Bay,Huon,IPHC31,1,2.8,Dead,MPX27,Plectodon brazieri,0
+Petchys_Bay,Huon,IPHC31,1,2.8,Dead,MPV3,Tawera gallinula,0
+Petchys_Bay,Huon,IPHC31,1,2.8,Dead,MPX9,Myadora albida,0
+Petchys_Bay,Huon,IPHC31,1,2.8,Dead,MPV4,Timoclea sp.4,0
+Petchys_Bay,Huon,IPHC31,1,2.8,Dead,MGD1,Diala suturalis,0
+Petchys_Bay,Huon,IPHC31,1,2.8,Dead,MGP11,Pyramidellid sp.11,0
+Petchys_Bay,Huon,IPHC31,1,2.8,Live,MPX55,Corbula gibba,3
+Petchys_Bay,Huon,IPHC31,1,2.8,Live,MPN1,Ennucula obliqua,1
+Petchys_Bay,Huon,IPHC31,1,2.8,Live,MGN1,Nassarius nigellus,0
+Petchys_Bay,Huon,IPHC31,1,2.8,Live,MPX26,Theora lubrica,0
+Petchys_Bay,Huon,IPHC31,1,2.8,Live,MPX8,Pratulum thetidis,0
+Petchys_Bay,Huon,IPHC31,1,2.8,Live,MPX23,Fulvia tenuicostata,0
+Petchys_Bay,Huon,IPHC31,1,2.8,Live,MPX15,Hiatella australis,0
+Petchys_Bay,Huon,IPHC31,1,2.8,Live,MPX27,Plectodon brazieri,0
+Petchys_Bay,Huon,IPHC31,1,2.8,Live,MPV3,Tawera gallinula,0
+Petchys_Bay,Huon,IPHC31,1,2.8,Live,MPX9,Myadora albida,0
+Petchys_Bay,Huon,IPHC31,1,2.8,Live,MPV4,Timoclea sp.4,0
+Petchys_Bay,Huon,IPHC31,1,2.8,Live,MGD1,Diala suturalis,0
+Petchys_Bay,Huon,IPHC31,1,2.8,Live,MGP11,Pyramidellid sp.11,0
+Petchys_Bay,Huon,IPHC31,1,2,Dead,MPX55,Corbula gibba,42
+Petchys_Bay,Huon,IPHC31,1,2,Dead,MPN1,Ennucula obliqua,1
+Petchys_Bay,Huon,IPHC31,1,2,Dead,MGN1,Nassarius nigellus,3
+Petchys_Bay,Huon,IPHC31,1,2,Dead,MPX26,Theora lubrica,3
+Petchys_Bay,Huon,IPHC31,1,2,Dead,MPX8,Pratulum thetidis,7
+Petchys_Bay,Huon,IPHC31,1,2,Dead,MPX23,Fulvia tenuicostata,0
+Petchys_Bay,Huon,IPHC31,1,2,Dead,MPX15,Hiatella australis,0
+Petchys_Bay,Huon,IPHC31,1,2,Dead,MPX27,Plectodon brazieri,0
+Petchys_Bay,Huon,IPHC31,1,2,Dead,MPV3,Tawera gallinula,0
+Petchys_Bay,Huon,IPHC31,1,2,Dead,MPX9,Myadora albida,0
+Petchys_Bay,Huon,IPHC31,1,2,Dead,MPV4,Timoclea sp.4,0
+Petchys_Bay,Huon,IPHC31,1,2,Dead,MGD1,Diala suturalis,0
+Petchys_Bay,Huon,IPHC31,1,2,Dead,MGP11,Pyramidellid sp.11,0
+Petchys_Bay,Huon,IPHC31,1,2,Live,MPX55,Corbula gibba,3
+Petchys_Bay,Huon,IPHC31,1,2,Live,MPN1,Ennucula obliqua,2
+Petchys_Bay,Huon,IPHC31,1,2,Live,MGN1,Nassarius nigellus,0
+Petchys_Bay,Huon,IPHC31,1,2,Live,MPX26,Theora lubrica,0
+Petchys_Bay,Huon,IPHC31,1,2,Live,MPX8,Pratulum thetidis,0
+Petchys_Bay,Huon,IPHC31,1,2,Live,MPX23,Fulvia tenuicostata,0
+Petchys_Bay,Huon,IPHC31,1,2,Live,MPX15,Hiatella australis,0
+Petchys_Bay,Huon,IPHC31,1,2,Live,MPX27,Plectodon brazieri,0
+Petchys_Bay,Huon,IPHC31,1,2,Live,MPV3,Tawera gallinula,0
+Petchys_Bay,Huon,IPHC31,1,2,Live,MPX9,Myadora albida,0
+Petchys_Bay,Huon,IPHC31,1,2,Live,MPV4,Timoclea sp.4,0
+Petchys_Bay,Huon,IPHC31,1,2,Live,MGD1,Diala suturalis,0
+Petchys_Bay,Huon,IPHC31,1,2,Live,MGP11,Pyramidellid sp.11,0
+Petchys_Bay,Huon,IPHC31,1,1.4,Dead,MPX55,Corbula gibba,141
+Petchys_Bay,Huon,IPHC31,1,1.4,Dead,MPN1,Ennucula obliqua,14
+Petchys_Bay,Huon,IPHC31,1,1.4,Dead,MGN1,Nassarius nigellus,11
+Petchys_Bay,Huon,IPHC31,1,1.4,Dead,MPX26,Theora lubrica,3
+Petchys_Bay,Huon,IPHC31,1,1.4,Dead,MPX8,Pratulum thetidis,2
+Petchys_Bay,Huon,IPHC31,1,1.4,Dead,MPX23,Fulvia tenuicostata,0
+Petchys_Bay,Huon,IPHC31,1,1.4,Dead,MPX15,Hiatella australis,0
+Petchys_Bay,Huon,IPHC31,1,1.4,Dead,MPX27,Plectodon brazieri,0
+Petchys_Bay,Huon,IPHC31,1,1.4,Dead,MPV3,Tawera gallinula,0
+Petchys_Bay,Huon,IPHC31,1,1.4,Dead,MPX9,Myadora albida,0
+Petchys_Bay,Huon,IPHC31,1,1.4,Dead,MPV4,Timoclea sp.4,0
+Petchys_Bay,Huon,IPHC31,1,1.4,Dead,MGD1,Diala suturalis,0
+Petchys_Bay,Huon,IPHC31,1,1.4,Dead,MGP11,Pyramidellid sp.11,0
+Petchys_Bay,Huon,IPHC31,1,1.4,Live,MPX55,Corbula gibba,13
+Petchys_Bay,Huon,IPHC31,1,1.4,Live,MPN1,Ennucula obliqua,5
+Petchys_Bay,Huon,IPHC31,1,1.4,Live,MGN1,Nassarius nigellus,0
+Petchys_Bay,Huon,IPHC31,1,1.4,Live,MPX26,Theora lubrica,3
+Petchys_Bay,Huon,IPHC31,1,1.4,Live,MPX8,Pratulum thetidis,0
+Petchys_Bay,Huon,IPHC31,1,1.4,Live,MPX23,Fulvia tenuicostata,0
+Petchys_Bay,Huon,IPHC31,1,1.4,Live,MPX15,Hiatella australis,0
+Petchys_Bay,Huon,IPHC31,1,1.4,Live,MPX27,Plectodon brazieri,0
+Petchys_Bay,Huon,IPHC31,1,1.4,Live,MPV3,Tawera gallinula,0
+Petchys_Bay,Huon,IPHC31,1,1.4,Live,MPX9,Myadora albida,0
+Petchys_Bay,Huon,IPHC31,1,1.4,Live,MPV4,Timoclea sp.4,0
+Petchys_Bay,Huon,IPHC31,1,1.4,Live,MGD1,Diala suturalis,0
+Petchys_Bay,Huon,IPHC31,1,1.4,Live,MGP11,Pyramidellid sp.11,0
+Petchys_Bay,Huon,IPHC31,1,1,Dead,MPX55,Corbula gibba,100
+Petchys_Bay,Huon,IPHC31,1,1,Dead,MPN1,Ennucula obliqua,6
+Petchys_Bay,Huon,IPHC31,1,1,Dead,MGN1,Nassarius nigellus,5
+Petchys_Bay,Huon,IPHC31,1,1,Dead,MPX26,Theora lubrica,4
+Petchys_Bay,Huon,IPHC31,1,1,Dead,MPX8,Pratulum thetidis,0
+Petchys_Bay,Huon,IPHC31,1,1,Dead,MPX23,Fulvia tenuicostata,0
+Petchys_Bay,Huon,IPHC31,1,1,Dead,MPX15,Hiatella australis,0
+Petchys_Bay,Huon,IPHC31,1,1,Dead,MPX27,Plectodon brazieri,0
+Petchys_Bay,Huon,IPHC31,1,1,Dead,MPV3,Tawera gallinula,0
+Petchys_Bay,Huon,IPHC31,1,1,Dead,MPX9,Myadora albida,0
+Petchys_Bay,Huon,IPHC31,1,1,Dead,MPV4,Timoclea sp.4,0
+Petchys_Bay,Huon,IPHC31,1,1,Dead,MGD1,Diala suturalis,0
+Petchys_Bay,Huon,IPHC31,1,1,Dead,MGP11,Pyramidellid sp.11,0
+Petchys_Bay,Huon,IPHC31,1,1,Live,MPX55,Corbula gibba,19
+Petchys_Bay,Huon,IPHC31,1,1,Live,MPN1,Ennucula obliqua,1
+Petchys_Bay,Huon,IPHC31,1,1,Live,MGN1,Nassarius nigellus,0
+Petchys_Bay,Huon,IPHC31,1,1,Live,MPX26,Theora lubrica,0
+Petchys_Bay,Huon,IPHC31,1,1,Live,MPX8,Pratulum thetidis,0
+Petchys_Bay,Huon,IPHC31,1,1,Live,MPX23,Fulvia tenuicostata,0
+Petchys_Bay,Huon,IPHC31,1,1,Live,MPX15,Hiatella australis,0
+Petchys_Bay,Huon,IPHC31,1,1,Live,MPX27,Plectodon brazieri,0
+Petchys_Bay,Huon,IPHC31,1,1,Live,MPV3,Tawera gallinula,0
+Petchys_Bay,Huon,IPHC31,1,1,Live,MPX9,Myadora albida,0
+Petchys_Bay,Huon,IPHC31,1,1,Live,MPV4,Timoclea sp.4,1
+Petchys_Bay,Huon,IPHC31,1,1,Live,MGD1,Diala suturalis,1
+Petchys_Bay,Huon,IPHC31,1,1,Live,MGP11,Pyramidellid sp.11,1
+Petchys_Bay,Huon,IPHC31,2,4,Dead,MPX55,Corbula gibba,121
+Petchys_Bay,Huon,IPHC31,2,4,Dead,MPN1,Ennucula obliqua,0
+Petchys_Bay,Huon,IPHC31,2,4,Dead,MGN1,Nassarius nigellus,1
+Petchys_Bay,Huon,IPHC31,2,4,Dead,MPX26,Theora lubrica,0
+Petchys_Bay,Huon,IPHC31,2,4,Dead,MPX8,Pratulum thetidis,0
+Petchys_Bay,Huon,IPHC31,2,4,Dead,MPX23,Fulvia tenuicostata,0
+Petchys_Bay,Huon,IPHC31,2,4,Dead,MPX15,Hiatella australis,0
+Petchys_Bay,Huon,IPHC31,2,4,Dead,MPX27,Plectodon brazieri,0
+Petchys_Bay,Huon,IPHC31,2,4,Dead,MPV3,Tawera gallinula,0
+Petchys_Bay,Huon,IPHC31,2,4,Dead,MPX9,Myadora albida,0
+Petchys_Bay,Huon,IPHC31,2,4,Dead,MPV4,Timoclea sp.4,0
+Petchys_Bay,Huon,IPHC31,2,4,Dead,MGD1,Diala suturalis,0
+Petchys_Bay,Huon,IPHC31,2,4,Dead,MGP11,Pyramidellid sp.11,0
+Petchys_Bay,Huon,IPHC31,2,4,Live,MPX55,Corbula gibba,0
+Petchys_Bay,Huon,IPHC31,2,4,Live,MPN1,Ennucula obliqua,0
+Petchys_Bay,Huon,IPHC31,2,4,Live,MGN1,Nassarius nigellus,0
+Petchys_Bay,Huon,IPHC31,2,4,Live,MPX26,Theora lubrica,0
+Petchys_Bay,Huon,IPHC31,2,4,Live,MPX8,Pratulum thetidis,0
+Petchys_Bay,Huon,IPHC31,2,4,Live,MPX23,Fulvia tenuicostata,0
+Petchys_Bay,Huon,IPHC31,2,4,Live,MPX15,Hiatella australis,0
+Petchys_Bay,Huon,IPHC31,2,4,Live,MPX27,Plectodon brazieri,0
+Petchys_Bay,Huon,IPHC31,2,4,Live,MPV3,Tawera gallinula,0
+Petchys_Bay,Huon,IPHC31,2,4,Live,MPX9,Myadora albida,0
+Petchys_Bay,Huon,IPHC31,2,4,Live,MPV4,Timoclea sp.4,0
+Petchys_Bay,Huon,IPHC31,2,4,Live,MGD1,Diala suturalis,0
+Petchys_Bay,Huon,IPHC31,2,4,Live,MGP11,Pyramidellid sp.11,0
+Petchys_Bay,Huon,IPHC31,2,2.8,Dead,MPX55,Corbula gibba,73
+Petchys_Bay,Huon,IPHC31,2,2.8,Dead,MPN1,Ennucula obliqua,0
+Petchys_Bay,Huon,IPHC31,2,2.8,Dead,MGN1,Nassarius nigellus,2
+Petchys_Bay,Huon,IPHC31,2,2.8,Dead,MPX26,Theora lubrica,0
+Petchys_Bay,Huon,IPHC31,2,2.8,Dead,MPX8,Pratulum thetidis,2
+Petchys_Bay,Huon,IPHC31,2,2.8,Dead,MPX23,Fulvia tenuicostata,0
+Petchys_Bay,Huon,IPHC31,2,2.8,Dead,MPX15,Hiatella australis,0
+Petchys_Bay,Huon,IPHC31,2,2.8,Dead,MPX27,Plectodon brazieri,0
+Petchys_Bay,Huon,IPHC31,2,2.8,Dead,MPV3,Tawera gallinula,0
+Petchys_Bay,Huon,IPHC31,2,2.8,Dead,MPX9,Myadora albida,0
+Petchys_Bay,Huon,IPHC31,2,2.8,Dead,MPV4,Timoclea sp.4,0
+Petchys_Bay,Huon,IPHC31,2,2.8,Dead,MGD1,Diala suturalis,0
+Petchys_Bay,Huon,IPHC31,2,2.8,Dead,MGP11,Pyramidellid sp.11,0
+Petchys_Bay,Huon,IPHC31,2,2.8,Live,MPX55,Corbula gibba,0
+Petchys_Bay,Huon,IPHC31,2,2.8,Live,MPN1,Ennucula obliqua,0
+Petchys_Bay,Huon,IPHC31,2,2.8,Live,MGN1,Nassarius nigellus,0
+Petchys_Bay,Huon,IPHC31,2,2.8,Live,MPX26,Theora lubrica,0
+Petchys_Bay,Huon,IPHC31,2,2.8,Live,MPX8,Pratulum thetidis,0
+Petchys_Bay,Huon,IPHC31,2,2.8,Live,MPX23,Fulvia tenuicostata,0
+Petchys_Bay,Huon,IPHC31,2,2.8,Live,MPX15,Hiatella australis,0
+Petchys_Bay,Huon,IPHC31,2,2.8,Live,MPX27,Plectodon brazieri,0
+Petchys_Bay,Huon,IPHC31,2,2.8,Live,MPV3,Tawera gallinula,0
+Petchys_Bay,Huon,IPHC31,2,2.8,Live,MPX9,Myadora albida,0
+Petchys_Bay,Huon,IPHC31,2,2.8,Live,MPV4,Timoclea sp.4,0
+Petchys_Bay,Huon,IPHC31,2,2.8,Live,MGD1,Diala suturalis,0
+Petchys_Bay,Huon,IPHC31,2,2.8,Live,MGP11,Pyramidellid sp.11,0
+Petchys_Bay,Huon,IPHC31,2,2,Dead,MPX55,Corbula gibba,71
+Petchys_Bay,Huon,IPHC31,2,2,Dead,MPN1,Ennucula obliqua,8
+Petchys_Bay,Huon,IPHC31,2,2,Dead,MGN1,Nassarius nigellus,1
+Petchys_Bay,Huon,IPHC31,2,2,Dead,MPX26,Theora lubrica,2
+Petchys_Bay,Huon,IPHC31,2,2,Dead,MPX8,Pratulum thetidis,1
+Petchys_Bay,Huon,IPHC31,2,2,Dead,MPX23,Fulvia tenuicostata,0
+Petchys_Bay,Huon,IPHC31,2,2,Dead,MPX15,Hiatella australis,0
+Petchys_Bay,Huon,IPHC31,2,2,Dead,MPX27,Plectodon brazieri,0
+Petchys_Bay,Huon,IPHC31,2,2,Dead,MPV3,Tawera gallinula,0
+Petchys_Bay,Huon,IPHC31,2,2,Dead,MPX9,Myadora albida,0
+Petchys_Bay,Huon,IPHC31,2,2,Dead,MPV4,Timoclea sp.4,0
+Petchys_Bay,Huon,IPHC31,2,2,Dead,MGD1,Diala suturalis,0
+Petchys_Bay,Huon,IPHC31,2,2,Dead,MGP11,Pyramidellid sp.11,0
+Petchys_Bay,Huon,IPHC31,2,2,Live,MPX55,Corbula gibba,0
+Petchys_Bay,Huon,IPHC31,2,2,Live,MPN1,Ennucula obliqua,0
+Petchys_Bay,Huon,IPHC31,2,2,Live,MGN1,Nassarius nigellus,0
+Petchys_Bay,Huon,IPHC31,2,2,Live,MPX26,Theora lubrica,0
+Petchys_Bay,Huon,IPHC31,2,2,Live,MPX8,Pratulum thetidis,0
+Petchys_Bay,Huon,IPHC31,2,2,Live,MPX23,Fulvia tenuicostata,0
+Petchys_Bay,Huon,IPHC31,2,2,Live,MPX15,Hiatella australis,0
+Petchys_Bay,Huon,IPHC31,2,2,Live,MPX27,Plectodon brazieri,0
+Petchys_Bay,Huon,IPHC31,2,2,Live,MPV3,Tawera gallinula,0
+Petchys_Bay,Huon,IPHC31,2,2,Live,MPX9,Myadora albida,0
+Petchys_Bay,Huon,IPHC31,2,2,Live,MPV4,Timoclea sp.4,0
+Petchys_Bay,Huon,IPHC31,2,2,Live,MGD1,Diala suturalis,0
+Petchys_Bay,Huon,IPHC31,2,2,Live,MGP11,Pyramidellid sp.11,0
+Petchys_Bay,Huon,IPHC31,2,1.4,Dead,MPX55,Corbula gibba,152
+Petchys_Bay,Huon,IPHC31,2,1.4,Dead,MPN1,Ennucula obliqua,10
+Petchys_Bay,Huon,IPHC31,2,1.4,Dead,MGN1,Nassarius nigellus,4
+Petchys_Bay,Huon,IPHC31,2,1.4,Dead,MPX26,Theora lubrica,8
+Petchys_Bay,Huon,IPHC31,2,1.4,Dead,MPX8,Pratulum thetidis,0
+Petchys_Bay,Huon,IPHC31,2,1.4,Dead,MPX23,Fulvia tenuicostata,1
+Petchys_Bay,Huon,IPHC31,2,1.4,Dead,MPX15,Hiatella australis,0
+Petchys_Bay,Huon,IPHC31,2,1.4,Dead,MPX27,Plectodon brazieri,0
+Petchys_Bay,Huon,IPHC31,2,1.4,Dead,MPV3,Tawera gallinula,0
+Petchys_Bay,Huon,IPHC31,2,1.4,Dead,MPX9,Myadora albida,0
+Petchys_Bay,Huon,IPHC31,2,1.4,Dead,MPV4,Timoclea sp.4,0
+Petchys_Bay,Huon,IPHC31,2,1.4,Dead,MGD1,Diala suturalis,0
+Petchys_Bay,Huon,IPHC31,2,1.4,Dead,MGP11,Pyramidellid sp.11,0
+Petchys_Bay,Huon,IPHC31,2,1.4,Live,MPX55,Corbula gibba,3
+Petchys_Bay,Huon,IPHC31,2,1.4,Live,MPN1,Ennucula obliqua,2
+Petchys_Bay,Huon,IPHC31,2,1.4,Live,MGN1,Nassarius nigellus,0
+Petchys_Bay,Huon,IPHC31,2,1.4,Live,MPX26,Theora lubrica,0
+Petchys_Bay,Huon,IPHC31,2,1.4,Live,MPX8,Pratulum thetidis,0
+Petchys_Bay,Huon,IPHC31,2,1.4,Live,MPX23,Fulvia tenuicostata,0
+Petchys_Bay,Huon,IPHC31,2,1.4,Live,MPX15,Hiatella australis,0
+Petchys_Bay,Huon,IPHC31,2,1.4,Live,MPX27,Plectodon brazieri,0
+Petchys_Bay,Huon,IPHC31,2,1.4,Live,MPV3,Tawera gallinula,0
+Petchys_Bay,Huon,IPHC31,2,1.4,Live,MPX9,Myadora albida,0
+Petchys_Bay,Huon,IPHC31,2,1.4,Live,MPV4,Timoclea sp.4,0
+Petchys_Bay,Huon,IPHC31,2,1.4,Live,MGD1,Diala suturalis,0
+Petchys_Bay,Huon,IPHC31,2,1.4,Live,MGP11,Pyramidellid sp.11,0
+Petchys_Bay,Huon,IPHC31,2,1,Dead,MPX55,Corbula gibba,2
+Petchys_Bay,Huon,IPHC31,2,1,Dead,MPN1,Ennucula obliqua,3
+Petchys_Bay,Huon,IPHC31,2,1,Dead,MGN1,Nassarius nigellus,6
+Petchys_Bay,Huon,IPHC31,2,1,Dead,MPX26,Theora lubrica,7
+Petchys_Bay,Huon,IPHC31,2,1,Dead,MPX8,Pratulum thetidis,1
+Petchys_Bay,Huon,IPHC31,2,1,Dead,MPX23,Fulvia tenuicostata,0
+Petchys_Bay,Huon,IPHC31,2,1,Dead,MPX15,Hiatella australis,0
+Petchys_Bay,Huon,IPHC31,2,1,Dead,MPX27,Plectodon brazieri,0
+Petchys_Bay,Huon,IPHC31,2,1,Dead,MPV3,Tawera gallinula,0
+Petchys_Bay,Huon,IPHC31,2,1,Dead,MPX9,Myadora albida,1
+Petchys_Bay,Huon,IPHC31,2,1,Dead,MPV4,Timoclea sp.4,0
+Petchys_Bay,Huon,IPHC31,2,1,Dead,MGD1,Diala suturalis,0
+Petchys_Bay,Huon,IPHC31,2,1,Dead,MGP11,Pyramidellid sp.11,0
+Petchys_Bay,Huon,IPHC31,2,1,Live,MPX55,Corbula gibba,5
+Petchys_Bay,Huon,IPHC31,2,1,Live,MPN1,Ennucula obliqua,2
+Petchys_Bay,Huon,IPHC31,2,1,Live,MGN1,Nassarius nigellus,0
+Petchys_Bay,Huon,IPHC31,2,1,Live,MPX26,Theora lubrica,0
+Petchys_Bay,Huon,IPHC31,2,1,Live,MPX8,Pratulum thetidis,0
+Petchys_Bay,Huon,IPHC31,2,1,Live,MPX23,Fulvia tenuicostata,0
+Petchys_Bay,Huon,IPHC31,2,1,Live,MPX15,Hiatella australis,0
+Petchys_Bay,Huon,IPHC31,2,1,Live,MPX27,Plectodon brazieri,0
+Petchys_Bay,Huon,IPHC31,2,1,Live,MPV3,Tawera gallinula,0
+Petchys_Bay,Huon,IPHC31,2,1,Live,MPX9,Myadora albida,0
+Petchys_Bay,Huon,IPHC31,2,1,Live,MPV4,Timoclea sp.4,0
+Petchys_Bay,Huon,IPHC31,2,1,Live,MGD1,Diala suturalis,0
+Petchys_Bay,Huon,IPHC31,2,1,Live,MGP11,Pyramidellid sp.11,0
+Petchys_Bay,Huon,IPHC31,3,4,Dead,MPX55,Corbula gibba,123
+Petchys_Bay,Huon,IPHC31,3,4,Dead,MPN1,Ennucula obliqua,1
+Petchys_Bay,Huon,IPHC31,3,4,Dead,MGN1,Nassarius nigellus,0
+Petchys_Bay,Huon,IPHC31,3,4,Dead,MPX26,Theora lubrica,0
+Petchys_Bay,Huon,IPHC31,3,4,Dead,MPX8,Pratulum thetidis,0
+Petchys_Bay,Huon,IPHC31,3,4,Dead,MPX23,Fulvia tenuicostata,0
+Petchys_Bay,Huon,IPHC31,3,4,Dead,MPX15,Hiatella australis,0
+Petchys_Bay,Huon,IPHC31,3,4,Dead,MPX27,Plectodon brazieri,0
+Petchys_Bay,Huon,IPHC31,3,4,Dead,MPV3,Tawera gallinula,0
+Petchys_Bay,Huon,IPHC31,3,4,Dead,MPX9,Myadora albida,0
+Petchys_Bay,Huon,IPHC31,3,4,Dead,MPV4,Timoclea sp.4,0
+Petchys_Bay,Huon,IPHC31,3,4,Dead,MGD1,Diala suturalis,0
+Petchys_Bay,Huon,IPHC31,3,4,Dead,MGP11,Pyramidellid sp.11,0
+Petchys_Bay,Huon,IPHC31,3,4,Live,MPX55,Corbula gibba,1
+Petchys_Bay,Huon,IPHC31,3,4,Live,MPN1,Ennucula obliqua,0
+Petchys_Bay,Huon,IPHC31,3,4,Live,MGN1,Nassarius nigellus,0
+Petchys_Bay,Huon,IPHC31,3,4,Live,MPX26,Theora lubrica,0
+Petchys_Bay,Huon,IPHC31,3,4,Live,MPX8,Pratulum thetidis,0
+Petchys_Bay,Huon,IPHC31,3,4,Live,MPX23,Fulvia tenuicostata,0
+Petchys_Bay,Huon,IPHC31,3,4,Live,MPX15,Hiatella australis,0
+Petchys_Bay,Huon,IPHC31,3,4,Live,MPX27,Plectodon brazieri,0
+Petchys_Bay,Huon,IPHC31,3,4,Live,MPV3,Tawera gallinula,0
+Petchys_Bay,Huon,IPHC31,3,4,Live,MPX9,Myadora albida,0
+Petchys_Bay,Huon,IPHC31,3,4,Live,MPV4,Timoclea sp.4,0
+Petchys_Bay,Huon,IPHC31,3,4,Live,MGD1,Diala suturalis,0
+Petchys_Bay,Huon,IPHC31,3,4,Live,MGP11,Pyramidellid sp.11,0
+Petchys_Bay,Huon,IPHC31,3,2.8,Dead,MPX55,Corbula gibba,47
+Petchys_Bay,Huon,IPHC31,3,2.8,Dead,MPN1,Ennucula obliqua,2
+Petchys_Bay,Huon,IPHC31,3,2.8,Dead,MGN1,Nassarius nigellus,3
+Petchys_Bay,Huon,IPHC31,3,2.8,Dead,MPX26,Theora lubrica,0
+Petchys_Bay,Huon,IPHC31,3,2.8,Dead,MPX8,Pratulum thetidis,0
+Petchys_Bay,Huon,IPHC31,3,2.8,Dead,MPX23,Fulvia tenuicostata,0
+Petchys_Bay,Huon,IPHC31,3,2.8,Dead,MPX15,Hiatella australis,0
+Petchys_Bay,Huon,IPHC31,3,2.8,Dead,MPX27,Plectodon brazieri,0
+Petchys_Bay,Huon,IPHC31,3,2.8,Dead,MPV3,Tawera gallinula,0
+Petchys_Bay,Huon,IPHC31,3,2.8,Dead,MPX9,Myadora albida,0
+Petchys_Bay,Huon,IPHC31,3,2.8,Dead,MPV4,Timoclea sp.4,0
+Petchys_Bay,Huon,IPHC31,3,2.8,Dead,MGD1,Diala suturalis,0
+Petchys_Bay,Huon,IPHC31,3,2.8,Dead,MGP11,Pyramidellid sp.11,0
+Petchys_Bay,Huon,IPHC31,3,2.8,Live,MPX55,Corbula gibba,1
+Petchys_Bay,Huon,IPHC31,3,2.8,Live,MPN1,Ennucula obliqua,0
+Petchys_Bay,Huon,IPHC31,3,2.8,Live,MGN1,Nassarius nigellus,0
+Petchys_Bay,Huon,IPHC31,3,2.8,Live,MPX26,Theora lubrica,0
+Petchys_Bay,Huon,IPHC31,3,2.8,Live,MPX8,Pratulum thetidis,0
+Petchys_Bay,Huon,IPHC31,3,2.8,Live,MPX23,Fulvia tenuicostata,0
+Petchys_Bay,Huon,IPHC31,3,2.8,Live,MPX15,Hiatella australis,0
+Petchys_Bay,Huon,IPHC31,3,2.8,Live,MPX27,Plectodon brazieri,0
+Petchys_Bay,Huon,IPHC31,3,2.8,Live,MPV3,Tawera gallinula,0
+Petchys_Bay,Huon,IPHC31,3,2.8,Live,MPX9,Myadora albida,0
+Petchys_Bay,Huon,IPHC31,3,2.8,Live,MPV4,Timoclea sp.4,0
+Petchys_Bay,Huon,IPHC31,3,2.8,Live,MGD1,Diala suturalis,0
+Petchys_Bay,Huon,IPHC31,3,2.8,Live,MGP11,Pyramidellid sp.11,0
+Petchys_Bay,Huon,IPHC31,3,2,Dead,MPX55,Corbula gibba,56
+Petchys_Bay,Huon,IPHC31,3,2,Dead,MPN1,Ennucula obliqua,3
+Petchys_Bay,Huon,IPHC31,3,2,Dead,MGN1,Nassarius nigellus,4
+Petchys_Bay,Huon,IPHC31,3,2,Dead,MPX26,Theora lubrica,1
+Petchys_Bay,Huon,IPHC31,3,2,Dead,MPX8,Pratulum thetidis,4
+Petchys_Bay,Huon,IPHC31,3,2,Dead,MPX23,Fulvia tenuicostata,0
+Petchys_Bay,Huon,IPHC31,3,2,Dead,MPX15,Hiatella australis,0
+Petchys_Bay,Huon,IPHC31,3,2,Dead,MPX27,Plectodon brazieri,0
+Petchys_Bay,Huon,IPHC31,3,2,Dead,MPV3,Tawera gallinula,0
+Petchys_Bay,Huon,IPHC31,3,2,Dead,MPX9,Myadora albida,0
+Petchys_Bay,Huon,IPHC31,3,2,Dead,MPV4,Timoclea sp.4,0
+Petchys_Bay,Huon,IPHC31,3,2,Dead,MGD1,Diala suturalis,0
+Petchys_Bay,Huon,IPHC31,3,2,Dead,MGP11,Pyramidellid sp.11,0
+Petchys_Bay,Huon,IPHC31,3,2,Live,MPX55,Corbula gibba,1
+Petchys_Bay,Huon,IPHC31,3,2,Live,MPN1,Ennucula obliqua,0
+Petchys_Bay,Huon,IPHC31,3,2,Live,MGN1,Nassarius nigellus,0
+Petchys_Bay,Huon,IPHC31,3,2,Live,MPX26,Theora lubrica,0
+Petchys_Bay,Huon,IPHC31,3,2,Live,MPX8,Pratulum thetidis,0
+Petchys_Bay,Huon,IPHC31,3,2,Live,MPX23,Fulvia tenuicostata,0
+Petchys_Bay,Huon,IPHC31,3,2,Live,MPX15,Hiatella australis,0
+Petchys_Bay,Huon,IPHC31,3,2,Live,MPX27,Plectodon brazieri,0
+Petchys_Bay,Huon,IPHC31,3,2,Live,MPV3,Tawera gallinula,0
+Petchys_Bay,Huon,IPHC31,3,2,Live,MPX9,Myadora albida,0
+Petchys_Bay,Huon,IPHC31,3,2,Live,MPV4,Timoclea sp.4,0
+Petchys_Bay,Huon,IPHC31,3,2,Live,MGD1,Diala suturalis,0
+Petchys_Bay,Huon,IPHC31,3,2,Live,MGP11,Pyramidellid sp.11,0
+Petchys_Bay,Huon,IPHC31,3,1.4,Dead,MPX55,Corbula gibba,127
+Petchys_Bay,Huon,IPHC31,3,1.4,Dead,MPN1,Ennucula obliqua,12
+Petchys_Bay,Huon,IPHC31,3,1.4,Dead,MGN1,Nassarius nigellus,7
+Petchys_Bay,Huon,IPHC31,3,1.4,Dead,MPX26,Theora lubrica,7
+Petchys_Bay,Huon,IPHC31,3,1.4,Dead,MPX8,Pratulum thetidis,1
+Petchys_Bay,Huon,IPHC31,3,1.4,Dead,MPX23,Fulvia tenuicostata,0
+Petchys_Bay,Huon,IPHC31,3,1.4,Dead,MPX15,Hiatella australis,0
+Petchys_Bay,Huon,IPHC31,3,1.4,Dead,MPX27,Plectodon brazieri,0
+Petchys_Bay,Huon,IPHC31,3,1.4,Dead,MPV3,Tawera gallinula,0
+Petchys_Bay,Huon,IPHC31,3,1.4,Dead,MPX9,Myadora albida,0
+Petchys_Bay,Huon,IPHC31,3,1.4,Dead,MPV4,Timoclea sp.4,0
+Petchys_Bay,Huon,IPHC31,3,1.4,Dead,MGD1,Diala suturalis,0
+Petchys_Bay,Huon,IPHC31,3,1.4,Dead,MGP11,Pyramidellid sp.11,0
+Petchys_Bay,Huon,IPHC31,3,1.4,Live,MPX55,Corbula gibba,24
+Petchys_Bay,Huon,IPHC31,3,1.4,Live,MPN1,Ennucula obliqua,6
+Petchys_Bay,Huon,IPHC31,3,1.4,Live,MGN1,Nassarius nigellus,0
+Petchys_Bay,Huon,IPHC31,3,1.4,Live,MPX26,Theora lubrica,1
+Petchys_Bay,Huon,IPHC31,3,1.4,Live,MPX8,Pratulum thetidis,0
+Petchys_Bay,Huon,IPHC31,3,1.4,Live,MPX23,Fulvia tenuicostata,0
+Petchys_Bay,Huon,IPHC31,3,1.4,Live,MPX15,Hiatella australis,0
+Petchys_Bay,Huon,IPHC31,3,1.4,Live,MPX27,Plectodon brazieri,0
+Petchys_Bay,Huon,IPHC31,3,1.4,Live,MPV3,Tawera gallinula,0
+Petchys_Bay,Huon,IPHC31,3,1.4,Live,MPX9,Myadora albida,0
+Petchys_Bay,Huon,IPHC31,3,1.4,Live,MPV4,Timoclea sp.4,0
+Petchys_Bay,Huon,IPHC31,3,1.4,Live,MGD1,Diala suturalis,0
+Petchys_Bay,Huon,IPHC31,3,1.4,Live,MGP11,Pyramidellid sp.11,0
+Petchys_Bay,Huon,IPHC31,3,1,Dead,MPX55,Corbula gibba,205
+Petchys_Bay,Huon,IPHC31,3,1,Dead,MPN1,Ennucula obliqua,6
+Petchys_Bay,Huon,IPHC31,3,1,Dead,MGN1,Nassarius nigellus,6
+Petchys_Bay,Huon,IPHC31,3,1,Dead,MPX26,Theora lubrica,5
+Petchys_Bay,Huon,IPHC31,3,1,Dead,MPX8,Pratulum thetidis,1
+Petchys_Bay,Huon,IPHC31,3,1,Dead,MPX23,Fulvia tenuicostata,4
+Petchys_Bay,Huon,IPHC31,3,1,Dead,MPX15,Hiatella australis,1
+Petchys_Bay,Huon,IPHC31,3,1,Dead,MPX27,Plectodon brazieri,1
+Petchys_Bay,Huon,IPHC31,3,1,Dead,MPV3,Tawera gallinula,1
+Petchys_Bay,Huon,IPHC31,3,1,Dead,MPX9,Myadora albida,0
+Petchys_Bay,Huon,IPHC31,3,1,Dead,MPV4,Timoclea sp.4,0
+Petchys_Bay,Huon,IPHC31,3,1,Dead,MGD1,Diala suturalis,0
+Petchys_Bay,Huon,IPHC31,3,1,Dead,MGP11,Pyramidellid sp.11,0
+Petchys_Bay,Huon,IPHC31,3,1,Live,MPX55,Corbula gibba,22
+Petchys_Bay,Huon,IPHC31,3,1,Live,MPN1,Ennucula obliqua,0
+Petchys_Bay,Huon,IPHC31,3,1,Live,MGN1,Nassarius nigellus,0
+Petchys_Bay,Huon,IPHC31,3,1,Live,MPX26,Theora lubrica,3
+Petchys_Bay,Huon,IPHC31,3,1,Live,MPX8,Pratulum thetidis,0
+Petchys_Bay,Huon,IPHC31,3,1,Live,MPX23,Fulvia tenuicostata,0
+Petchys_Bay,Huon,IPHC31,3,1,Live,MPX15,Hiatella australis,0
+Petchys_Bay,Huon,IPHC31,3,1,Live,MPX27,Plectodon brazieri,0
+Petchys_Bay,Huon,IPHC31,3,1,Live,MPV3,Tawera gallinula,0
+Petchys_Bay,Huon,IPHC31,3,1,Live,MPX9,Myadora albida,0
+Petchys_Bay,Huon,IPHC31,3,1,Live,MPV4,Timoclea sp.4,0
+Petchys_Bay,Huon,IPHC31,3,1,Live,MGD1,Diala suturalis,0
+Petchys_Bay,Huon,IPHC31,3,1,Live,MGP11,Pyramidellid sp.11,0
+Port_Cygnet,Huon,IPHC33,1,4,Dead,MPX55,Corbula gibba,65
+Port_Cygnet,Huon,IPHC33,1,4,Dead,MGN1,Nassarius nigellus,6
+Port_Cygnet,Huon,IPHC33,1,4,Dead,MGT3,Trochid sp.3,0
+Port_Cygnet,Huon,IPHC33,1,4,Dead,MPX8,Pratulum thetidis,6
+Port_Cygnet,Huon,IPHC33,1,4,Dead,MPV4,Timoclea sp.4,0
+Port_Cygnet,Huon,IPHC33,1,4,Dead,MPX14,Channelaxinus adelaideanus,0
+Port_Cygnet,Huon,IPHC33,1,4,Dead,MPN1,Ennucula obliqua,0
+Port_Cygnet,Huon,IPHC33,1,4,Dead,MGL1,Cacozeliana granarium,1
+Port_Cygnet,Huon,IPHC33,1,4,Dead,MPX26,Theora lubrica,0
+Port_Cygnet,Huon,IPHC33,1,4,Dead,MPX27,Plectodon brazieri,0
+Port_Cygnet,Huon,IPHC33,1,4,Dead,MPX15,Hiatella australis,0
+Port_Cygnet,Huon,IPHC33,1,4,Dead,MGD1,Diala suturalis,0
+Port_Cygnet,Huon,IPHC33,1,4,Dead,MPV1,Placamen placidum,0
+Port_Cygnet,Huon,IPHC33,1,4,Dead,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,1,4,Dead,MPX62,Raeta pulchella,0
+Port_Cygnet,Huon,IPHC33,1,4,Dead,MPO7,#N/A,1
+Port_Cygnet,Huon,IPHC33,1,4,Dead,MPV19,#N/A,2
+Port_Cygnet,Huon,IPHC33,1,4,Dead,MGT17,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,4,Dead,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,1,4,Dead,MPX17,Purpurocardia bimaculata,0
+Port_Cygnet,Huon,IPHC33,1,4,Dead,MGX31,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,4,Dead,MPX9,Myadora albida,0
+Port_Cygnet,Huon,IPHC33,1,4,Dead,MPV5,Irus cf. carditoides,0
+Port_Cygnet,Huon,IPHC33,1,4,Dead,MGU1,Guraleus sp.1,0
+Port_Cygnet,Huon,IPHC33,1,4,Dead,MXX2,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,4,Dead,MGA7,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,4,Dead,MXX3,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,4,Dead,MPX58,Cardita aviculina,0
+Port_Cygnet,Huon,IPHC33,1,4,Dead,MPV3,Tawera gallinula,0
+Port_Cygnet,Huon,IPHC33,1,4,Live,MPX55,Corbula gibba,0
+Port_Cygnet,Huon,IPHC33,1,4,Live,MGN1,Nassarius nigellus,0
+Port_Cygnet,Huon,IPHC33,1,4,Live,MGT3,Trochid sp.3,0
+Port_Cygnet,Huon,IPHC33,1,4,Live,MPX8,Pratulum thetidis,0
+Port_Cygnet,Huon,IPHC33,1,4,Live,MPV4,Timoclea sp.4,0
+Port_Cygnet,Huon,IPHC33,1,4,Live,MPX14,Channelaxinus adelaideanus,0
+Port_Cygnet,Huon,IPHC33,1,4,Live,MPN1,Ennucula obliqua,0
+Port_Cygnet,Huon,IPHC33,1,4,Live,MGL1,Cacozeliana granarium,0
+Port_Cygnet,Huon,IPHC33,1,4,Live,MPX26,Theora lubrica,0
+Port_Cygnet,Huon,IPHC33,1,4,Live,MPX27,Plectodon brazieri,0
+Port_Cygnet,Huon,IPHC33,1,4,Live,MPX15,Hiatella australis,0
+Port_Cygnet,Huon,IPHC33,1,4,Live,MGD1,Diala suturalis,0
+Port_Cygnet,Huon,IPHC33,1,4,Live,MPV1,Placamen placidum,0
+Port_Cygnet,Huon,IPHC33,1,4,Live,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,1,4,Live,MPX62,Raeta pulchella,0
+Port_Cygnet,Huon,IPHC33,1,4,Live,MPO7,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,4,Live,MPV19,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,4,Live,MGT17,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,4,Live,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,1,4,Live,MPX17,Purpurocardia bimaculata,0
+Port_Cygnet,Huon,IPHC33,1,4,Live,MGX31,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,4,Live,MPX9,Myadora albida,0
+Port_Cygnet,Huon,IPHC33,1,4,Live,MPV5,Irus cf. carditoides,0
+Port_Cygnet,Huon,IPHC33,1,4,Live,MGU1,Guraleus sp.1,0
+Port_Cygnet,Huon,IPHC33,1,4,Live,MXX2,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,4,Live,MGA7,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,4,Live,MXX3,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,4,Live,MPX58,Cardita aviculina,0
+Port_Cygnet,Huon,IPHC33,1,4,Live,MPV3,Tawera gallinula,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Dead,MPX55,Corbula gibba,13
+Port_Cygnet,Huon,IPHC33,1,2.8,Dead,MGN1,Nassarius nigellus,4
+Port_Cygnet,Huon,IPHC33,1,2.8,Dead,MGT3,Trochid sp.3,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Dead,MPX8,Pratulum thetidis,4
+Port_Cygnet,Huon,IPHC33,1,2.8,Dead,MPV4,Timoclea sp.4,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Dead,MPX14,Channelaxinus adelaideanus,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Dead,MPN1,Ennucula obliqua,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Dead,MGL1,Cacozeliana granarium,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Dead,MPX26,Theora lubrica,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Dead,MPX27,Plectodon brazieri,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Dead,MPX15,Hiatella australis,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Dead,MGD1,Diala suturalis,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Dead,MPV1,Placamen placidum,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Dead,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Dead,MPX62,Raeta pulchella,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Dead,MPO7,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Dead,MPV19,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Dead,MGT17,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Dead,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Dead,MPX17,Purpurocardia bimaculata,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Dead,MGX31,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Dead,MPX9,Myadora albida,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Dead,MPV5,Irus cf. carditoides,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Dead,MGU1,Guraleus sp.1,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Dead,MXX2,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Dead,MGA7,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Dead,MXX3,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Dead,MPX58,Cardita aviculina,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Dead,MPV3,Tawera gallinula,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Live,MPX55,Corbula gibba,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Live,MGN1,Nassarius nigellus,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Live,MGT3,Trochid sp.3,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Live,MPX8,Pratulum thetidis,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Live,MPV4,Timoclea sp.4,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Live,MPX14,Channelaxinus adelaideanus,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Live,MPN1,Ennucula obliqua,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Live,MGL1,Cacozeliana granarium,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Live,MPX26,Theora lubrica,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Live,MPX27,Plectodon brazieri,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Live,MPX15,Hiatella australis,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Live,MGD1,Diala suturalis,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Live,MPV1,Placamen placidum,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Live,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Live,MPX62,Raeta pulchella,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Live,MPO7,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Live,MPV19,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Live,MGT17,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Live,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Live,MPX17,Purpurocardia bimaculata,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Live,MGX31,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Live,MPX9,Myadora albida,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Live,MPV5,Irus cf. carditoides,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Live,MGU1,Guraleus sp.1,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Live,MXX2,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Live,MGA7,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Live,MXX3,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Live,MPX58,Cardita aviculina,0
+Port_Cygnet,Huon,IPHC33,1,2.8,Live,MPV3,Tawera gallinula,0
+Port_Cygnet,Huon,IPHC33,1,2,Dead,MPX55,Corbula gibba,8
+Port_Cygnet,Huon,IPHC33,1,2,Dead,MGN1,Nassarius nigellus,2
+Port_Cygnet,Huon,IPHC33,1,2,Dead,MGT3,Trochid sp.3,0
+Port_Cygnet,Huon,IPHC33,1,2,Dead,MPX8,Pratulum thetidis,3
+Port_Cygnet,Huon,IPHC33,1,2,Dead,MPV4,Timoclea sp.4,1
+Port_Cygnet,Huon,IPHC33,1,2,Dead,MPX14,Channelaxinus adelaideanus,1
+Port_Cygnet,Huon,IPHC33,1,2,Dead,MPN1,Ennucula obliqua,1
+Port_Cygnet,Huon,IPHC33,1,2,Dead,MGL1,Cacozeliana granarium,0
+Port_Cygnet,Huon,IPHC33,1,2,Dead,MPX26,Theora lubrica,0
+Port_Cygnet,Huon,IPHC33,1,2,Dead,MPX27,Plectodon brazieri,0
+Port_Cygnet,Huon,IPHC33,1,2,Dead,MPX15,Hiatella australis,4
+Port_Cygnet,Huon,IPHC33,1,2,Dead,MGD1,Diala suturalis,0
+Port_Cygnet,Huon,IPHC33,1,2,Dead,MPV1,Placamen placidum,0
+Port_Cygnet,Huon,IPHC33,1,2,Dead,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,1,2,Dead,MPX62,Raeta pulchella,0
+Port_Cygnet,Huon,IPHC33,1,2,Dead,MPO7,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,2,Dead,MPV19,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,2,Dead,MGT17,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,2,Dead,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,1,2,Dead,MPX17,Purpurocardia bimaculata,0
+Port_Cygnet,Huon,IPHC33,1,2,Dead,MGX31,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,2,Dead,MPX9,Myadora albida,0
+Port_Cygnet,Huon,IPHC33,1,2,Dead,MPV5,Irus cf. carditoides,0
+Port_Cygnet,Huon,IPHC33,1,2,Dead,MGU1,Guraleus sp.1,0
+Port_Cygnet,Huon,IPHC33,1,2,Dead,MXX2,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,2,Dead,MGA7,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,2,Dead,MXX3,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,2,Dead,MPX58,Cardita aviculina,0
+Port_Cygnet,Huon,IPHC33,1,2,Dead,MPV3,Tawera gallinula,0
+Port_Cygnet,Huon,IPHC33,1,2,Live,MPX55,Corbula gibba,1
+Port_Cygnet,Huon,IPHC33,1,2,Live,MGN1,Nassarius nigellus,0
+Port_Cygnet,Huon,IPHC33,1,2,Live,MGT3,Trochid sp.3,0
+Port_Cygnet,Huon,IPHC33,1,2,Live,MPX8,Pratulum thetidis,0
+Port_Cygnet,Huon,IPHC33,1,2,Live,MPV4,Timoclea sp.4,0
+Port_Cygnet,Huon,IPHC33,1,2,Live,MPX14,Channelaxinus adelaideanus,0
+Port_Cygnet,Huon,IPHC33,1,2,Live,MPN1,Ennucula obliqua,0
+Port_Cygnet,Huon,IPHC33,1,2,Live,MGL1,Cacozeliana granarium,0
+Port_Cygnet,Huon,IPHC33,1,2,Live,MPX26,Theora lubrica,0
+Port_Cygnet,Huon,IPHC33,1,2,Live,MPX27,Plectodon brazieri,0
+Port_Cygnet,Huon,IPHC33,1,2,Live,MPX15,Hiatella australis,0
+Port_Cygnet,Huon,IPHC33,1,2,Live,MGD1,Diala suturalis,0
+Port_Cygnet,Huon,IPHC33,1,2,Live,MPV1,Placamen placidum,0
+Port_Cygnet,Huon,IPHC33,1,2,Live,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,1,2,Live,MPX62,Raeta pulchella,0
+Port_Cygnet,Huon,IPHC33,1,2,Live,MPO7,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,2,Live,MPV19,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,2,Live,MGT17,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,2,Live,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,1,2,Live,MPX17,Purpurocardia bimaculata,0
+Port_Cygnet,Huon,IPHC33,1,2,Live,MGX31,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,2,Live,MPX9,Myadora albida,0
+Port_Cygnet,Huon,IPHC33,1,2,Live,MPV5,Irus cf. carditoides,0
+Port_Cygnet,Huon,IPHC33,1,2,Live,MGU1,Guraleus sp.1,0
+Port_Cygnet,Huon,IPHC33,1,2,Live,MXX2,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,2,Live,MGA7,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,2,Live,MXX3,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,2,Live,MPX58,Cardita aviculina,0
+Port_Cygnet,Huon,IPHC33,1,2,Live,MPV3,Tawera gallinula,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Dead,MPX55,Corbula gibba,38
+Port_Cygnet,Huon,IPHC33,1,1.4,Dead,MGN1,Nassarius nigellus,1
+Port_Cygnet,Huon,IPHC33,1,1.4,Dead,MGT3,Trochid sp.3,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Dead,MPX8,Pratulum thetidis,7
+Port_Cygnet,Huon,IPHC33,1,1.4,Dead,MPV4,Timoclea sp.4,8
+Port_Cygnet,Huon,IPHC33,1,1.4,Dead,MPX14,Channelaxinus adelaideanus,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Dead,MPN1,Ennucula obliqua,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Dead,MGL1,Cacozeliana granarium,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Dead,MPX26,Theora lubrica,4
+Port_Cygnet,Huon,IPHC33,1,1.4,Dead,MPX27,Plectodon brazieri,2
+Port_Cygnet,Huon,IPHC33,1,1.4,Dead,MPX15,Hiatella australis,8
+Port_Cygnet,Huon,IPHC33,1,1.4,Dead,MGD1,Diala suturalis,4
+Port_Cygnet,Huon,IPHC33,1,1.4,Dead,MPV1,Placamen placidum,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Dead,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Dead,MPX62,Raeta pulchella,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Dead,MPO7,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Dead,MPV19,#N/A,1
+Port_Cygnet,Huon,IPHC33,1,1.4,Dead,MGT17,#N/A,2
+Port_Cygnet,Huon,IPHC33,1,1.4,Dead,MGR1,Retusa atkinsoni,1
+Port_Cygnet,Huon,IPHC33,1,1.4,Dead,MPX17,Purpurocardia bimaculata,1
+Port_Cygnet,Huon,IPHC33,1,1.4,Dead,MGX31,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Dead,MPX9,Myadora albida,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Dead,MPV5,Irus cf. carditoides,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Dead,MGU1,Guraleus sp.1,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Dead,MXX2,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Dead,MGA7,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Dead,MXX3,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Dead,MPX58,Cardita aviculina,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Dead,MPV3,Tawera gallinula,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Live,MPX55,Corbula gibba,1
+Port_Cygnet,Huon,IPHC33,1,1.4,Live,MGN1,Nassarius nigellus,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Live,MGT3,Trochid sp.3,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Live,MPX8,Pratulum thetidis,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Live,MPV4,Timoclea sp.4,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Live,MPX14,Channelaxinus adelaideanus,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Live,MPN1,Ennucula obliqua,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Live,MGL1,Cacozeliana granarium,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Live,MPX26,Theora lubrica,2
+Port_Cygnet,Huon,IPHC33,1,1.4,Live,MPX27,Plectodon brazieri,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Live,MPX15,Hiatella australis,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Live,MGD1,Diala suturalis,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Live,MPV1,Placamen placidum,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Live,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Live,MPX62,Raeta pulchella,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Live,MPO7,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Live,MPV19,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Live,MGT17,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Live,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Live,MPX17,Purpurocardia bimaculata,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Live,MGX31,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Live,MPX9,Myadora albida,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Live,MPV5,Irus cf. carditoides,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Live,MGU1,Guraleus sp.1,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Live,MXX2,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Live,MGA7,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Live,MXX3,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Live,MPX58,Cardita aviculina,0
+Port_Cygnet,Huon,IPHC33,1,1.4,Live,MPV3,Tawera gallinula,0
+Port_Cygnet,Huon,IPHC33,1,1,Dead,MPX55,Corbula gibba,31
+Port_Cygnet,Huon,IPHC33,1,1,Dead,MGN1,Nassarius nigellus,0
+Port_Cygnet,Huon,IPHC33,1,1,Dead,MGT3,Trochid sp.3,0
+Port_Cygnet,Huon,IPHC33,1,1,Dead,MPX8,Pratulum thetidis,2
+Port_Cygnet,Huon,IPHC33,1,1,Dead,MPV4,Timoclea sp.4,14
+Port_Cygnet,Huon,IPHC33,1,1,Dead,MPX14,Channelaxinus adelaideanus,0
+Port_Cygnet,Huon,IPHC33,1,1,Dead,MPN1,Ennucula obliqua,0
+Port_Cygnet,Huon,IPHC33,1,1,Dead,MGL1,Cacozeliana granarium,2
+Port_Cygnet,Huon,IPHC33,1,1,Dead,MPX26,Theora lubrica,1
+Port_Cygnet,Huon,IPHC33,1,1,Dead,MPX27,Plectodon brazieri,9
+Port_Cygnet,Huon,IPHC33,1,1,Dead,MPX15,Hiatella australis,9
+Port_Cygnet,Huon,IPHC33,1,1,Dead,MGD1,Diala suturalis,6
+Port_Cygnet,Huon,IPHC33,1,1,Dead,MPV1,Placamen placidum,4
+Port_Cygnet,Huon,IPHC33,1,1,Dead,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,1,1,Dead,MPX62,Raeta pulchella,1
+Port_Cygnet,Huon,IPHC33,1,1,Dead,MPO7,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,1,Dead,MPV19,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,1,Dead,MGT17,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,1,Dead,MGR1,Retusa atkinsoni,1
+Port_Cygnet,Huon,IPHC33,1,1,Dead,MPX17,Purpurocardia bimaculata,8
+Port_Cygnet,Huon,IPHC33,1,1,Dead,MGX31,#N/A,1
+Port_Cygnet,Huon,IPHC33,1,1,Dead,MPX9,Myadora albida,2
+Port_Cygnet,Huon,IPHC33,1,1,Dead,MPV5,Irus cf. carditoides,1
+Port_Cygnet,Huon,IPHC33,1,1,Dead,MGU1,Guraleus sp.1,2
+Port_Cygnet,Huon,IPHC33,1,1,Dead,MXX2,#N/A,8
+Port_Cygnet,Huon,IPHC33,1,1,Dead,MGA7,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,1,Dead,MXX3,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,1,Dead,MPX58,Cardita aviculina,0
+Port_Cygnet,Huon,IPHC33,1,1,Dead,MPV3,Tawera gallinula,0
+Port_Cygnet,Huon,IPHC33,1,1,Live,MPX55,Corbula gibba,14
+Port_Cygnet,Huon,IPHC33,1,1,Live,MGN1,Nassarius nigellus,0
+Port_Cygnet,Huon,IPHC33,1,1,Live,MGT3,Trochid sp.3,0
+Port_Cygnet,Huon,IPHC33,1,1,Live,MPX8,Pratulum thetidis,0
+Port_Cygnet,Huon,IPHC33,1,1,Live,MPV4,Timoclea sp.4,0
+Port_Cygnet,Huon,IPHC33,1,1,Live,MPX14,Channelaxinus adelaideanus,0
+Port_Cygnet,Huon,IPHC33,1,1,Live,MPN1,Ennucula obliqua,4
+Port_Cygnet,Huon,IPHC33,1,1,Live,MGL1,Cacozeliana granarium,0
+Port_Cygnet,Huon,IPHC33,1,1,Live,MPX26,Theora lubrica,1
+Port_Cygnet,Huon,IPHC33,1,1,Live,MPX27,Plectodon brazieri,0
+Port_Cygnet,Huon,IPHC33,1,1,Live,MPX15,Hiatella australis,0
+Port_Cygnet,Huon,IPHC33,1,1,Live,MGD1,Diala suturalis,0
+Port_Cygnet,Huon,IPHC33,1,1,Live,MPV1,Placamen placidum,0
+Port_Cygnet,Huon,IPHC33,1,1,Live,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,1,1,Live,MPX62,Raeta pulchella,0
+Port_Cygnet,Huon,IPHC33,1,1,Live,MPO7,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,1,Live,MPV19,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,1,Live,MGT17,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,1,Live,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,1,1,Live,MPX17,Purpurocardia bimaculata,0
+Port_Cygnet,Huon,IPHC33,1,1,Live,MGX31,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,1,Live,MPX9,Myadora albida,0
+Port_Cygnet,Huon,IPHC33,1,1,Live,MPV5,Irus cf. carditoides,0
+Port_Cygnet,Huon,IPHC33,1,1,Live,MGU1,Guraleus sp.1,0
+Port_Cygnet,Huon,IPHC33,1,1,Live,MXX2,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,1,Live,MGA7,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,1,Live,MXX3,#N/A,0
+Port_Cygnet,Huon,IPHC33,1,1,Live,MPX58,Cardita aviculina,0
+Port_Cygnet,Huon,IPHC33,1,1,Live,MPV3,Tawera gallinula,0
+Port_Cygnet,Huon,IPHC33,2,4,Dead,MPX55,Corbula gibba,69
+Port_Cygnet,Huon,IPHC33,2,4,Dead,MGN1,Nassarius nigellus,2
+Port_Cygnet,Huon,IPHC33,2,4,Dead,MGT3,Trochid sp.3,1
+Port_Cygnet,Huon,IPHC33,2,4,Dead,MPX8,Pratulum thetidis,7
+Port_Cygnet,Huon,IPHC33,2,4,Dead,MPV4,Timoclea sp.4,1
+Port_Cygnet,Huon,IPHC33,2,4,Dead,MPX14,Channelaxinus adelaideanus,1
+Port_Cygnet,Huon,IPHC33,2,4,Dead,MPN1,Ennucula obliqua,1
+Port_Cygnet,Huon,IPHC33,2,4,Dead,MGL1,Cacozeliana granarium,0
+Port_Cygnet,Huon,IPHC33,2,4,Dead,MPX26,Theora lubrica,0
+Port_Cygnet,Huon,IPHC33,2,4,Dead,MPX27,Plectodon brazieri,0
+Port_Cygnet,Huon,IPHC33,2,4,Dead,MPX15,Hiatella australis,0
+Port_Cygnet,Huon,IPHC33,2,4,Dead,MGD1,Diala suturalis,0
+Port_Cygnet,Huon,IPHC33,2,4,Dead,MPV1,Placamen placidum,0
+Port_Cygnet,Huon,IPHC33,2,4,Dead,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,2,4,Dead,MPX62,Raeta pulchella,0
+Port_Cygnet,Huon,IPHC33,2,4,Dead,MPO7,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,4,Dead,MPV19,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,4,Dead,MGT17,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,4,Dead,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,2,4,Dead,MPX17,Purpurocardia bimaculata,0
+Port_Cygnet,Huon,IPHC33,2,4,Dead,MGX31,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,4,Dead,MPX9,Myadora albida,0
+Port_Cygnet,Huon,IPHC33,2,4,Dead,MPV5,Irus cf. carditoides,0
+Port_Cygnet,Huon,IPHC33,2,4,Dead,MGU1,Guraleus sp.1,0
+Port_Cygnet,Huon,IPHC33,2,4,Dead,MXX2,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,4,Dead,MGA7,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,4,Dead,MXX3,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,4,Dead,MPX58,Cardita aviculina,0
+Port_Cygnet,Huon,IPHC33,2,4,Dead,MPV3,Tawera gallinula,0
+Port_Cygnet,Huon,IPHC33,2,4,Live,MPX55,Corbula gibba,0
+Port_Cygnet,Huon,IPHC33,2,4,Live,MGN1,Nassarius nigellus,0
+Port_Cygnet,Huon,IPHC33,2,4,Live,MGT3,Trochid sp.3,0
+Port_Cygnet,Huon,IPHC33,2,4,Live,MPX8,Pratulum thetidis,0
+Port_Cygnet,Huon,IPHC33,2,4,Live,MPV4,Timoclea sp.4,0
+Port_Cygnet,Huon,IPHC33,2,4,Live,MPX14,Channelaxinus adelaideanus,0
+Port_Cygnet,Huon,IPHC33,2,4,Live,MPN1,Ennucula obliqua,0
+Port_Cygnet,Huon,IPHC33,2,4,Live,MGL1,Cacozeliana granarium,0
+Port_Cygnet,Huon,IPHC33,2,4,Live,MPX26,Theora lubrica,0
+Port_Cygnet,Huon,IPHC33,2,4,Live,MPX27,Plectodon brazieri,0
+Port_Cygnet,Huon,IPHC33,2,4,Live,MPX15,Hiatella australis,0
+Port_Cygnet,Huon,IPHC33,2,4,Live,MGD1,Diala suturalis,0
+Port_Cygnet,Huon,IPHC33,2,4,Live,MPV1,Placamen placidum,0
+Port_Cygnet,Huon,IPHC33,2,4,Live,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,2,4,Live,MPX62,Raeta pulchella,0
+Port_Cygnet,Huon,IPHC33,2,4,Live,MPO7,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,4,Live,MPV19,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,4,Live,MGT17,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,4,Live,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,2,4,Live,MPX17,Purpurocardia bimaculata,0
+Port_Cygnet,Huon,IPHC33,2,4,Live,MGX31,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,4,Live,MPX9,Myadora albida,0
+Port_Cygnet,Huon,IPHC33,2,4,Live,MPV5,Irus cf. carditoides,0
+Port_Cygnet,Huon,IPHC33,2,4,Live,MGU1,Guraleus sp.1,0
+Port_Cygnet,Huon,IPHC33,2,4,Live,MXX2,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,4,Live,MGA7,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,4,Live,MXX3,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,4,Live,MPX58,Cardita aviculina,0
+Port_Cygnet,Huon,IPHC33,2,4,Live,MPV3,Tawera gallinula,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Dead,MPX55,Corbula gibba,4
+Port_Cygnet,Huon,IPHC33,2,2.8,Dead,MGN1,Nassarius nigellus,1
+Port_Cygnet,Huon,IPHC33,2,2.8,Dead,MGT3,Trochid sp.3,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Dead,MPX8,Pratulum thetidis,3
+Port_Cygnet,Huon,IPHC33,2,2.8,Dead,MPV4,Timoclea sp.4,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Dead,MPX14,Channelaxinus adelaideanus,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Dead,MPN1,Ennucula obliqua,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Dead,MGL1,Cacozeliana granarium,2
+Port_Cygnet,Huon,IPHC33,2,2.8,Dead,MPX26,Theora lubrica,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Dead,MPX27,Plectodon brazieri,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Dead,MPX15,Hiatella australis,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Dead,MGD1,Diala suturalis,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Dead,MPV1,Placamen placidum,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Dead,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Dead,MPX62,Raeta pulchella,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Dead,MPO7,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Dead,MPV19,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Dead,MGT17,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Dead,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Dead,MPX17,Purpurocardia bimaculata,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Dead,MGX31,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Dead,MPX9,Myadora albida,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Dead,MPV5,Irus cf. carditoides,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Dead,MGU1,Guraleus sp.1,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Dead,MXX2,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Dead,MGA7,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Dead,MXX3,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Dead,MPX58,Cardita aviculina,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Dead,MPV3,Tawera gallinula,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Live,MPX55,Corbula gibba,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Live,MGN1,Nassarius nigellus,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Live,MGT3,Trochid sp.3,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Live,MPX8,Pratulum thetidis,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Live,MPV4,Timoclea sp.4,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Live,MPX14,Channelaxinus adelaideanus,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Live,MPN1,Ennucula obliqua,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Live,MGL1,Cacozeliana granarium,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Live,MPX26,Theora lubrica,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Live,MPX27,Plectodon brazieri,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Live,MPX15,Hiatella australis,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Live,MGD1,Diala suturalis,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Live,MPV1,Placamen placidum,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Live,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Live,MPX62,Raeta pulchella,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Live,MPO7,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Live,MPV19,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Live,MGT17,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Live,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Live,MPX17,Purpurocardia bimaculata,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Live,MGX31,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Live,MPX9,Myadora albida,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Live,MPV5,Irus cf. carditoides,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Live,MGU1,Guraleus sp.1,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Live,MXX2,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Live,MGA7,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Live,MXX3,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Live,MPX58,Cardita aviculina,0
+Port_Cygnet,Huon,IPHC33,2,2.8,Live,MPV3,Tawera gallinula,0
+Port_Cygnet,Huon,IPHC33,2,2,Dead,MPX55,Corbula gibba,12
+Port_Cygnet,Huon,IPHC33,2,2,Dead,MGN1,Nassarius nigellus,0
+Port_Cygnet,Huon,IPHC33,2,2,Dead,MGT3,Trochid sp.3,0
+Port_Cygnet,Huon,IPHC33,2,2,Dead,MPX8,Pratulum thetidis,4
+Port_Cygnet,Huon,IPHC33,2,2,Dead,MPV4,Timoclea sp.4,3
+Port_Cygnet,Huon,IPHC33,2,2,Dead,MPX14,Channelaxinus adelaideanus,0
+Port_Cygnet,Huon,IPHC33,2,2,Dead,MPN1,Ennucula obliqua,1
+Port_Cygnet,Huon,IPHC33,2,2,Dead,MGL1,Cacozeliana granarium,0
+Port_Cygnet,Huon,IPHC33,2,2,Dead,MPX26,Theora lubrica,0
+Port_Cygnet,Huon,IPHC33,2,2,Dead,MPX27,Plectodon brazieri,1
+Port_Cygnet,Huon,IPHC33,2,2,Dead,MPX15,Hiatella australis,0
+Port_Cygnet,Huon,IPHC33,2,2,Dead,MGD1,Diala suturalis,0
+Port_Cygnet,Huon,IPHC33,2,2,Dead,MPV1,Placamen placidum,0
+Port_Cygnet,Huon,IPHC33,2,2,Dead,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,2,2,Dead,MPX62,Raeta pulchella,0
+Port_Cygnet,Huon,IPHC33,2,2,Dead,MPO7,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,2,Dead,MPV19,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,2,Dead,MGT17,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,2,Dead,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,2,2,Dead,MPX17,Purpurocardia bimaculata,0
+Port_Cygnet,Huon,IPHC33,2,2,Dead,MGX31,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,2,Dead,MPX9,Myadora albida,0
+Port_Cygnet,Huon,IPHC33,2,2,Dead,MPV5,Irus cf. carditoides,0
+Port_Cygnet,Huon,IPHC33,2,2,Dead,MGU1,Guraleus sp.1,0
+Port_Cygnet,Huon,IPHC33,2,2,Dead,MXX2,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,2,Dead,MGA7,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,2,Dead,MXX3,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,2,Dead,MPX58,Cardita aviculina,0
+Port_Cygnet,Huon,IPHC33,2,2,Dead,MPV3,Tawera gallinula,0
+Port_Cygnet,Huon,IPHC33,2,2,Live,MPX55,Corbula gibba,1
+Port_Cygnet,Huon,IPHC33,2,2,Live,MGN1,Nassarius nigellus,0
+Port_Cygnet,Huon,IPHC33,2,2,Live,MGT3,Trochid sp.3,0
+Port_Cygnet,Huon,IPHC33,2,2,Live,MPX8,Pratulum thetidis,0
+Port_Cygnet,Huon,IPHC33,2,2,Live,MPV4,Timoclea sp.4,0
+Port_Cygnet,Huon,IPHC33,2,2,Live,MPX14,Channelaxinus adelaideanus,0
+Port_Cygnet,Huon,IPHC33,2,2,Live,MPN1,Ennucula obliqua,0
+Port_Cygnet,Huon,IPHC33,2,2,Live,MGL1,Cacozeliana granarium,0
+Port_Cygnet,Huon,IPHC33,2,2,Live,MPX26,Theora lubrica,3
+Port_Cygnet,Huon,IPHC33,2,2,Live,MPX27,Plectodon brazieri,0
+Port_Cygnet,Huon,IPHC33,2,2,Live,MPX15,Hiatella australis,0
+Port_Cygnet,Huon,IPHC33,2,2,Live,MGD1,Diala suturalis,0
+Port_Cygnet,Huon,IPHC33,2,2,Live,MPV1,Placamen placidum,0
+Port_Cygnet,Huon,IPHC33,2,2,Live,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,2,2,Live,MPX62,Raeta pulchella,0
+Port_Cygnet,Huon,IPHC33,2,2,Live,MPO7,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,2,Live,MPV19,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,2,Live,MGT17,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,2,Live,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,2,2,Live,MPX17,Purpurocardia bimaculata,0
+Port_Cygnet,Huon,IPHC33,2,2,Live,MGX31,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,2,Live,MPX9,Myadora albida,0
+Port_Cygnet,Huon,IPHC33,2,2,Live,MPV5,Irus cf. carditoides,0
+Port_Cygnet,Huon,IPHC33,2,2,Live,MGU1,Guraleus sp.1,0
+Port_Cygnet,Huon,IPHC33,2,2,Live,MXX2,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,2,Live,MGA7,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,2,Live,MXX3,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,2,Live,MPX58,Cardita aviculina,0
+Port_Cygnet,Huon,IPHC33,2,2,Live,MPV3,Tawera gallinula,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Dead,MPX55,Corbula gibba,23
+Port_Cygnet,Huon,IPHC33,2,1.4,Dead,MGN1,Nassarius nigellus,2
+Port_Cygnet,Huon,IPHC33,2,1.4,Dead,MGT3,Trochid sp.3,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Dead,MPX8,Pratulum thetidis,2
+Port_Cygnet,Huon,IPHC33,2,1.4,Dead,MPV4,Timoclea sp.4,1
+Port_Cygnet,Huon,IPHC33,2,1.4,Dead,MPX14,Channelaxinus adelaideanus,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Dead,MPN1,Ennucula obliqua,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Dead,MGL1,Cacozeliana granarium,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Dead,MPX26,Theora lubrica,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Dead,MPX27,Plectodon brazieri,3
+Port_Cygnet,Huon,IPHC33,2,1.4,Dead,MPX15,Hiatella australis,1
+Port_Cygnet,Huon,IPHC33,2,1.4,Dead,MGD1,Diala suturalis,2
+Port_Cygnet,Huon,IPHC33,2,1.4,Dead,MPV1,Placamen placidum,1
+Port_Cygnet,Huon,IPHC33,2,1.4,Dead,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Dead,MPX62,Raeta pulchella,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Dead,MPO7,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Dead,MPV19,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Dead,MGT17,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Dead,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Dead,MPX17,Purpurocardia bimaculata,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Dead,MGX31,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Dead,MPX9,Myadora albida,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Dead,MPV5,Irus cf. carditoides,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Dead,MGU1,Guraleus sp.1,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Dead,MXX2,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Dead,MGA7,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Dead,MXX3,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Dead,MPX58,Cardita aviculina,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Dead,MPV3,Tawera gallinula,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Live,MPX55,Corbula gibba,4
+Port_Cygnet,Huon,IPHC33,2,1.4,Live,MGN1,Nassarius nigellus,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Live,MGT3,Trochid sp.3,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Live,MPX8,Pratulum thetidis,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Live,MPV4,Timoclea sp.4,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Live,MPX14,Channelaxinus adelaideanus,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Live,MPN1,Ennucula obliqua,2
+Port_Cygnet,Huon,IPHC33,2,1.4,Live,MGL1,Cacozeliana granarium,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Live,MPX26,Theora lubrica,1
+Port_Cygnet,Huon,IPHC33,2,1.4,Live,MPX27,Plectodon brazieri,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Live,MPX15,Hiatella australis,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Live,MGD1,Diala suturalis,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Live,MPV1,Placamen placidum,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Live,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Live,MPX62,Raeta pulchella,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Live,MPO7,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Live,MPV19,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Live,MGT17,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Live,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Live,MPX17,Purpurocardia bimaculata,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Live,MGX31,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Live,MPX9,Myadora albida,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Live,MPV5,Irus cf. carditoides,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Live,MGU1,Guraleus sp.1,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Live,MXX2,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Live,MGA7,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Live,MXX3,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Live,MPX58,Cardita aviculina,0
+Port_Cygnet,Huon,IPHC33,2,1.4,Live,MPV3,Tawera gallinula,0
+Port_Cygnet,Huon,IPHC33,2,1,Dead,MPX55,Corbula gibba,10
+Port_Cygnet,Huon,IPHC33,2,1,Dead,MGN1,Nassarius nigellus,0
+Port_Cygnet,Huon,IPHC33,2,1,Dead,MGT3,Trochid sp.3,0
+Port_Cygnet,Huon,IPHC33,2,1,Dead,MPX8,Pratulum thetidis,8
+Port_Cygnet,Huon,IPHC33,2,1,Dead,MPV4,Timoclea sp.4,9
+Port_Cygnet,Huon,IPHC33,2,1,Dead,MPX14,Channelaxinus adelaideanus,0
+Port_Cygnet,Huon,IPHC33,2,1,Dead,MPN1,Ennucula obliqua,1
+Port_Cygnet,Huon,IPHC33,2,1,Dead,MGL1,Cacozeliana granarium,1
+Port_Cygnet,Huon,IPHC33,2,1,Dead,MPX26,Theora lubrica,0
+Port_Cygnet,Huon,IPHC33,2,1,Dead,MPX27,Plectodon brazieri,2
+Port_Cygnet,Huon,IPHC33,2,1,Dead,MPX15,Hiatella australis,2
+Port_Cygnet,Huon,IPHC33,2,1,Dead,MGD1,Diala suturalis,1
+Port_Cygnet,Huon,IPHC33,2,1,Dead,MPV1,Placamen placidum,0
+Port_Cygnet,Huon,IPHC33,2,1,Dead,MGR1,Retusa atkinsoni,1
+Port_Cygnet,Huon,IPHC33,2,1,Dead,MPX62,Raeta pulchella,1
+Port_Cygnet,Huon,IPHC33,2,1,Dead,MPO7,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,1,Dead,MPV19,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,1,Dead,MGT17,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,1,Dead,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,2,1,Dead,MPX17,Purpurocardia bimaculata,0
+Port_Cygnet,Huon,IPHC33,2,1,Dead,MGX31,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,1,Dead,MPX9,Myadora albida,0
+Port_Cygnet,Huon,IPHC33,2,1,Dead,MPV5,Irus cf. carditoides,0
+Port_Cygnet,Huon,IPHC33,2,1,Dead,MGU1,Guraleus sp.1,0
+Port_Cygnet,Huon,IPHC33,2,1,Dead,MXX2,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,1,Dead,MGA7,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,1,Dead,MXX3,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,1,Dead,MPX58,Cardita aviculina,0
+Port_Cygnet,Huon,IPHC33,2,1,Dead,MPV3,Tawera gallinula,0
+Port_Cygnet,Huon,IPHC33,2,1,Live,MPX55,Corbula gibba,14
+Port_Cygnet,Huon,IPHC33,2,1,Live,MGN1,Nassarius nigellus,0
+Port_Cygnet,Huon,IPHC33,2,1,Live,MGT3,Trochid sp.3,0
+Port_Cygnet,Huon,IPHC33,2,1,Live,MPX8,Pratulum thetidis,0
+Port_Cygnet,Huon,IPHC33,2,1,Live,MPV4,Timoclea sp.4,0
+Port_Cygnet,Huon,IPHC33,2,1,Live,MPX14,Channelaxinus adelaideanus,0
+Port_Cygnet,Huon,IPHC33,2,1,Live,MPN1,Ennucula obliqua,3
+Port_Cygnet,Huon,IPHC33,2,1,Live,MGL1,Cacozeliana granarium,0
+Port_Cygnet,Huon,IPHC33,2,1,Live,MPX26,Theora lubrica,5
+Port_Cygnet,Huon,IPHC33,2,1,Live,MPX27,Plectodon brazieri,0
+Port_Cygnet,Huon,IPHC33,2,1,Live,MPX15,Hiatella australis,0
+Port_Cygnet,Huon,IPHC33,2,1,Live,MGD1,Diala suturalis,0
+Port_Cygnet,Huon,IPHC33,2,1,Live,MPV1,Placamen placidum,0
+Port_Cygnet,Huon,IPHC33,2,1,Live,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,2,1,Live,MPX62,Raeta pulchella,0
+Port_Cygnet,Huon,IPHC33,2,1,Live,MPO7,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,1,Live,MPV19,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,1,Live,MGT17,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,1,Live,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,2,1,Live,MPX17,Purpurocardia bimaculata,0
+Port_Cygnet,Huon,IPHC33,2,1,Live,MGX31,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,1,Live,MPX9,Myadora albida,0
+Port_Cygnet,Huon,IPHC33,2,1,Live,MPV5,Irus cf. carditoides,0
+Port_Cygnet,Huon,IPHC33,2,1,Live,MGU1,Guraleus sp.1,0
+Port_Cygnet,Huon,IPHC33,2,1,Live,MXX2,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,1,Live,MGA7,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,1,Live,MXX3,#N/A,0
+Port_Cygnet,Huon,IPHC33,2,1,Live,MPX58,Cardita aviculina,0
+Port_Cygnet,Huon,IPHC33,2,1,Live,MPV3,Tawera gallinula,0
+Port_Cygnet,Huon,IPHC33,3,4,Dead,MPX55,Corbula gibba,59
+Port_Cygnet,Huon,IPHC33,3,4,Dead,MGN1,Nassarius nigellus,0
+Port_Cygnet,Huon,IPHC33,3,4,Dead,MGT3,Trochid sp.3,0
+Port_Cygnet,Huon,IPHC33,3,4,Dead,MPX8,Pratulum thetidis,1
+Port_Cygnet,Huon,IPHC33,3,4,Dead,MPV4,Timoclea sp.4,0
+Port_Cygnet,Huon,IPHC33,3,4,Dead,MPX14,Channelaxinus adelaideanus,0
+Port_Cygnet,Huon,IPHC33,3,4,Dead,MPN1,Ennucula obliqua,0
+Port_Cygnet,Huon,IPHC33,3,4,Dead,MGL1,Cacozeliana granarium,0
+Port_Cygnet,Huon,IPHC33,3,4,Dead,MPX26,Theora lubrica,0
+Port_Cygnet,Huon,IPHC33,3,4,Dead,MPX27,Plectodon brazieri,0
+Port_Cygnet,Huon,IPHC33,3,4,Dead,MPX15,Hiatella australis,0
+Port_Cygnet,Huon,IPHC33,3,4,Dead,MGD1,Diala suturalis,0
+Port_Cygnet,Huon,IPHC33,3,4,Dead,MPV1,Placamen placidum,0
+Port_Cygnet,Huon,IPHC33,3,4,Dead,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,3,4,Dead,MPX62,Raeta pulchella,1
+Port_Cygnet,Huon,IPHC33,3,4,Dead,MPO7,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,4,Dead,MPV19,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,4,Dead,MGT17,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,4,Dead,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,3,4,Dead,MPX17,Purpurocardia bimaculata,0
+Port_Cygnet,Huon,IPHC33,3,4,Dead,MGX31,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,4,Dead,MPX9,Myadora albida,0
+Port_Cygnet,Huon,IPHC33,3,4,Dead,MPV5,Irus cf. carditoides,0
+Port_Cygnet,Huon,IPHC33,3,4,Dead,MGU1,Guraleus sp.1,0
+Port_Cygnet,Huon,IPHC33,3,4,Dead,MXX2,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,4,Dead,MGA7,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,4,Dead,MXX3,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,4,Dead,MPX58,Cardita aviculina,0
+Port_Cygnet,Huon,IPHC33,3,4,Dead,MPV3,Tawera gallinula,0
+Port_Cygnet,Huon,IPHC33,3,4,Live,MPX55,Corbula gibba,0
+Port_Cygnet,Huon,IPHC33,3,4,Live,MGN1,Nassarius nigellus,0
+Port_Cygnet,Huon,IPHC33,3,4,Live,MGT3,Trochid sp.3,0
+Port_Cygnet,Huon,IPHC33,3,4,Live,MPX8,Pratulum thetidis,0
+Port_Cygnet,Huon,IPHC33,3,4,Live,MPV4,Timoclea sp.4,0
+Port_Cygnet,Huon,IPHC33,3,4,Live,MPX14,Channelaxinus adelaideanus,0
+Port_Cygnet,Huon,IPHC33,3,4,Live,MPN1,Ennucula obliqua,1
+Port_Cygnet,Huon,IPHC33,3,4,Live,MGL1,Cacozeliana granarium,0
+Port_Cygnet,Huon,IPHC33,3,4,Live,MPX26,Theora lubrica,0
+Port_Cygnet,Huon,IPHC33,3,4,Live,MPX27,Plectodon brazieri,0
+Port_Cygnet,Huon,IPHC33,3,4,Live,MPX15,Hiatella australis,0
+Port_Cygnet,Huon,IPHC33,3,4,Live,MGD1,Diala suturalis,0
+Port_Cygnet,Huon,IPHC33,3,4,Live,MPV1,Placamen placidum,0
+Port_Cygnet,Huon,IPHC33,3,4,Live,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,3,4,Live,MPX62,Raeta pulchella,0
+Port_Cygnet,Huon,IPHC33,3,4,Live,MPO7,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,4,Live,MPV19,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,4,Live,MGT17,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,4,Live,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,3,4,Live,MPX17,Purpurocardia bimaculata,0
+Port_Cygnet,Huon,IPHC33,3,4,Live,MGX31,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,4,Live,MPX9,Myadora albida,0
+Port_Cygnet,Huon,IPHC33,3,4,Live,MPV5,Irus cf. carditoides,0
+Port_Cygnet,Huon,IPHC33,3,4,Live,MGU1,Guraleus sp.1,0
+Port_Cygnet,Huon,IPHC33,3,4,Live,MXX2,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,4,Live,MGA7,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,4,Live,MXX3,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,4,Live,MPX58,Cardita aviculina,0
+Port_Cygnet,Huon,IPHC33,3,4,Live,MPV3,Tawera gallinula,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Dead,MPX55,Corbula gibba,11
+Port_Cygnet,Huon,IPHC33,3,2.8,Dead,MGN1,Nassarius nigellus,2
+Port_Cygnet,Huon,IPHC33,3,2.8,Dead,MGT3,Trochid sp.3,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Dead,MPX8,Pratulum thetidis,2
+Port_Cygnet,Huon,IPHC33,3,2.8,Dead,MPV4,Timoclea sp.4,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Dead,MPX14,Channelaxinus adelaideanus,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Dead,MPN1,Ennucula obliqua,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Dead,MGL1,Cacozeliana granarium,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Dead,MPX26,Theora lubrica,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Dead,MPX27,Plectodon brazieri,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Dead,MPX15,Hiatella australis,1
+Port_Cygnet,Huon,IPHC33,3,2.8,Dead,MGD1,Diala suturalis,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Dead,MPV1,Placamen placidum,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Dead,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Dead,MPX62,Raeta pulchella,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Dead,MPO7,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Dead,MPV19,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Dead,MGT17,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Dead,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Dead,MPX17,Purpurocardia bimaculata,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Dead,MGX31,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Dead,MPX9,Myadora albida,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Dead,MPV5,Irus cf. carditoides,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Dead,MGU1,Guraleus sp.1,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Dead,MXX2,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Dead,MGA7,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Dead,MXX3,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Dead,MPX58,Cardita aviculina,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Dead,MPV3,Tawera gallinula,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Live,MPX55,Corbula gibba,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Live,MGN1,Nassarius nigellus,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Live,MGT3,Trochid sp.3,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Live,MPX8,Pratulum thetidis,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Live,MPV4,Timoclea sp.4,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Live,MPX14,Channelaxinus adelaideanus,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Live,MPN1,Ennucula obliqua,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Live,MGL1,Cacozeliana granarium,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Live,MPX26,Theora lubrica,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Live,MPX27,Plectodon brazieri,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Live,MPX15,Hiatella australis,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Live,MGD1,Diala suturalis,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Live,MPV1,Placamen placidum,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Live,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Live,MPX62,Raeta pulchella,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Live,MPO7,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Live,MPV19,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Live,MGT17,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Live,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Live,MPX17,Purpurocardia bimaculata,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Live,MGX31,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Live,MPX9,Myadora albida,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Live,MPV5,Irus cf. carditoides,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Live,MGU1,Guraleus sp.1,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Live,MXX2,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Live,MGA7,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Live,MXX3,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Live,MPX58,Cardita aviculina,0
+Port_Cygnet,Huon,IPHC33,3,2.8,Live,MPV3,Tawera gallinula,0
+Port_Cygnet,Huon,IPHC33,3,2,Dead,MPX55,Corbula gibba,19
+Port_Cygnet,Huon,IPHC33,3,2,Dead,MGN1,Nassarius nigellus,3
+Port_Cygnet,Huon,IPHC33,3,2,Dead,MGT3,Trochid sp.3,0
+Port_Cygnet,Huon,IPHC33,3,2,Dead,MPX8,Pratulum thetidis,2
+Port_Cygnet,Huon,IPHC33,3,2,Dead,MPV4,Timoclea sp.4,1
+Port_Cygnet,Huon,IPHC33,3,2,Dead,MPX14,Channelaxinus adelaideanus,0
+Port_Cygnet,Huon,IPHC33,3,2,Dead,MPN1,Ennucula obliqua,5
+Port_Cygnet,Huon,IPHC33,3,2,Dead,MGL1,Cacozeliana granarium,0
+Port_Cygnet,Huon,IPHC33,3,2,Dead,MPX26,Theora lubrica,2
+Port_Cygnet,Huon,IPHC33,3,2,Dead,MPX27,Plectodon brazieri,1
+Port_Cygnet,Huon,IPHC33,3,2,Dead,MPX15,Hiatella australis,1
+Port_Cygnet,Huon,IPHC33,3,2,Dead,MGD1,Diala suturalis,0
+Port_Cygnet,Huon,IPHC33,3,2,Dead,MPV1,Placamen placidum,0
+Port_Cygnet,Huon,IPHC33,3,2,Dead,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,3,2,Dead,MPX62,Raeta pulchella,0
+Port_Cygnet,Huon,IPHC33,3,2,Dead,MPO7,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,2,Dead,MPV19,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,2,Dead,MGT17,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,2,Dead,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,3,2,Dead,MPX17,Purpurocardia bimaculata,0
+Port_Cygnet,Huon,IPHC33,3,2,Dead,MGX31,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,2,Dead,MPX9,Myadora albida,0
+Port_Cygnet,Huon,IPHC33,3,2,Dead,MPV5,Irus cf. carditoides,0
+Port_Cygnet,Huon,IPHC33,3,2,Dead,MGU1,Guraleus sp.1,0
+Port_Cygnet,Huon,IPHC33,3,2,Dead,MXX2,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,2,Dead,MGA7,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,2,Dead,MXX3,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,2,Dead,MPX58,Cardita aviculina,0
+Port_Cygnet,Huon,IPHC33,3,2,Dead,MPV3,Tawera gallinula,0
+Port_Cygnet,Huon,IPHC33,3,2,Live,MPX55,Corbula gibba,0
+Port_Cygnet,Huon,IPHC33,3,2,Live,MGN1,Nassarius nigellus,0
+Port_Cygnet,Huon,IPHC33,3,2,Live,MGT3,Trochid sp.3,0
+Port_Cygnet,Huon,IPHC33,3,2,Live,MPX8,Pratulum thetidis,0
+Port_Cygnet,Huon,IPHC33,3,2,Live,MPV4,Timoclea sp.4,0
+Port_Cygnet,Huon,IPHC33,3,2,Live,MPX14,Channelaxinus adelaideanus,0
+Port_Cygnet,Huon,IPHC33,3,2,Live,MPN1,Ennucula obliqua,0
+Port_Cygnet,Huon,IPHC33,3,2,Live,MGL1,Cacozeliana granarium,0
+Port_Cygnet,Huon,IPHC33,3,2,Live,MPX26,Theora lubrica,0
+Port_Cygnet,Huon,IPHC33,3,2,Live,MPX27,Plectodon brazieri,0
+Port_Cygnet,Huon,IPHC33,3,2,Live,MPX15,Hiatella australis,0
+Port_Cygnet,Huon,IPHC33,3,2,Live,MGD1,Diala suturalis,0
+Port_Cygnet,Huon,IPHC33,3,2,Live,MPV1,Placamen placidum,0
+Port_Cygnet,Huon,IPHC33,3,2,Live,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,3,2,Live,MPX62,Raeta pulchella,0
+Port_Cygnet,Huon,IPHC33,3,2,Live,MPO7,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,2,Live,MPV19,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,2,Live,MGT17,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,2,Live,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,3,2,Live,MPX17,Purpurocardia bimaculata,0
+Port_Cygnet,Huon,IPHC33,3,2,Live,MGX31,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,2,Live,MPX9,Myadora albida,0
+Port_Cygnet,Huon,IPHC33,3,2,Live,MPV5,Irus cf. carditoides,0
+Port_Cygnet,Huon,IPHC33,3,2,Live,MGU1,Guraleus sp.1,0
+Port_Cygnet,Huon,IPHC33,3,2,Live,MXX2,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,2,Live,MGA7,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,2,Live,MXX3,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,2,Live,MPX58,Cardita aviculina,0
+Port_Cygnet,Huon,IPHC33,3,2,Live,MPV3,Tawera gallinula,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Dead,MPX55,Corbula gibba,50
+Port_Cygnet,Huon,IPHC33,3,1.4,Dead,MGN1,Nassarius nigellus,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Dead,MGT3,Trochid sp.3,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Dead,MPX8,Pratulum thetidis,5
+Port_Cygnet,Huon,IPHC33,3,1.4,Dead,MPV4,Timoclea sp.4,2
+Port_Cygnet,Huon,IPHC33,3,1.4,Dead,MPX14,Channelaxinus adelaideanus,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Dead,MPN1,Ennucula obliqua,1
+Port_Cygnet,Huon,IPHC33,3,1.4,Dead,MGL1,Cacozeliana granarium,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Dead,MPX26,Theora lubrica,5
+Port_Cygnet,Huon,IPHC33,3,1.4,Dead,MPX27,Plectodon brazieri,2
+Port_Cygnet,Huon,IPHC33,3,1.4,Dead,MPX15,Hiatella australis,1
+Port_Cygnet,Huon,IPHC33,3,1.4,Dead,MGD1,Diala suturalis,3
+Port_Cygnet,Huon,IPHC33,3,1.4,Dead,MPV1,Placamen placidum,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Dead,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Dead,MPX62,Raeta pulchella,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Dead,MPO7,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Dead,MPV19,#N/A,1
+Port_Cygnet,Huon,IPHC33,3,1.4,Dead,MGT17,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Dead,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Dead,MPX17,Purpurocardia bimaculata,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Dead,MGX31,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Dead,MPX9,Myadora albida,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Dead,MPV5,Irus cf. carditoides,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Dead,MGU1,Guraleus sp.1,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Dead,MXX2,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Dead,MGA7,#N/A,1
+Port_Cygnet,Huon,IPHC33,3,1.4,Dead,MXX3,#N/A,1
+Port_Cygnet,Huon,IPHC33,3,1.4,Dead,MPX58,Cardita aviculina,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Dead,MPV3,Tawera gallinula,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Live,MPX55,Corbula gibba,4
+Port_Cygnet,Huon,IPHC33,3,1.4,Live,MGN1,Nassarius nigellus,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Live,MGT3,Trochid sp.3,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Live,MPX8,Pratulum thetidis,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Live,MPV4,Timoclea sp.4,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Live,MPX14,Channelaxinus adelaideanus,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Live,MPN1,Ennucula obliqua,2
+Port_Cygnet,Huon,IPHC33,3,1.4,Live,MGL1,Cacozeliana granarium,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Live,MPX26,Theora lubrica,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Live,MPX27,Plectodon brazieri,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Live,MPX15,Hiatella australis,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Live,MGD1,Diala suturalis,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Live,MPV1,Placamen placidum,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Live,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Live,MPX62,Raeta pulchella,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Live,MPO7,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Live,MPV19,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Live,MGT17,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Live,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Live,MPX17,Purpurocardia bimaculata,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Live,MGX31,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Live,MPX9,Myadora albida,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Live,MPV5,Irus cf. carditoides,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Live,MGU1,Guraleus sp.1,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Live,MXX2,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Live,MGA7,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Live,MXX3,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Live,MPX58,Cardita aviculina,0
+Port_Cygnet,Huon,IPHC33,3,1.4,Live,MPV3,Tawera gallinula,0
+Port_Cygnet,Huon,IPHC33,3,1,Dead,MPX55,Corbula gibba,38
+Port_Cygnet,Huon,IPHC33,3,1,Dead,MGN1,Nassarius nigellus,0
+Port_Cygnet,Huon,IPHC33,3,1,Dead,MGT3,Trochid sp.3,0
+Port_Cygnet,Huon,IPHC33,3,1,Dead,MPX8,Pratulum thetidis,1
+Port_Cygnet,Huon,IPHC33,3,1,Dead,MPV4,Timoclea sp.4,7
+Port_Cygnet,Huon,IPHC33,3,1,Dead,MPX14,Channelaxinus adelaideanus,0
+Port_Cygnet,Huon,IPHC33,3,1,Dead,MPN1,Ennucula obliqua,0
+Port_Cygnet,Huon,IPHC33,3,1,Dead,MGL1,Cacozeliana granarium,3
+Port_Cygnet,Huon,IPHC33,3,1,Dead,MPX26,Theora lubrica,1
+Port_Cygnet,Huon,IPHC33,3,1,Dead,MPX27,Plectodon brazieri,7
+Port_Cygnet,Huon,IPHC33,3,1,Dead,MPX15,Hiatella australis,2
+Port_Cygnet,Huon,IPHC33,3,1,Dead,MGD1,Diala suturalis,2
+Port_Cygnet,Huon,IPHC33,3,1,Dead,MPV1,Placamen placidum,0
+Port_Cygnet,Huon,IPHC33,3,1,Dead,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,3,1,Dead,MPX62,Raeta pulchella,0
+Port_Cygnet,Huon,IPHC33,3,1,Dead,MPO7,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,1,Dead,MPV19,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,1,Dead,MGT17,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,1,Dead,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,3,1,Dead,MPX17,Purpurocardia bimaculata,6
+Port_Cygnet,Huon,IPHC33,3,1,Dead,MGX31,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,1,Dead,MPX9,Myadora albida,3
+Port_Cygnet,Huon,IPHC33,3,1,Dead,MPV5,Irus cf. carditoides,0
+Port_Cygnet,Huon,IPHC33,3,1,Dead,MGU1,Guraleus sp.1,0
+Port_Cygnet,Huon,IPHC33,3,1,Dead,MXX2,#N/A,4
+Port_Cygnet,Huon,IPHC33,3,1,Dead,MGA7,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,1,Dead,MXX3,#N/A,1
+Port_Cygnet,Huon,IPHC33,3,1,Dead,MPX58,Cardita aviculina,1
+Port_Cygnet,Huon,IPHC33,3,1,Dead,MPV3,Tawera gallinula,1
+Port_Cygnet,Huon,IPHC33,3,1,Live,MPX55,Corbula gibba,10
+Port_Cygnet,Huon,IPHC33,3,1,Live,MGN1,Nassarius nigellus,0
+Port_Cygnet,Huon,IPHC33,3,1,Live,MGT3,Trochid sp.3,0
+Port_Cygnet,Huon,IPHC33,3,1,Live,MPX8,Pratulum thetidis,0
+Port_Cygnet,Huon,IPHC33,3,1,Live,MPV4,Timoclea sp.4,0
+Port_Cygnet,Huon,IPHC33,3,1,Live,MPX14,Channelaxinus adelaideanus,0
+Port_Cygnet,Huon,IPHC33,3,1,Live,MPN1,Ennucula obliqua,3
+Port_Cygnet,Huon,IPHC33,3,1,Live,MGL1,Cacozeliana granarium,0
+Port_Cygnet,Huon,IPHC33,3,1,Live,MPX26,Theora lubrica,3
+Port_Cygnet,Huon,IPHC33,3,1,Live,MPX27,Plectodon brazieri,0
+Port_Cygnet,Huon,IPHC33,3,1,Live,MPX15,Hiatella australis,0
+Port_Cygnet,Huon,IPHC33,3,1,Live,MGD1,Diala suturalis,0
+Port_Cygnet,Huon,IPHC33,3,1,Live,MPV1,Placamen placidum,0
+Port_Cygnet,Huon,IPHC33,3,1,Live,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,3,1,Live,MPX62,Raeta pulchella,0
+Port_Cygnet,Huon,IPHC33,3,1,Live,MPO7,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,1,Live,MPV19,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,1,Live,MGT17,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,1,Live,MGR1,Retusa atkinsoni,0
+Port_Cygnet,Huon,IPHC33,3,1,Live,MPX17,Purpurocardia bimaculata,0
+Port_Cygnet,Huon,IPHC33,3,1,Live,MGX31,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,1,Live,MPX9,Myadora albida,0
+Port_Cygnet,Huon,IPHC33,3,1,Live,MPV5,Irus cf. carditoides,0
+Port_Cygnet,Huon,IPHC33,3,1,Live,MGU1,Guraleus sp.1,0
+Port_Cygnet,Huon,IPHC33,3,1,Live,MXX2,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,1,Live,MGA7,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,1,Live,MXX3,#N/A,0
+Port_Cygnet,Huon,IPHC33,3,1,Live,MPX58,Cardita aviculina,0
+Port_Cygnet,Huon,IPHC33,3,1,Live,MPV3,Tawera gallinula,0

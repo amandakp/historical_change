@@ -14,7 +14,7 @@ output:
 ---
 
 ```{r echo = FALSE, eval = TRUE, cache = TRUE, results = FALSE}
-pacman::p_load(tidyverse, dplyr, ggplot2, patchwork)
+pacman::p_load(tidyverse, dplyr, ggplot2, patchwork, vegan, lme4, emmeans, ggeffects, patchwork, scales, multcomp)
 ```
 
 ```{r echo = FALSE, eval = TRUE, cache = TRUE, results = FALSE}
@@ -99,12 +99,12 @@ pDCS
 #Site 1/6 (DCS): IPHC-8 SHELTER COVE, BRUNY ISLAND
 ```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
 # Define site code and depths of interest
-site_codes <- c("IPHC-8")
+Site_codes <- c("IPHC-8")
 depths <- c(2.5, 12.5, 22.5)
 
 # Filter data
 df_filtered <- df_dentrecasteaux %>%
-  filter(`Site Code` %in% site_codes,
+  filter(`Site Code` %in% Site_codes,
          `Faunal mid-depth` %in% depths)
 
 # Convert to long format
@@ -526,12 +526,12 @@ pDER
 
 ```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
 # Define site code and depths of interest
-site_codes <- c("IPHC-12")
+Site_codes <- c("IPHC-12")
 depths <- c(2.5, 12.5, 22.5)
 
 # Filter data
 der_filtered <- df_derwent %>%
-  filter(`Site Code` %in% site_codes,
+  filter(`Site Code` %in% Site_codes,
          `Mid-depth` %in% depths)
 
 # Convert to long format
@@ -857,12 +857,12 @@ pHUO
 
 ```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
 # Define site code and depths of interest
-site_codes <- c("IPHC-31")
+Site_codes <- c("IPHC-31")
 depths <- c(2.5, 12.5, 22.5)
 
 # Filter data
 der_filtered <- df_huon %>%
-  filter(`Site Code` %in% site_codes,
+  filter(`Site Code` %in% Site_codes,
          `Faunal mid-depth` %in% depths)
 
 # Convert to long format
@@ -1057,3 +1057,407 @@ combined_plot
 
 ggsave("combined_plot_HUO.png", combined_plot, width = 12, height = 10, dpi = 300)
 ```
+
+
+#NEW DATA: SE TAS SAMPLES 2024
+
+#LIVE-DEAD DISCORDANCE ANALYSIS
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+#Locate files
+data_files_paths <- file.path("data/", list.files("data/"))
+list.files("data/") 
+```
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = FALSE}
+#Load csv files
+file_livedead <- 'Data/Data_entry_SETas2024-VV_grab.csv'
+
+#Read csv file into dataframe
+df_livedead <- read.csv(file_livedead, stringsAsFactors = FALSE, check.names = FALSE)
+str(df_livedead)
+View(df_livedead)
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = FALSE}
+# Read in your dataset
+df <- read_csv("Data/Data_entry_SETas2024-VV_grab.csv")
+
+# Inspect structure
+glimpse(df)
+
+# Ensure key columns are factors
+df <- df %>%
+  mutate(across(c(Site_code, Site_location, Sieve_size_mm, Replicate, Condition, Species_code), as.factor))
+
+# Pivot to wide form: one row per Replicate per group, one column per species
+comm_data <- df %>%
+  group_by(Site_code, Site_location, Sieve_size_mm, Replicate, Condition, Species_code) %>%
+  summarise(abundance = sum(Abundance), .groups = "drop") %>%
+  pivot_wider(names_from = Species_code, values_from = abundance, values_fill = 0)
+
+# Create a unique ID for grouping
+comm_data <- comm_data %>%
+  unite("group_id", Site_code, Site_location, Sieve_size_mm, Replicate, remove = FALSE)
+
+# Split into live and dead matrices
+live_matrix <- comm_data %>% filter(Condition == "Live")
+dead_matrix <- comm_data %>% filter(Condition == "Dead")
+
+# Ensure same row order for paired comparisons
+live_matrix <- live_matrix %>% arrange(group_id)
+dead_matrix <- dead_matrix %>% arrange(group_id)
+
+# Keep only the species columns
+species_cols <- setdiff(names(live_matrix), c("Site_code", "Site_location", "Sieve_size_mm", "Replicate", "Condition", "group_id"))
+live_species <- live_matrix[, species_cols]
+dead_species <- dead_matrix[, species_cols]
+
+# Compute live-dead dissimilarity (Bray-Curtis) for each Replicate
+discordance <- vegan::vegdist(rbind(live_species, dead_species), method = "bray")
+n <- nrow(live_species)
+discordance_values <- diag(as.matrix(discordance)[1:n, (n+1):(2*n)])
+
+# Combine metadata with results
+results_df <- live_matrix %>%
+  select(Site_code, Site_location, Sieve_size_mm, Replicate, group_id) %>%
+  mutate(live_dead_dissimilarity = discordance_values)
+
+# ─────────────────────────────────────────────────────
+# 📊 Visualisations
+# ─────────────────────────────────────────────────────
+
+# Boxplot by Site_code
+ggplot(results_df, aes(x = Site_code, y = live_dead_dissimilarity)) +
+  geom_boxplot() +
+  labs(title = "Live-Dead Dissimilarity by Site", y = "Bray-Curtis Dissimilarity")
+
+# Boxplot by Site_location
+ggplot(results_df, aes(x = Site_location, y = live_dead_dissimilarity)) +
+  geom_boxplot() +
+  labs(title = "Live-Dead Dissimilarity by Location", y = "Bray-Curtis Dissimilarity")
+
+# Boxplot by sieve size
+ggplot(results_df, aes(x = as.factor(Sieve_size_mm), y = live_dead_dissimilarity)) +
+  geom_boxplot() +
+  labs(title = "Live-Dead Dissimilarity by Sieve Size", x = "Sieve Size (mm)", y = "Bray-Curtis Dissimilarity")
+
+# ─────────────────────────────────────────────────────
+# 📈 Test effects with linear models
+# ─────────────────────────────────────────────────────
+
+# Linear mixed model (Replicates are nested within sites)
+
+#Fixed effects: test whether Site_location or sieve size significantly affect discordance.
+#Random effects: account for non-independence due to repeated measures within sites and among replicates.
+
+# Ensure Replicate is a factor
+results_df <- results_df %>%
+  mutate(across(c(Site_code, Replicate, Site_location, Sieve_size_mm), as.factor))
+
+# Fit the mixed model
+lmm <- lmer(live_dead_dissimilarity ~ Site_location + Sieve_size_mm + Site_code +
+              (1 | Site_code/Replicate),
+            data = results_df)
+
+# View results with p-values
+summary(lmm)
+#Sig effect of sieve size on discordance. No sig effect of site or site location
+
+# Marginal means for sieve size
+emmeans(lmm, pairwise ~ Sieve_size_mm)
+
+# Marginal means for Site_location
+emmeans(lmm, pairwise ~ Site_location)
+
+# Marginal means for Site_code
+emmeans(lmm, pairwise ~ Site_code)
+
+
+# ─────────────────────────────────────────────────────
+# 📊 Visualisations
+# ─────────────────────────────────────────────────────
+
+# Predicted values
+pred_sieve <- ggpredict(lmm, terms = "Sieve_size_mm")  # uses levels as factor
+pred_location <- ggpredict(lmm, terms = "Site_location")
+
+# Convert sieve size to numeric for color gradient
+results_df$sieve_size_mm_num <- as.numeric(as.character(results_df$Sieve_size_mm))
+
+# For sieve size
+emm_sieve <- emmeans(lmm, ~ Sieve_size_mm)
+cld_sieve <- cld(emm_sieve, Letters = letters, adjust = "tukey")
+
+# For site location
+emm_location <- emmeans(lmm, ~ Site_location)
+cld_location <- cld(emm_location, Letters = letters, adjust = "tukey")
+
+# Find max predicted value for each plot
+max_y_sieve <- max(pred_sieve$conf.high, na.rm = TRUE)
+max_y_location <- max(pred_location$conf.high, na.rm = TRUE)
+
+# Add y position columns to group data
+cld_sieve$y_pos <- max_y_sieve + 0.1
+cld_location$y_pos <- max_y_location + 0.2
+
+
+# --- PLOT 1: Sieve size panel with group letters ---
+
+plot_sieve <- ggplot() +
+  geom_jitter(data = results_df,
+              aes(x = Sieve_size_mm, y = live_dead_dissimilarity,
+                  color = sieve_size_mm_num),
+              size = 2, width = 0.2, alpha = 0.8) +
+  geom_line(data = pred_sieve, aes(x = x, y = predicted, group = 1),
+            color = "black", linewidth = 1.2) +
+  geom_ribbon(data = pred_sieve, aes(x = x, ymin = conf.low, ymax = conf.high),
+              alpha = 0.2, fill = "darkgrey") +
+  scale_color_gradient(low = "#a8e6a3", high = "#006400") +
+  geom_text(data = cld_sieve,
+            aes(x = Sieve_size_mm, y = y_pos, label = .group),
+            color = "black", size = 4) +
+  labs(title = "Predicted live-dead dissimilarity",
+       x = "Sieve Size (mm)", y = "Bray-Curtis Dissimilarity") +
+  theme_minimal() +
+  theme(legend.position = "none")
+
+# --- PLOT 2: Site location panel with group letters ---
+
+plot_location <- ggplot() +
+  geom_jitter(data = results_df,
+              aes(x = Site_location, y = live_dead_dissimilarity,
+                  color = Site_location),
+              size = 2, width = 0.2, alpha = 0.8) +
+  geom_line(data = pred_location, aes(x = x, y = predicted, group = 1),
+            color = "black", linewidth = 1.2) +
+  geom_ribbon(data = pred_location, aes(x = x, ymin = conf.low, ymax = conf.high),
+              alpha = 0.2, fill = "darkgrey") +
+  scale_color_manual(values = site_colors) +
+  geom_text(data = cld_location,
+            aes(x = Site_location, y = y_pos, label = .group),
+            color = "black", size = 4) +
+  labs(title = "",
+       x = "Site Location", y = "Bray-Curtis Dissimilarity") +
+  theme_minimal() +
+  theme(legend.position = "none")
+
+plot_predlivedead <- plot_sieve + plot_location
+plot_predlivedead
+ggsave("plot_predlivedead.png", plot_predlivedead, width = 12, height = 10, dpi = 300)
+```
+#All sieve sizes and replicates combined:
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = FALSE}
+# ─────────────────────────────────────────────────────
+# 📈 Test effects with ANOVA
+# ─────────────────────────────────────────────────────
+
+# ANOVA
+#Fixed effects: test whether Site_code and Site_location significantly affect discordance independently of sieve size.
+
+# Run the ANOVA
+anova_model <- aov(live_dead_dissimilarity ~ Site_location + Site_code, data = results_df)
+
+# ANOVA summary
+summary(anova_model)
+#Sig effect of Site_location on discordance. No sig effect of Site_code
+
+# Estimated marginal means for Site_location
+emm_location <- emmeans(anova_model, ~ Site_location)
+
+# Pairwise comparisons with Tukey adjustment
+pairwise_location <- contrast(emm_location, method = "pairwise", adjust = "tukey")
+
+# View results
+summary(pairwise_location)
+
+# Compact letter display for plotting group differences
+cld_location <- cld(emm_location, Letters = letters, adjust = "tukey")
+
+# View group letters
+print(cld_location)
+
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = FALSE}
+# ─────────────────────────────────────────────────────
+# 📊 Visualisations
+# ─────────────────────────────────────────────────────
+
+# Define colors for Site_location
+site_colors <- c("DEntrecasteaux" = "#FFA500",
+                 "Derwent" = "#1E90FF",
+                 "Huon" = "#A259FF")
+
+# Desired order of Site_code
+site_order <- c("IPHC10", "IPHC28", "IPHC15", "IPHC25", "IPHC31", "IPHC33")
+# Apply order to the data frame
+results_df$Site_code <- factor(results_df$Site_code, levels = site_order)
+
+
+# Boxplot by Site_code (Panel 1)
+plot_site <- ggplot(results_df, aes(x = Site_code, y = live_dead_dissimilarity, fill = Site_location)) +
+  geom_boxplot(alpha = 0.7, outlier.shape = NA) +
+  geom_jitter(width = 0.2, size = 1.5, alpha = 0.8) +
+  scale_fill_manual(values = site_colors) +
+  labs(x = "Site", y = "Bray-Curtis Dissimilarity") +
+  theme_minimal() +
+  theme(legend.position = "none")
+
+# Boxplot by Site_location (Panel 2)
+plot_location <- ggplot(results_df, aes(x = Site_location, y = live_dead_dissimilarity, fill = Site_location)) +
+  geom_boxplot(alpha = 0.7, outlier.shape = NA) +
+  geom_jitter(width = 0.2, size = 1.5, alpha = 0.8) +
+  scale_fill_manual(values = site_colors) +
+  labs(x = "Site Location", y = "Bray-Curtis Dissimilarity") +
+  theme_minimal() +
+  theme(legend.position = "none")
+
+# Adjust y-position for clarity
+max_y <- max(results_df$live_dead_dissimilarity, na.rm = TRUE)
+cld_location$y_pos <- max_y + 0.05 * max_y
+
+# Update plot with group letters
+plot_location_letters <- plot_location +
+  geom_text(data = cld_location,
+            aes(x = Site_location, y = y_pos, label = .group),
+            size = 4, color = "black")
+
+plot_location_letters
+
+# Combine panels
+combined_plot <- plot_site + plot_location_letters
+combined_plot
+
+ggsave("plot_predlivedead_sites.png", combined_plot, width = 12, height = 10, dpi = 300)
+```
+
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = FALSE}
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#TO DO:
+
+#Which species contribute most to live-dead discordance?
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = FALSE}
+#SIMPER Analysis for Live vs Dead Assemblages
+
+#1. Prepare data
+str(df_livedead)
+df$Condition <- as.factor(df$Condition)
+
+# Identify species columns programmatically
+non_species_cols <- c("SampleID", "Site_code", "Site_location", "Sieve_size_mm",
+                      "Replicate", "Condition", "live_dead")
+
+
+
+
+
+
+species_data_raw <- results_df[, species_cols]
+
+# Check which columns have non-numeric values
+sapply(species_data_raw, function(col) any(!is.na(col) & !grepl("^\\d*(\\.\\d+)?$", as.character(col))))
+
+# Create clean species matrix with numeric coercion
+species_data <- species_data_raw %>%
+  mutate(across(everything(), ~ suppressWarnings(as.numeric(as.character(.)))))
+
+# Check how many NAs appeared
+colSums(is.na(species_data))
+
+
+#2. Run SIMPER analysis
+# Run SIMPER to compare live vs dead
+group_factor <- as.factor(results_df$live_dead)
+
+simper_result <- simper(species_data, group_factor, permutations = 999)
+
+
+
+
+
+
+#1. Prepare the community matrix
+# Combine and label the assemblages
+simper_data <- bind_rows(
+  live_matrix %>% mutate(live_dead = "Live"),
+  dead_matrix %>% mutate(live_dead = "Dead")
+)
+
+# Keep only species columns
+species_matrix <- simper_data[, species_cols]
+
+# Factor indicating live vs dead
+group_factor <- simper_data$live_dead
+
+#2. Run SIMPER analysis
+simper_result <- vegan::simper(species_matrix, group_factor, permutations = 999)
+
+# View results: this will show species, average contribution, standard deviation, etc.
+summary(simper_result)
+
+#3. Extract and visualise key contributors
+# Extract results for Live vs Dead
+ld_simper <- as.data.frame(simper_result$Live_Dead)
+
+# Add species names
+ld_simper$species <- rownames(ld_simper)
+
+# Filter top contributors (e.g. cumulative contribution up to 70%)
+top_contributors <- ld_simper %>%
+  arrange(desc(average)) %>%
+  mutate(cumsum = cumsum(average) / sum(average)) %>%
+  filter(cumsum <= 0.7)
+
+# Plot
+ggplot(top_contributors, aes(x = reorder(species, average), y = average)) +
+  geom_col(fill = "steelblue") +
+  coord_flip() +
+  labs(title = "Top Species Contributing to Live-Dead Dissimilarity",
+       x = "Species", y = "Average Contribution to Dissimilarity")
+```
+
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = FALSE}
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

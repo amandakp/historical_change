@@ -1,5 +1,5 @@
 ---
-title: "Species ID - Edgar & Samson 2000/2001 cores"
+title: "Species ID - 2024 SE Tas long core and live-dead assemblage data"
 author: Amanda Pettersen
 date: "`r format(Sys.Date(),'%e %B, %Y')`"
 output:
@@ -22,76 +22,140 @@ pacman::p_load(tidyverse, dplyr, ggplot2, patchwork, vegan, lme4, emmeans, ggeff
 data_files_paths <- file.path("data/", list.files("data/"))
 list.files("data/") 
 ```
+#NEW DATA: SE TAS SAMPLES 2024
 
-```{r echo = FALSE, eval = TRUE, cache = TRUE, results = FALSE}
-#Load csv files
-file_dentrecasteaux <- 'Data/Impacts data matrix ( MDS)-AP_Dentrecasteaux.csv'
-file_derwent <- 'Data/Impacts data matrix ( MDS)-AP_Derwent.csv'
-file_huon <- 'Data/Impacts data matrix ( MDS)-AP_Huon.csv'
 
-#Read csv files into dataframes
-df_dentrecasteaux <- read.csv(file_dentrecasteaux, stringsAsFactors = FALSE, check.names = FALSE)
-df_derwent <- read.csv(file_derwent, stringsAsFactors = FALSE, check.names = FALSE)
-df_huon <- read.csv(file_huon, stringsAsFactors = FALSE, check.names = FALSE)
+#1. LONG CORE SAMPLES: DEATH ASSEMBLAGE ANALYSIS
 
-#Check column names to ensure 'Site Code' is read correctly
-print(colnames(df_dentrecasteaux))
-print(colnames(df_derwent))
-print(colnames(df_huon))
+#Data visualisation
 
-#Ensure 'Site Code' is read as a character in all dataframes
-df_dentrecasteaux$`Site Code` <- as.character(df_dentrecasteaux$`Site Code`)
-df_derwent$`Site Code` <- as.character(df_derwent$`Site Code`)
-df_huon$`Site Code` <- as.character(df_huon$`Site Code`)
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+# Load and prepare data
+df <- read.csv("Data/Data_entry_SETas2024-Cores.csv")
 
-#Check first few rows of each dataframe to ensure data is read correctly
-print(head(df_dentrecasteaux))
-print(head(df_derwent))
-print(head(df_huon))
+# Define color mapping for Site_location
+location_colors <- c(
+  "DEntrecasteaux" = "#FFA500",
+  "Derwent" = "#1E90FF",
+  "Huon" = "#A259FF"
+)
 
-# #Merge dataframes by 'Site Code' - CAN'T MERGE BECAUSE FIRST 4 COLUMN NAMES ARE DIFFERENT
-# merged_df <- full_join(df_dentrecasteaux, df_derwent, by = "Site Code")
-# merged_df <- full_join(merged_df, df_huon, by = "Site Code")
-# 
-# #Replace NAs with 0
-# merged_df[is.na(merged_df)] <- 0
-# 
-# #Save merged dataframe as a new CSV file
-# write.csv(merged_df, 'Data/Allsites_sabund.csv', row.names = FALSE)
+# Filter: Dead condition, named species, and only abundance > 0
+dead_data <- df %>%
+  filter(Condition == "Dead", !is.na(Species_name), Abundance > 0)
+View(dead_data)
 ```
+
 
 Species abundance for shallow depths (mid depth = 2.5cm)
 
+#Need to fix code for new data (19/5/25)....
+
+#All site locations
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+# Plot with facetting and custom fill colors
+pAllsitesabundnew <- ggplot(dead_data, aes(x = Species_name, y = Abundance, fill = factor(`Mid_depth_cm`))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_fill_manual(
+    values = c(
+      "2.5" = "lightgrey",  # light orange
+      "12.5" = "darkgrey", # orange
+      "22.5" = "black"  # dark orange
+    ),
+    name = "Faunal Mid-depth (cm)"
+  ) +
+  theme_bw() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, size = 7),
+    legend.position = "right"
+  ) +
+  labs(
+    title = "Species abundance (by Faunal mid-depth)",
+    x = "Species",
+    y = "Abundance"
+  )
+
+pAllsitesabundnew
+```
+
+#IPHC-8: Shelter Cove
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+# Filter for only Site Code IPHC-8 and depths of interest
+df_iphc8 <- dead_data %>%
+  filter(`Site_code` == "IPHC33")
+
+# Plot with facetting and custom fill colors
+pAllsitesabundnewIPHC8 <- ggplot(df_iphc8, aes(x = Species_name, y = Abundance, fill = factor(`Mid_depth_cm`))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_fill_manual(
+    values = c(
+      "2.5" = "#FFD580",  # light orange
+      "12.5" = "#FFA500", # orange
+      "22.5" = "#CC5500"  # dark orange
+    ),
+    name = "Faunal Mid-depth (cm)"
+  ) +
+  theme_bw() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, size = 7),
+    legend.position = "right"
+  ) +
+  labs(
+    title = "Species abundance (by Faunal mid-depth): IPHC33",
+    x = "Species",
+    y = "Abundance"
+  )
+
+pAllsitesabundnewIPHC8
+```
+
+
 #D'Entrecasteaux (DCS)
 ```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
-#Filter dataframe for 'Faunal mid-depth' = 2.5
-dcs_filtered <- df_dentrecasteaux %>% filter(`Faunal mid-depth` == 2.5)
+#Filter dataframe for Site_location' = 2.5
+DCS_dead_data_2.5 <- dead_data %>% dplyr::filter(`Mid_depth_cm` == 2.5 & `Site_location` == "DEntrecasteaux")
 
-#Remove non-species columns (species columns start from the 5th column)
-species_abundanceDCS <- dcs_filtered[, 5:ncol(dcs_filtered)]
+#Filter dataframe for 'Faunal mid-depth' = 2.5 and 'Site_location' = DEntrecasteaux
+DCS_dead_data_2.5 <- dead_data %>% dplyr::filter(`Mid_depth_cm` == 2.5 & `Site_location` == "DEntrecasteaux")
 
-#Convert dataframe to long format for plotting
-species_abundanceDCS_long <- species_abundanceDCS %>%
-  pivot_longer(cols = everything(), names_to = "Species", values_to = "Abundance")
-View(species_abundanceDCS_long)
 
-#Remove species with zero abundance
-species_abundanceDCS_long <- species_abundanceDCS_long %>% filter(Abundance > 0)
-
-#Order species by abundance
-species_abundanceDCS_long <- species_abundanceDCS_long %>%
-  arrange(desc(Abundance))
-#View(species_abundanceDCS_long)
-#write.csv(species_abundanceDCS_long, "Data/species_abundanceDCS_long.csv")
-
-#Plot species abundance
+#Plot species abundance - old data (Edgar & Samson 2004 study)
 pDCS <- ggplot(species_abundanceDCS_long, aes(x = reorder(Species, -Abundance), y = Abundance)) +
   geom_bar(stat = "identity") +
   theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
-  labs(title = "D'Entrecasteaux Species abundance (mid-depth 2.5cm)",
+  labs(title = "D'Entrecasteaux Species abundance (mid-depth 2.5cm) 2000",
        x = "Species",
        y = "Abundance")
 pDCS
+
+#Plot species abundance - new data (2024 data)
+pDCSnew <- ggplot(DCS_dead_data_2.5, aes(x = reorder(Species_name, -Abundance), y = Abundance)) +
+  geom_bar(stat = "identity") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  labs(title = "D'Entrecasteaux Species abundance (mid-depth 2.5cm) 2024",
+       x = "Species",
+       y = "Abundance")
+pDCSnew
+
+
+# Plot with facetting
+pDCSnew <- ggplot(species_abundance_long, aes(x = Species_name, y = Abundance)) +
+  geom_bar(stat = "identity") +
+  facet_grid(`Site Code` ~ `Faunal mid-depth`, scales = "free_y") +
+  #facet_wrap(~ `Site Code` + `Faunal mid-depth`, scales = "free_y", ncol = 3) +
+  theme_bw() +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, size = 6),
+    strip.text = element_text(size = 10),
+    panel.spacing = unit(0.8, "lines"),
+    axis.title.x = element_text(margin = margin(t = 10))
+  ) +
+  labs(title = "DCS Species abundance and Faunal mid-depth",
+       x = "Species",
+       y = "Abundance")
+
+pDCSnew
+
 ```
 
 #Separate by "Site Code" for DCS (IPHC-8, IPHC-10, IPHC-25, IPHC-28, IPHC-29, IPHC-30) and "Faunal mid-depth" (2.5, 12.5, and 22.5 only):
@@ -1060,30 +1124,9 @@ ggsave("combined_plot_HUO.png", combined_plot, width = 12, height = 10, dpi = 30
 
 
 
+#Code working from here onwards (19/5/25)...
 
-
-
-#NEW DATA: SE TAS SAMPLES 2024
-
-#1. LONG CORE SAMPLES: DEATH ASSEMBLAGE ANALYSIS
-
-#Data visualisation
-
-```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
-# Load and prepare data
-df <- read.csv("Data/Data_entry_SETas2024-Cores.csv")
-
-# Define color mapping for Site_location
-location_colors <- c(
-  "DEntrecasteaux" = "#FFA500",
-  "Derwent" = "#1E90FF",
-  "Huon" = "#A259FF"
-)
-
-# Filter: Dead condition, named species, and only abundance > 0
-dead_data <- df %>%
-  filter(Condition == "Dead", !is.na(Species_name), Abundance > 0)
-```
+#Total shell abundance and species richness
 
 ```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
 # Summarise total abundance and species richness per site and depth
@@ -1094,6 +1137,8 @@ summary_data <- dead_data %>%
     Species_richness = n_distinct(Species_name),
     .groups = "drop"
   )
+
+summary_data
 
 # Compute mean lines per location
 location_means <- summary_data %>%
@@ -1249,11 +1294,6 @@ summary(mod_abund)
 
 
 ```
-
-
-
-
-
 
 
 

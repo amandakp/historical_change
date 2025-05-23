@@ -1275,7 +1275,30 @@ mod_abund <- glmmTMB(Total_abundance ~ Mid_depth_cm * Sieve_size_mm * Site_locat
 summary(mod_abund)
 ```
 
+
+
+
+
+#2. COMBINE CATH'S OLD CORE DATA WITH NEW CORE DATA TO COMPARE SPECIES RICHNESS AND ABUNDANCE BETWEEN OVERLAPPING LAYERS
+
 ```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+#Re-arrange Cath's data from wide to long format
+
+# Read the data
+sabund <- read_csv("data/Allsites_sabund.csv")
+str(sabund)
+
+# Remove non-species columns before pivoting
+sabund_long <- sabund %>%
+  dplyr::select('Site Code', 'Faunal mid-depth.x', starts_with("Agatha"), everything()) %>%
+  pivot_longer(
+    cols = -c('Site Code', 'Faunal mid-depth.x'),
+    names_to = "Species name",
+    values_to = "Abundance"
+  )
+
+# View output
+head(sabund_long)
 
 
 ```
@@ -1298,7 +1321,7 @@ summary(mod_abund)
 
 
 
-#2. VAN VEEN GRAB SAMPLES: LIVE-DEAD DISCORDANCE ANALYSIS
+#3. VAN VEEN GRAB SAMPLES: LIVE-DEAD DISCORDANCE ANALYSIS
 
 ```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
 #Locate files

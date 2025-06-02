@@ -14,7 +14,7 @@ output:
 ---
 
 ```{r echo = FALSE, eval = TRUE, cache = TRUE, results = FALSE}
-pacman::p_load(tidyverse, dplyr, ggplot2, patchwork, vegan, lme4, emmeans, ggeffects, patchwork, scales, multcomp, ggrepel, glmmTMB, performance)
+pacman::p_load(tidyverse, dplyr, ggplot2, patchwork, vegan, lme4, emmeans, ggeffects, scales, multcomp, ggrepel, glmmTMB, performance, stringr)
 ```
 
 ```{r echo = FALSE, eval = TRUE, cache = TRUE, results = FALSE}
@@ -44,6 +44,14 @@ location_colors <- c(
 dead_data <- df %>%
   filter(Condition == "Dead", !is.na(Species_name), Abundance > 0)
 View(dead_data)
+
+# Count unique species
+n_unique_species_dead_data <- dead_data %>%
+  filter(!is.na(`Species_name`)) %>%
+  summarise(Unique_species = n_distinct(`Species_name`))
+
+# View the result
+n_unique_species_dead_data
 ```
 
 
@@ -1218,7 +1226,7 @@ combined_plot <- plot_abundance / plot_richness
 # Print combined plot
 print(combined_plot)
 
-ggsave("plot_abundrich_cores.png", combined_plot, width = 12, height = 10, dpi = 300)
+#ggsave("plot_abundrich_cores.png", combined_plot, width = 12, height = 10, dpi = 300)
 ```
 
 
@@ -1282,23 +1290,671 @@ summary(mod_abund)
 #2. COMBINE CATH'S OLD CORE DATA WITH NEW CORE DATA TO COMPARE SPECIES RICHNESS AND ABUNDANCE BETWEEN OVERLAPPING LAYERS
 
 ```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
-#Re-arrange Cath's data from wide to long format
+#OLD DATA (2000/2001)
 
-# Read the data
-sabund <- read_csv("data/Allsites_sabund.csv")
+#Re-arrange Cath's data from wide to long format
+sabund <- read_csv("Data/Allsites_sabund.csv")
 str(sabund)
 
-# Remove non-species columns before pivoting
+# Reshape to long format, ensuring all value columns are treated the same
 sabund_long <- sabund %>%
-  dplyr::select('Site Code', 'Faunal mid-depth.x', starts_with("Agatha"), everything()) %>%
   pivot_longer(
-    cols = -c('Site Code', 'Faunal mid-depth.x'),
+    cols = -c(`Site Code`, `Faunal mid-depth.x`),
     names_to = "Species name",
-    values_to = "Abundance"
+    values_to = "Abundance",
+    values_transform = list(Abundance = as.numeric)  # Convert everything to numeric
   )
 
-# View output
-head(sabund_long)
+# View the result
+View(sabund_long)
+
+# Remove ".x" from the end of species names
+sabund_long <- sabund_long %>%
+  mutate(`Species name` = str_remove(`Species name`, "\\.x$"))
+str(sabund_long)
+
+#Save csv file for export
+write.csv(sabund_long, "Data/olddata_sabund_long.csv")
+
+# Count unique species total
+n_unique_species <- sabund_long %>%
+  filter(!is.na(`Species name`)) %>%
+  summarise(Unique_species = n_distinct(`Species name`))
+
+# View the result
+n_unique_species #298
+
+# Count unique species per depth at each site
+species_richness_site_depth <- sabund_long %>%
+  filter(!is.na(`Species name`), Abundance > 0) %>%
+  group_by(`Site Code`, `Faunal mid-depth.x`) %>%
+  summarise(Species_richness = n_distinct(`Species name`), .groups = "drop")
+
+# View results
+head(species_richness_site_depth)
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+### Plot 1: Abundance ###
+plot_abundance <- ggplot() +
+  geom_line(data = sabund_long,
+            aes(x = Faunal mid-depth.x, y = Abundance,
+                group = Site Code),
+            linetype = "dotted") +
+  geom_line(data = location_means,
+            aes(x = Mid_depth_cm, y = Mean_abundance,
+                group = Site_location),
+            size = 1) +
+  geom_text_repel(data = site_labels_abund,
+                  aes(x = Faunal mid-depth.x, y = Abundance, label = Site Code),
+                  size = 3, nudge_x = 1, direction = "y", hjust = 0, segment.color = NA) +
+  #facet_wrap(~ Site_location) +
+  #scale_color_manual(values = location_colors) +
+  scale_x_reverse() +
+  labs(
+    x = "Mid-depth in core (cm) OLD DATA",
+    y = "Total shell abundance",
+    title = "A)"
+  ) +
+  theme_bw() +
+  theme(legend.position = "none")
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+### Plot 2: Species Richness ###
+plot_richness <- ggplot() +
+  geom_line(data = summary_data,
+            aes(x = Mid_depth_cm, y = Species_richness,
+                group = Site_code, color = Site_location),
+            linetype = "dotted") +
+  geom_line(data = location_means,
+            aes(x = Mid_depth_cm, y = Mean_richness,
+                group = Site_location, color = Site_location),
+            size = 1) +
+  geom_text_repel(data = site_labels_rich,
+                  aes(x = Mid_depth_cm, y = Species_richness, label = Site_code, color = Site_location),
+                  size = 3, nudge_x = 1, direction = "y", hjust = 0, segment.color = NA) +
+  facet_wrap(~ Site_location) +
+  scale_color_manual(values = location_colors) +
+  scale_x_reverse() +
+  labs(
+    x = "Mid-depth in core (cm)",
+    y = "Species richness",
+    title = "B)"
+  ) +
+  theme_bw() +
+  theme(legend.position = "none")
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+### Combine with patchwork
+combined_plot <- plot_abundance / plot_richness
+
+# Print combined plot
+print(combined_plot)
+
+#ggsave("plot_abundrich_cores.png", combined_plot, width = 12, height = 10, dpi = 300)
+```
+
+
+#3. LIVE-DEAD ASSEMBLAGE ANALYSIS
+
+#Compare live species in 2024 VV grab samples with dead species in old 
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+#OLD CORE DATA: Subset data to 2.5mm mid-depth only (up to 8 - 24 years old) and get unique species names
+#Filter for depth = 2.5 cm
+sabund_2.5 <- sabund_long %>%
+  filter(`Faunal mid-depth.x` == 2.5)
+
+#Clean species names (remove ".x" if present)
+sabund_2.5 <- sabund_2.5 %>%
+  mutate(`Species name` = str_remove(`Species name`, "\\.x$"))
+
+#Get unique species names
+unique_species_2.5 <- sabund_2.5 %>%
+  filter(!is.na(`Species name`)) %>%
+  distinct(`Species name`) %>%
+  arrange(`Species name`)
+
+#Write to csv file
+write_csv(unique_species_2.5, "Data/olddata_unique_species_depth_2.5.csv")
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+#NEW VV GRAB DATA: Get unique species names
+file_livedead <- 'Data/Data_entry_SETas2024-VV_grab.csv'
+
+#Read csv file into dataframe
+df_livedead <- read.csv(file_livedead, stringsAsFactors = FALSE, check.names = FALSE)
+str(df_livedead)
+#View(df_livedead)
+
+#Get unique species names
+unique_species_df_livedead <- df_livedead %>%
+  filter(!is.na(`Species_name`)) %>%
+  distinct(`Species_name`) %>%
+  arrange(`Species_name`)
+
+#Write to csv file
+write_csv(unique_species_df_livedead, "Data/newdata_unique_species_df_livedead.csv")
+
+#Check which species names are present in new VV grab data (unique_species_df_livedead) but not in the old core data (unique_species_2.5)
+species_only_in_livedead <- unique_species_df_livedead %>%
+  filter(!Species_name %in% unique_species_2.5$`Species name`)
+
+# View the result
+print(species_only_in_livedead)
+
+# (Optional) Save to CSV
+write.csv(species_only_in_livedead, "Data/species_only_in_livedead.csv", row.names = FALSE)
+
+#Replace the following species names in sabund_2.5 with names that match df_livedead:
+# Dentimitrella sp --> Anachis atkinsoni
+# Lepsiella vinosa (check) --> Bedeva paivae
+# Bittium granarium or Bittium granarium.y --> Cacozeliana granarium
+# Cardita excavata or Cardita excavata.y or Cardita sp? --> Cardita aviculina
+# Thyasira adelaideana or Thyasira adelaideana (fragments?) or Thyasira adelaideana.y --> Channelaxinus adelaideanus
+# Corbula (Varicorbula) gibba or Corbula (Varicorbula) gibba.y --> Corbula gibba
+# Leionucula obliqua or Leionucula obliqua.y or Leionucula sp or Nucula coura? or Nucula sp or Nucula sp A --> Ennucula obliqua
+# Gari (Gari) livida --> Gari livida
+# Guraleus alucinans or Guraleus alucinans.y or Guraleus sp --> Guraleus sp.1
+# Irus (Irus) carditoides or Venerupis (Venerupis) anomala or Venerupis anomala or Venerupis anomala.y or Venerupis largillierti or Venerupis largillierti.y --> Irus cf. carditoides
+# Crassostrea gigas --> Magallana gigas 
+# Musculus sp or Musculus sp_ or Musculus sp_.y --> Musculus impactus
+# Myadora brevis or Myadora sp_ or Myadora sp_.y --> Myadora albida
+# Mussels --> Mytilus galloprovincialis
+# Ostrea angasi or Ostrea angasi.y --> Ostrea (Eostrea) angasi
+# Phasianotrochus rutilus or Phasianotrochus rutilus.y --> Phasianotrochus irisodontes
+# Philine angasi or Philine angasi.y or Philine sp or retusa sp? or Philine sp or retusa sp?.y --> Philine sp.3
+# Cuspidaria brazieri  (check) or Cuspidaria brazieri  (check).y --> Plectodon brazieri
+# Nemocardium (Pratulum) thetidis or Nemocardium (Pratulum) thetidis.y --> Pratulum thetidis
+# Fusinus novohollandiae or Fusinus novohollandiae.y --> Propefusus novaehollandiae 
+# Cardita excavata or Cardita excavata.y or Cardita sp? --> Purpurocardia bimaculata
+# Retusa sp_ or Retusa sp_ 2 or Retusa sp_.y --> Retusa atkinsoni
+# Tawera gallinulla --> Tawera gallinula
+# Thracia cf myodoroides or Thracia cf myodoroides.y --> Thracia sp.38
+# Timoclea (Chioneryx) cardioides or Timoclea (Chioneryx) cardioides.y --> Timoclea sp.4
+
+#Species with no matches between datasets:
+# Galeommatid sp.22
+# Limaria imitans
+# Neotrigonia margaritacea
+# Notoacmea flammea
+# Propilidium tasmanicum
+# Pyramidellid sp.11
+# Splendrillia woodsi
+# Sypharochiton pelliserpentis
+# Trochid sp.3
+# Turbonilla sp.
+# Ungulinid sp.20
+
+sabund_2.5 <- sabund_2.5 %>%
+  mutate(`Species name` = str_trim(`Species name`),  # remove leading/trailing whitespace
+         `Species name` = case_when(
+           
+           `Species name` == "Dentimitrella sp" ~ "Anachis atkinsoni",
+           str_detect(`Species name`, "Lepsiella vinosa") ~ "Bedeva paivae",
+           `Species name` %in% c("Bittium granarium", "Bittium granarium.y") ~ "Cacozeliana granarium",
+           `Species name` %in% c("Cardita excavata", "Cardita excavata.y", "Cardita sp?") ~ "Cardita aviculina",
+           `Species name` %in% c("Thyasira adelaideana", "Thyasira adelaideana (fragments?)", "Thyasira adelaideana.y") ~ "Channelaxinus adelaideanus",
+           `Species name` %in% c("Corbula (Varicorbula) gibba", "Corbula (Varicorbula) gibba.y") ~ "Corbula gibba",
+           `Species name` %in% c("Leionucula obliqua", "Leionucula obliqua.y", "Leionucula sp", "Nucula coura?", "Nucula sp", "Nucula sp A") ~ "Ennucula obliqua",
+           `Species name` == "Gari (Gari) livida" ~ "Gari livida",
+           `Species name` %in% c("Guraleus alucinans", "Guraleus alucinans.y", "Guraleus sp") ~ "Guraleus sp.1",
+           `Species name` %in% c("Irus (Irus) carditoides", "Venerupis (Venerupis) anomala", "Venerupis anomala", "Venerupis anomala.y", 
+                                 "Venerupis largillierti", "Venerupis largillierti.y") ~ "Irus cf. carditoides",
+           `Species name` == "Crassostrea gigas" ~ "Magallana gigas",
+           `Species name` %in% c("Musculus sp", "Musculus sp_", "Musculus sp_.y") ~ "Musculus impactus",
+           `Species name` %in% c("Myadora brevis", "Myadora sp_", "Myadora sp_.y") ~ "Myadora albida",
+           `Species name` == "Mussels" ~ "Mytilus galloprovincialis",
+           `Species name` %in% c("Ostrea angasi", "Ostrea angasi.y") ~ "Ostrea (Eostrea) angasi",
+           `Species name` %in% c("Phasianotrochus rutilus", "Phasianotrochus rutilus.y") ~ "Phasianotrochus irisodontes",
+           `Species name` %in% c("Philine angasi", "Philine angasi.y", "Philine sp", "retusa sp?", "retusa sp?.y") ~ "Philine sp.3",
+           `Species name` %in% c("Cuspidaria brazieri  (check)", "Cuspidaria brazieri  (check).y") ~ "Plectodon brazieri",
+           `Species name` %in% c("Nemocardium (Pratulum) thetidis", "Nemocardium (Pratulum) thetidis.y") ~ "Pratulum thetidis",
+           `Species name` %in% c("Fusinus novohollandiae", "Fusinus novohollandiae.y") ~ "Propefusus novaehollandiae",
+           `Species name` %in% c("Cardita excavata", "Cardita excavata.y", "Cardita sp?") ~ "Purpurocardia bimaculata",
+           `Species name` %in% c("Retusa sp_", "Retusa sp_ 2", "Retusa sp_.y") ~ "Retusa atkinsoni",
+           `Species name` == "Tawera gallinulla" ~ "Tawera gallinula",
+           `Species name` %in% c("Thracia cf myodoroides", "Thracia cf myodoroides.y") ~ "Thracia sp.38",
+           `Species name` %in% c("Timoclea (Chioneryx) cardioides", "Timoclea (Chioneryx) cardioides.y") ~ "Timoclea sp.4",
+           
+           TRUE ~ `Species name`  # keep original name if no match
+         ))
+
+#Remove ".y" after some species names
+sabund_2.5 <- sabund_2.5 %>%
+  mutate(`Species name` = str_remove(`Species name`, "\\.y$"))
+View(sabund_2.5)
+
+#Get unique species names
+unique_species_2.5 <- sabund_2.5 %>%
+  filter(!is.na(`Species name`)) %>%
+  distinct(`Species name`) %>%
+  arrange(`Species name`)
+View(unique_species_2.5)
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+#Merge OLD and NEW core data into VV grab data to analyse live-dead assemblages
+#note: species names in OLD data (sabund_2.5) fixed to match with new 2024 data wherever possible
+
+#Locate files
+data_files_paths <- file.path("data/", list.files("data/"))
+list.files("data/") 
+```
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = FALSE}
+#Load csv files
+file_livedead <- 'Data/Data_entry_SETas2024-VV_grab.csv'
+
+#Read csv file into dataframe
+df_livedead <- read.csv(file_livedead, stringsAsFactors = FALSE, check.names = FALSE)
+str(df_livedead)
+View(df_livedead)
+```
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+# Summarise live abundances in VV grab samples across replicates and sieve sizes
+df_livedead_summary <- df_livedead %>%
+  filter(Condition == "Live") %>%
+  group_by(Site_code, Species_name) %>%
+  summarise(Total_live_abundance = sum(Abundance, na.rm = TRUE), .groups = "drop")
+
+# View result
+print(df_livedead_summary)
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+#Merge Abundance column from sabund (OLD DATA) and df_livedead_summary
+
+#Standardize Site Code in sabund_2.5
+sabund_2.5_clean <- sabund_2.5 %>%
+  mutate(Site_code = str_replace_all(`Site Code`, "[-\\s]", ""))  # Remove dashes and spaces
+
+#Standardize Species name in both datasets (optional but good practice)
+sabund_2.5_clean <- sabund_2.5_clean %>%
+  mutate(Species_name = str_trim(`Species name`))
+
+df_livedead_summary_clean <- df_livedead_summary %>%
+  mutate(Species_name = str_trim(Species_name))
+
+#Merge datasets on Site_code and Species_name
+merged_abundance <- left_join(
+  sabund_2.5_clean,
+  df_livedead_summary_clean,
+  by = c("Site_code", "Species_name")
+)
+
+# View result
+print(merged_abundance)
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+#Merge dead abundances (NEW DATA) from dead_data with merged_abundance dataset
+
+#Read in the dead data
+dead_data <- read_csv("Data/Data_entry_SETas2024-Cores.csv")
+
+#Filter for dead specimens at 2.5 cm
+dead_data_2.5 <- dead_data %>%
+  filter(Mid_depth_cm == 2.5, Condition == "Dead")
+
+#Summarise total dead abundance per Site_code and Species_name
+dead_summary <- dead_data_2.5 %>%
+  group_by(Site_code, Species_name) %>%
+  summarise(Dead_abundance = sum(Abundance, na.rm = TRUE), .groups = "drop")
+
+#Standardise Site_code and Species_name for joining
+dead_summary <- dead_summary %>%
+  mutate(
+    Site_code = str_replace_all(Site_code, "[-\\s]", ""),
+    Species_name = str_trim(Species_name)
+  )
+
+#Standardise the same fields in merged_abundance
+merged_abundance_clean <- merged_abundance %>%
+  mutate(
+    Site_code = str_replace_all(Site_code, "[-\\s]", ""),
+    Species_name = str_trim(Species_name)
+  )
+
+#Merge with dead abundance data
+final_merged <- left_join(
+  merged_abundance_clean,
+  dead_summary,
+  by = c("Site_code", "Species_name")
+)
+
+names(final_merged)
+
+final_merged <- final_merged %>%
+  rename(
+    Old_core_data_Dead_abundance = Abundance,
+    New_VV_grab_data_Live_abundance = Total_live_abundance,
+    New_core_data_Dead_abundance = Dead_abundance
+  )
+
+# View final result
+print(final_merged)
+View(final_merged)
+
+# Optional: write to file
+write_csv(final_merged, "Merged_Abundance_Live_Dead_Summarised.csv")
+```
+
+#3a. LIVE (VAN VEEN GRAB SAMPLES) VS. 1. OLD CORE DEAD and 2. NEW CORE DEAD: LIVE-DEAD DISCORDANCE ANALYSIS
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+final_merged <- final_merged %>%
+  rename(
+    Live_abundance = New_VV_grab_data_Live_abundance,
+    Dead_abundance_old = Old_core_data_Dead_abundance,
+    Dead_abundance_new = New_core_data_Dead_abundance
+  )
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+# Ensure the data frame is being passed in correctly
+run_discordance <- function(data, live_col, dead_col, title) {
+  # Select only relevant columns, and rename for clarity
+  df <- data %>%
+    dplyr::select(
+      Site_code,
+      Species_name,
+      Live = !!sym(live_col),
+      Dead = !!sym(dead_col)
+    ) %>%
+    filter(!is.na(Live) | !is.na(Dead))  # Drop rows where both are NA
+
+  # Pivot wider to have separate Site_code x Species_name rows
+  df_long <- df %>%
+    tidyr::pivot_longer(cols = c(Live, Dead), names_to = "Condition", values_to = "Abundance") %>%
+    dplyr::filter(Abundance > 0)
+
+  # Optional: plot or summarise
+  print(ggplot2::ggplot(df_long, aes(x = Condition, y = Abundance)) +
+    geom_boxplot() +
+    facet_wrap(~Site_code) +
+    ggtitle(title))
+
+  # Return long-form data for optional further analysis
+  return(df_long)
+}
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+colnames(final_merged)
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+comparison1 <- run_discordance(
+  data = final_merged,
+  live_col = "Live_abundance",
+  dead_col = "Dead_abundance_old",
+  title = "Live vs Old Core Dead Assemblage (2.5 cm)"
+)
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+final_merged %>%
+  filter(
+    !is.na(Live_abundance) & Live_abundance > 0 &
+    !is.na(Dead_abundance_old) & Dead_abundance_old > 0
+  ) %>%
+  group_by(Site_code) %>%
+  summarise(n_shared_species = n()) %>%
+  arrange(desc(n_shared_species))
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+overlapping_data <- final_merged %>%
+  filter(!is.na(Live_abundance) & Live_abundance > 0,
+         !is.na(Dead_abundance_old) & Dead_abundance_old > 0)
+
+ld_long <- overlapping_data %>%
+  dplyr::select(Site_code, Species_name, 
+         Live = Live_abundance, 
+         Dead = Dead_abundance_old) %>%
+  pivot_longer(cols = c(Live, Dead), names_to = "Condition", values_to = "Abundance") %>%
+  group_by(Site_code, Condition, Species_name) %>%
+  summarise(Abundance = sum(Abundance), .groups = "drop")
+
+ld_comm <- ld_long %>%
+  pivot_wider(names_from = Species_name, values_from = Abundance, values_fill = 0)
+
+metadata <- ld_comm %>% dplyr::select(Site_code, Condition)
+species_matrix <- ld_comm %>% dplyr::select(-Site_code, -Condition)
+
+# Add rownames for vegan functions
+rownames(species_matrix) <- paste(metadata$Site_code, metadata$Condition, sep = "_")
+
+# Bray-Curtis dissimilarity
+bray_dist <- vegdist(species_matrix, method = "bray")
+
+adonis_result <- adonis2(species_matrix ~ Condition, data = metadata, method = "bray")
+print(adonis_result)
+
+anosim_result <- anosim(species_matrix, grouping = metadata$Condition, distance = "bray")
+print(anosim_result)
+
+
+# There is a statistically significant difference in species composition between the live assemblages and the dead assemblages from the old core samples at 2.5 cm depth:
+# 
+#     p = 0.019 means this result is unlikely due to chance under the null hypothesis (i.e. that live and dead assemblages are not different).
+# 
+#     The R² of 0.30 shows a moderate effect size — the Condition explains ~30% of variation in community structure.
+# 
+#     This suggests ecological filtering or taphonomic bias between what is alive now vs. what is preserved in the death assemblage.
+
+# A PERMANOVA based on Bray-Curtis dissimilarity revealed a significant difference in species composition between live and dead (old core) assemblages at 2.5 cm depth (F₁,₈ = 3.46, R² = 0.30, p = 0.019). This indicates moderate live-dead discordance in community structure, with approximately 30% of variation explained by condition.
+```
+
+#New cores
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+comparison2 <- run_discordance(
+  data = final_merged,
+  live_col = "Live_abundance",
+  dead_col = "Dead_abundance_new",
+  title = "Live vs New Core Dead Assemblage (2.5 cm)"
+)
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+final_merged %>%
+  filter(
+    !is.na(Live_abundance) & Live_abundance > 0 &
+    !is.na(Dead_abundance_new) & Dead_abundance_new > 0
+  ) %>%
+  group_by(Site_code) %>%
+  summarise(n_shared_species = n()) %>%
+  arrange(desc(n_shared_species))
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+overlapping_data <- final_merged %>%
+  filter(!is.na(Live_abundance) & Live_abundance > 0,
+         !is.na(Dead_abundance_new) & Dead_abundance_new > 0)
+
+ld_long <- overlapping_data %>%
+  dplyr::select(Site_code, Species_name, 
+         Live = Live_abundance, 
+         Dead = Dead_abundance_new) %>%
+  pivot_longer(cols = c(Live, Dead), names_to = "Condition", values_to = "Abundance") %>%
+  group_by(Site_code, Condition, Species_name) %>%
+  summarise(Abundance = sum(Abundance), .groups = "drop")
+
+ld_comm <- ld_long %>%
+  pivot_wider(names_from = Species_name, values_from = Abundance, values_fill = 0)
+
+metadata <- ld_comm %>% dplyr::select(Site_code, Condition)
+species_matrix <- ld_comm %>% dplyr::select(-Site_code, -Condition)
+
+# Add rownames for vegan functions
+rownames(species_matrix) <- paste(metadata$Site_code, metadata$Condition, sep = "_")
+
+# Bray-Curtis dissimilarity
+bray_dist <- vegdist(species_matrix, method = "bray")
+
+adonis_result <- adonis2(species_matrix ~ Condition, data = metadata, method = "bray")
+print(adonis_result)
+
+anosim_result <- anosim(species_matrix, grouping = metadata$Condition, distance = "bray")
+print(anosim_result)
+
+# There is no significant difference between the live assemblages and the new core dead assemblages at 2.5 cm depth:
+# 
+# p = 0.407 indicates that observed differences in community composition between live and dead samples are likely due to chance.
+# 
+# The R² = 0.12 reflects a small effect size — only ~12% of variation in species composition is attributable to condition (live vs dead).
+# 
+# This suggests the new core dead assemblage is more similar to the live community than the old core was, possibly indicating:
+# 
+# Better preservation or sampling match
+# 
+# Less taphonomic bias
+# 
+# Less time averaging
+
+# In contrast, a PERMANOVA comparing live assemblages to dead assemblages from the new core showed no significant difference (F₁,₈ = 1.07, R² = 0.12, p = 0.407), indicating limited compositional divergence between live and newly deposited death assemblages at 2.5 cm.
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+library(dplyr)
+library(tidyr)
+library(vegan)
+
+run_nmds <- function(data, live_col, dead_col) {
+  # Step 1: Long format
+  df_long <- data %>%
+    dplyr::select(Site_code, Species_name,
+                  Live = !!sym(live_col),
+                  Dead = !!sym(dead_col)) %>%
+    pivot_longer(cols = c(Live, Dead), names_to = "Condition", values_to = "Abundance") %>%
+    filter(!is.na(Abundance), Abundance > 0) %>%
+    group_by(Site_code, Condition, Species_name) %>%
+    summarise(Abundance = sum(Abundance), .groups = "drop")
+
+  # Step 2: Community matrix
+  comm_matrix <- df_long %>%
+    pivot_wider(names_from = Species_name,
+                values_from = Abundance,
+                values_fill = list(Abundance = 0)) %>%
+    mutate(Site_ID = paste(Site_code, Condition, sep = "_"))  # unique ID
+
+  # Step 3: Separate metadata and species data
+  metadata <- comm_matrix %>% dplyr::select(Site_ID, Site_code, Condition)
+  species_data <- comm_matrix %>% dplyr::select(-Site_code, -Condition, -Site_ID)
+
+  # Step 4: Remove rows with all-zero abundance
+  keep <- rowSums(species_data) > 0
+  metadata_filtered <- metadata[keep, ]
+  species_data_filtered <- species_data[keep, ]
+
+  # Step 5: Run NMDS
+  nmds <- metaMDS(species_data_filtered, distance = "bray", k = 2, trymax = 100)
+
+  # Step 6: Get scores and join to metadata
+  scores_df <- as.data.frame(scores(nmds))
+  scores_df$Site_ID <- rownames(scores_df)
+  output <- left_join(scores_df, metadata_filtered, by = "Site_ID")
+
+  return(list(scores = output, stress = nmds$stress))
+}
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+# Run NMDS for live vs old core dead
+nmds_old <- run_nmds(final_merged, "Live_abundance", "Dead_abundance_old")
+
+# Run NMDS for live vs new core dead
+nmds_new <- run_nmds(final_merged, "Live_abundance", "Dead_abundance_new")
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+species_by_site <- final_merged %>%
+  group_by(Site_code) %>%
+  summarise(
+    Live_species = n_distinct(Species_name[Live_abundance > 0], na.rm = TRUE),
+    Dead_new_species = n_distinct(Species_name[Dead_abundance_new > 0], na.rm = TRUE),
+    Dead_old_species = n_distinct(Species_name[Dead_abundance_old > 0], na.rm = TRUE)
+  )
+
+print(species_by_site)
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+# Convert to long format for plotting
+species_long <- species_by_site %>%
+  pivot_longer(cols = c(Live_species, Dead_new_species, Dead_old_species),
+               names_to = "Condition",
+               values_to = "Richness")
+
+ggplot(species_long, aes(x = Site_code, y = Richness, fill = Condition)) +
+  geom_bar(stat = "identity", position = position_dodge(width = 0.7)) +
+  scale_fill_manual(values = c(
+    Live_species = "darkgreen",        # Blue for live
+    Dead_new_species = "red",    # Purple for new dead
+    Dead_old_species = "darkred"     # Orange for old dead
+  )) +
+  labs(
+    title = "Species Richness per Site",
+    x = "Site Code",
+    y = "Number of Species (Abundance > 0)",
+    fill = "Condition"
+  ) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+
+```
+
+
+#3b. LIVE VS. DEAD (VAN VEEN GRAB SAMPLES): LIVE-DEAD DISCORDANCE ANALYSIS
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+library(ggplot2)
+library(patchwork)
+
+plot_old <- ggplot(nmds_old$scores, aes(NMDS1, NMDS2, color = Site_code, shape = Condition)) +
+  geom_point(size = 3) +
+  geom_path(aes(group = Site_code), linetype = "dashed", alpha = 0.5) +
+  theme_minimal() +
+  labs(title = "A) Live vs Old Core Dead",
+       subtitle = paste("Stress =", round(nmds_old$stress, 3)))
+
+plot_new <- ggplot(nmds_new$scores, aes(NMDS1, NMDS2, color = Site_code, shape = Condition)) +
+  geom_point(size = 3) +
+  geom_path(aes(group = Site_code), linetype = "dashed", alpha = 0.5) +
+  theme_minimal() +
+  labs(title = "B) Live vs New Core Dead",
+       subtitle = paste("Stress =", round(nmds_new$stress, 3)))
+
+combined_plot <- plot_old + plot_new +
+  plot_layout(guides = "collect") & theme(legend.position = "bottom")
+
+print(combined_plot)
+
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+
+
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+
+
+```
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
 
 
 ```
@@ -1321,7 +1977,7 @@ head(sabund_long)
 
 
 
-#3. VAN VEEN GRAB SAMPLES: LIVE-DEAD DISCORDANCE ANALYSIS
+#3c. VAN VEEN GRAB SAMPLES: LIVE-DEAD DISCORDANCE ANALYSIS
 
 ```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
 #Locate files
@@ -1641,7 +2297,7 @@ plot_location_letters
 combined_plot <- plot_site + plot_location_letters
 combined_plot
 
-ggsave("plot_predlivedead_sites.png", combined_plot, width = 12, height = 10, dpi = 300)
+#ggsave("plot_predlivedead_sites.png", combined_plot, width = 12, height = 10, dpi = 300)
 ```
 
 ```{r echo = FALSE, eval = TRUE, cache = TRUE, results = FALSE}

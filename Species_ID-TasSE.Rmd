@@ -14,7 +14,7 @@ output:
 ---
 
 ```{r echo = FALSE, eval = TRUE, cache = TRUE, results = FALSE}
-pacman::p_load(tidyverse, dplyr, ggplot2, patchwork, vegan, lme4, emmeans, ggeffects, scales, multcomp, ggrepel, glmmTMB, performance, stringr)
+pacman::p_load(tidyverse, dplyr, ggplot2, patchwork, vegan, lme4, emmeans, ggeffects, scales, multcomp, ggrepel, glmmTMB, performance, stringr, readr)
 ```
 
 ```{r echo = FALSE, eval = TRUE, cache = TRUE, results = FALSE}
@@ -53,13 +53,123 @@ n_unique_species_dead_data <- dead_data %>%
 # View the result
 n_unique_species_dead_data
 ```
+Total species abundances in dataset
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+# Read (recommended: readr keeps types clean)
+dead_data_all <- df %>%
+  filter(Condition == "Dead", Abundance > 0) %>%
+  mutate(
+    # standardise species_name so "#NA", "#N/A", blanks become real NA
+    Species_name = str_trim(Species_name),
+    Species_name = na_if(Species_name, ""),
+    Species_name = na_if(Species_name, "#NA"),
+    Species_name = na_if(Species_name, "#N/A")
+  )
+
+na_abundance_summary <- dead_data_all %>%
+  summarise(
+    Total_dead_abundance = sum(Abundance, na.rm = TRUE),
+    NA_species_abundance = sum(Abundance[is.na(Species_name)], na.rm = TRUE),
+    Proportion_NA = NA_species_abundance / Total_dead_abundance
+  )
+
+na_abundance_summary
+
+na_species_codes <- dead_data_all %>%
+  filter(is.na(Species_name)) %>%
+  distinct(Species_code) %>%
+  arrange(Species_code)
+
+na_species_codes
+
+write_csv(
+  na_species_codes,
+  "na_species_codes.csv"
+)
+```
+Species abundance (all sites)
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+dead_species_by_layer_sieve <- df %>%
+  filter(
+    Condition == "Dead",
+    Abundance > 0,
+    !is.na(Species_name)
+  )
+
+#Number of shells at each depth
+species_abundance_layer <- dead_species_by_layer_sieve %>%
+  group_by(Mid_depth_cm) %>%
+  summarise(
+    Total_abundance = sum(Abundance, na.rm = TRUE),
+    .groups = "drop"
+  )
+species_abundance_layer
+
+#Number of shells in each sieve class
+species_abundance_sieve <- dead_species_by_layer_sieve %>%
+  group_by(Sieve_size_mm) %>%
+  summarise(
+    Total_abundance = sum(Abundance, na.rm = TRUE),
+    .groups = "drop"
+  )
+species_abundance_sieve
+
+#Number of shells in each combination of depth and sieve class
+species_abundance_layer_sieve <- dead_species_by_layer_sieve %>%
+  group_by(Mid_depth_cm, Sieve_size_mm) %>%
+  summarise(
+    Total_abundance = sum(Abundance, na.rm = TRUE),
+    .groups = "drop"
+  )
+species_abundance_layer_sieve
+```
+
+Species richness (all sites)
+
+```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
+dead_species_by_layer_sieve <- df %>%
+  filter(
+    Condition == "Dead",
+    Abundance > 0,
+    !is.na(Species_name)
+  )
+
+#Number of species at each depth
+species_richness_layer <- dead_species_by_layer_sieve %>%
+  group_by(Mid_depth_cm) %>%
+  summarise(
+    Species_richness = n_distinct(Species_name),
+    .groups = "drop"
+  )
+species_richness_layer
+
+#Number of species in each sieve class
+species_richness_sieve <- dead_species_by_layer_sieve %>%
+  group_by(Sieve_size_mm) %>%
+  summarise(
+    Species_richness = n_distinct(Species_name),
+    .groups = "drop"
+  )
+species_richness_sieve
+
+#Number of species in each combination of depth and sieve class
+species_richness_layer_sieve <- dead_species_by_layer_sieve %>%
+  group_by(Mid_depth_cm, Sieve_size_mm) %>%
+  summarise(
+    Species_richness = n_distinct(Species_name),
+    .groups = "drop"
+  )
+species_richness_layer_sieve
+```
+
 
 
 Species abundance for shallow depths (mid depth = 2.5cm)
 
-#Need to fix code for new data (19/5/25)....
-
 #All site locations
+
 ```{r echo = FALSE, eval = TRUE, cache = TRUE, results = TRUE}
 # Plot with facetting and custom fill colors
 pAllsitesabundnew <- ggplot(dead_data, aes(x = Species_name, y = Abundance, fill = factor(`Mid_depth_cm`))) +
